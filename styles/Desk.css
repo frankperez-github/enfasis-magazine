@@ -1,0 +1,1869 @@
+*{
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: mohol_light;
+    src: url('../fonts/Mohol-Light.ttf');
+}
+@font-face {
+    font-family: mohol_bold;
+    src: url('../fonts/Mohol-Bold.ttf');
+}
+@font-face {
+    font-family: mohol_ultra;
+    src: url('../fonts/Mohol-Ultra.ttf');
+}
+@font-face {
+    font-family: font_text_regular;
+    src: url('../fonts/Alegreya-Regular.ttf');
+}
+
+
+
+.us-div{
+    text-align: left;
+}
+button{
+    font-family: text_font_regular;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: solid ;
+    border-color: #554f4f;
+    font-family: text_font_regular;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+h2{
+    font-size: 20px;
+    font-family: mohol_light;
+}
+label{
+    font-family: mohol_light;
+}
+h1{
+    font-size: 27px;
+    font-family: mohol_light;
+}
+p{
+    font-size: 18px;
+    font-family: font_text_regular;
+}
+.placeholder{
+    font-family: font_text_regular;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*Made By: Frank Pérez +5353103058
+           David Li    +5353093529    
+*/
+
+/*Presentation******************/
+.Presentation{
+    background-color: #cecece;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+.Networks{
+    width: 23%;
+    margin-top:47%;
+    padding-left: 7%;
+    margin-bottom: 3.8%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.Link_net{
+    padding-top: 15% !important;
+}
+.Promo_Pic{
+    z-index: 2;
+    width: 30%;
+}
+.Nav_menu{
+    margin-top: 3%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.Nav_menu p{
+    margin-top: 5%;
+    margin-right: 26%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Nav_menu a:first-of-type{
+    margin-top: 8%;
+}
+.Link1{
+    padding-right: 1%;
+}
+.Link2{
+    padding-right: 3.5%;
+}
+.Link3{
+    padding-right: 1.5%;
+}
+.Link4{
+    padding-left: 56%;
+}
+.Link5{
+    padding-left: 65%;
+}
+.whiteStick{
+    margin-left: 27.5% !important;
+    padding-top: 3% !important;
+}
+#ed1{
+    position: absolute;
+    width: 30%;
+    top: -90%;
+    animation-name: Ed1;
+    animation-duration: 51s;
+    z-index: 3;
+    animation-iteration-count: infinite;
+}
+#ed2{
+    position: absolute;
+    width: 30%;
+    top: -90%;
+    animation-name: Ed2;
+    animation-duration: 51s;   
+    z-index: 2;
+    animation-iteration-count: infinite;
+}
+#ed3{
+    position: absolute;
+    width: 30%;
+    top: 19.2%;
+    animation-name: Ed3;
+    animation-duration: 51s;   
+    z-index: 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ed2 {
+    0%{}
+    29%{top: -90%;}/*sec 15*/
+    33%{top: 19.2%;} /*sec 17*/
+    90%{visibility: hidden;}
+    100%{top: 19.2%;visibility: hidden;}
+}
+@keyframes Ed1 {
+    0%{}
+    63%{top: -90%;} /*sec 32*/
+    67%{top: 19.2%;} /*sec 34*/
+    100%{top: 19.2%;}
+}
+@keyframes Ed3 {
+    0%{top: 19.2%;z-index: 1;}
+    32.5%{z-index: 1;}
+    33%{top: 19.2%; visibility: hidden;}
+    34%{top: -90%; visibility: hidden;}
+    96%{top: -90%;z-index: 4;}/*sec 49*/
+    100%{top: 19.2%;z-index: 4;}/*sec 51*/
+}
+/*end of presentation***********/
+
+
+
+
+
+/*Layout****************************/
+
+.a-to-home a{
+    cursor: pointer;
+}
+
+header{
+    padding: 1% 7%;
+    padding-bottom: 0%;
+    position: sticky;
+    background-color: white;
+    border-bottom: solid;
+    border-color: #6e6a6a;
+}
+.header-div{
+    display: flex;
+    justify-content: space-around;
+}
+.logorevista{
+    width: 23%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    padding-top: 3.5%;
+    margin-left: 3%;
+    font-family: mohol_light;
+}
+
+.nav_bar a:hover{
+    text-decoration: underline;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+    height: 10%;
+}
+
+.nav_bar a:first-of-type{
+    margin-left: 0%;
+}
+
+.nav_bar h2{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.pestana_actual h2{
+    font-family: mohol_ultra;
+}
+
+.infofooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7%;
+    margin-top: 5%;
+    background-color: #e1e1e1;
+}
+
+.infofooter p{
+    margin-top: 2.8%;
+    font-size: 20px;
+}
+
+.infofooter a{
+    margin-top: 3%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+/*End of Layout*********************/
+
+
+
+/*-------------------------------revista desk verion*/
+
+.barra-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior{
+    display: flex;
+}
+
+.barra_izq{
+    width: 15%;
+    margin-right: 0%;
+    padding-left: 8.35%;
+    margin-top: 2%;
+}
+
+.linea_links {
+    width: 70%;
+}
+
+
+
+.barra_derch{
+    width: 38.8%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.links_redes{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: -80%;
+}
+
+.search{
+    width: 60%;
+    margin-left: 2%;
+    pointer-events: initial;
+}
+
+.to-search{
+    margin-left: 5%;
+    width:9%;
+}
+
+
+
+.letter{
+    margin-left: 2%;
+    margin-right: 0%;
+    width: 39.6%;
+    text-align: left;
+}
+
+.findicon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.letterimg{
+    padding-top: 1%;
+    width: 13%;
+    padding-left: 6%;
+    cursor: pointer;
+}
+
+
+.linea_letter{
+    width: 25%;
+    padding-bottom: 4.5%;
+}
+
+.linea_search {
+    margin-right: 2%;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-bottom: 1.5%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.input-search{
+    width: 70%;
+    border: none;
+    padding-left: 5%;
+}
+
+
+.principal_div{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 5%;
+}
+
+.princ_derch{
+    width: 40%;
+    margin: 7% 0 0 8%;
+}
+
+.princ_derch h1{
+    margin-bottom: 0;
+}
+
+.princ_izq{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.inforev{
+    padding-right: 15%;
+    line-height: 26px;
+}
+
+.Downloadbutton{
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 30%;
+    height: 7%;
+}
+
+.linea_edic {
+    width: 90%;
+    margin: 3% 7%;
+}
+
+.big_rect {
+    width: 250%;
+    margin-left: 25%;
+}
+
+.rectspeqs img{
+    display: inherit;
+    margin-right: 0%;
+}
+
+.small_rect{ 
+    width: 40.2%;
+    margin-top: 8.2%;
+    margin-left: 70%;
+}
+
+.small_rect:first-of-type{ 
+    margin-top: 0%;
+}
+
+
+
+
+.networksft{
+    margin-top: 1%;
+}
+.networksft a{
+    
+    display: inherit;
+}
+.infofooter a{
+    font-family: font_text_regular;
+}
+.infofooter a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------------------end revista desk version*/
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------- failed search desk version*/
+
+.failed-div{
+    margin: 1.5% 0;
+    text-align: center;
+    height: auto;
+}
+.failed-div p{
+    margin: 3% 0;
+    font-size: 25px;
+    font-weight: 800;
+}
+.failedimg{
+    margin: 2% 0;
+    width: 5%;
+}
+
+.failedbutton{
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 1% 0;
+    margin-top: 2%;
+    width: 20%;
+}
+.failedbutton:hover{
+    padding: 0.85% 0;
+    border-width: 2px;
+}
+
+/*-----------------------------------end failed search desk version*/
+
+
+
+
+
+
+
+
+
+/* --------------------------------------- about us desk version*/
+
+.titular{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+}
+.add{
+    font-size: 16px;
+}
+
+.titular_izq{
+    width: 50%;
+    margin-top: 2%;
+}
+.titular_izq h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.titular_derch{
+    width: 90%;
+    padding-top: 0%;
+    padding-left: 5%;
+}
+.titular_derch p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.container_about_us{
+    margin: 0 9%;
+}
+.columnas{
+    display: flex;
+}
+.columna{
+    width: 33%;
+    margin-left: 5%;
+}
+.columna h2{
+    font-size: 25px;
+}
+.columna:first-of-type{
+    margin-left: 0;
+}
+.columna a{
+    color: black;
+    text-decoration: underline;
+}
+.columna p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.formulario_contacto{
+    margin-top: 8%;
+    background-color: #cecece;
+}
+.contact_cont p{
+    font-size: 16px;
+    padding-right: 30%;
+    line-height: 25px;
+    padding-bottom: 3%;
+}
+.contact_cont h1{
+    font-size: 35px;
+}
+.contact_cont input{
+    width: 45%;
+    padding-bottom: 1.5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.contact_cont textarea{
+    margin-top: 1%;
+    width: 75%;
+    padding-bottom: 15%;
+}
+.contact_cont label{
+    font-size: 20px;
+}
+.contact_cont{
+    padding: 5% 8%;
+}
+.send{
+    width: 15%;
+}
+.info_gral{
+    margin-top: 9%;
+    display: flex;
+}
+.container_peq{
+    margin-top: 2%;
+    width: 52%;
+    line-height: 27px;
+    margin-left: 14%;
+}
+.container_peq a{
+    color: black;
+    text-decoration: underline;
+}
+ol{
+    font-size: 16px;
+    padding-left: 2.8%;
+}
+.lineamenor_img{
+    width: 33%;
+}
+.linea_larga{
+    width: 100%;
+}
+.the_next{
+    font-size: 35px;
+
+}
+.sendbutton{
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 1% 0;
+    margin-top: 2%;
+    width: 20%;
+}
+.sendbutton:hover{
+    padding: 0.8% 0;
+    border-width: 2px;
+    
+}
+
+/*-----------------------------------end about us desk version*/
+
+
+
+
+
+
+
+
+
+/*--------------------------formulario*/
+
+.form_letter{
+    top: 15vh;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 3%;
+    background-color: white;
+}
+.cont_form{
+    text-align: center;
+}
+.cont_form input{
+    width: 83%;
+    margin: 2% 0;
+    padding: 2% 3%;
+}
+.fondo_atenuado{
+    position: absolute;
+    display: none;
+    top: 0;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background-color: rgba(138, 132, 132, 0.753);
+}
+.Suscribir{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: black;
+    margin: 4% 0;
+    width: 40%;
+    padding: 2.5% 0;
+}
+.stick{
+    margin-top: 3%;
+    width: 7%;
+}
+.live_mail{
+    
+    padding: 0 15%;
+    text-align: center;
+}
+.live_mail p{
+    font-size: 16px;
+}
+.cerrar_form {
+    margin-top: 5%;
+    cursor: pointer;
+    width: 1%;
+    margin-left: 89%;
+}
+
+
+.form_enabled{
+    display: block;
+}
+
+
+/*---------------------end of furmulario*/
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------- search result------*/
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0%;
+}
+.invit_tarjeta {
+    width: 97%;
+    margin: 0 1%;
+}
+.tarjeta p{
+    font-size: 20px;
+    margin-left: 4%;
+}
+.results h1{
+    margin-top: 4%;
+    font-size: 25px;
+}
+
+/*---------------------------------end search result------*/
+
+
+
+
+
+
+
+
+/*----------------------------------Articulo-----------------*/
+
+.lineasubt {
+    max-width: 50%;
+}
+
+.main_article p{
+    line-height: 150%;
+    margin-bottom: 5%;
+}
+.footer_art{
+    margin-top: 0;
+}
+.info_art{
+    width: 72%;
+}
+.promo_colum{
+    width: 27%;
+    margin-left: 2%;
+}
+.contenedor_art{
+    padding-left: 10%;
+    width: 87%;
+}
+.cont{
+    width: 92%;
+    margin-left: 10.2%;
+}
+.fecha_public{
+    font-weight: 400;
+    margin-right: 2%;
+}
+.publicacion_art{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    width: 100%;
+}
+.fecha{
+    width:40%;
+}
+.linea_fecha{
+    width: 100%;
+}
+.linea_fecha_img{
+    width: 100%;
+    padding-top: 3.8%;
+    padding-left: 0%;
+}
+.keywords{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.contenedor_art h1{
+    font-size: 40px;
+}
+.contenedor_tit{
+    width: 80%;
+}
+.contenedor_tit h1{
+    font-weight: 450;
+}
+.contenedor_tit h2{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-weight: 200;
+}
+.contenedor_tit a{
+    margin-right: 2%;
+    text-decoration: none;
+}
+.contenedor_tit_img{
+    width: 6%;
+}
+.pic_art{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+.pic_art_img{    
+    height: 100% ;
+    max-width: 100%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+.main_article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linea_promo{
+    width: 65%;
+    margin-top: 15.2%;
+    padding-right: 10%;
+}
+.linea_promo2 {
+    margin-top: 0%;
+}
+.siguenos{
+    margin-right: 38%;
+}
+.siguenos h2{
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.siguenos_img{
+    max-width: 20%;
+    margin: 3% 0;
+    margin-right: 2.5%;
+}
+.reciente{
+    margin-top: 2%;
+}
+
+.reciente p{
+    font-weight: 800;
+    margin-right: 50%;
+    color: #7f7d7d;
+}
+.reciente h2{
+    margin: 3% 0;
+}
+.reciente a{
+    text-decoration: none;
+}
+.coment{
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 3%;
+}
+.vert_line{
+    height: 100%;
+    width: 1%;
+    padding-top: 1%;
+}
+.vert_line_img{
+    max-width: 100%;
+    height: 100%;
+}
+.coment p{
+    margin: 1% 2% 0 2%;
+}
+.Home_art {
+    position: sticky;
+    top: 80%;
+    z-index: 3;
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+.Home_art_img{
+    width: 25%;
+}
+.public_pagada{
+    height: 40%;
+}
+.pie_foto{
+    font-size: 13px;
+}
+
+/*----------------------------------end of Articulo-----------------*/
+
+
+
+
+
+
+
+
+@media (max-width: 1125px){
+
+    h1{
+        font-size: 24px;
+    }
+    .contenedor_art h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+    .pie_foto{
+        font-size: 9px;
+    }
+    .nav_bar h2{
+        font-size:17px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 7% 3% 0% 10%;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 17%;
+        font-size: 11px;
+    }
+    .Suscribir{
+        font-size: 11px
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 20px;
+    }
+    
+
+    .infofooter a{        
+        font-size: 15px;
+        
+    }
+
+    .infofooter p{
+        font-size: 15px;
+    }
+
+    .failed-div{
+        margin: 7% 0;
+    }
+    .the_next{
+        font-size: 31px;
+    }
+
+
+
+    
+
+    .titular_derch p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    li{
+        font-size: 14px;
+        line-height: 22px;   
+    }
+    .titular_izq h1{
+        font-size: 31px;
+    }
+    .columna h2{
+        font-size: 22px;
+    }
+    .columna p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .placeholder::placeholder{
+        font-size: 14px;
+    }
+    .contact_cont label{
+        font-size: 17px;
+    }
+    .add {
+        font-size: 15px;
+    }
+    .contact_cont p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .contact_cont h1{
+        font-size: 31px;
+    }
+    .send{
+       font-size: 14px;
+    }
+    .container_peq p{
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .tarjeta p{
+        font-size: 18px;
+    }
+    .results h1{
+        font-size: 22px;
+    }
+
+    
+}
+
+@media (max-width: 1080px){
+    h1{
+        font-size: 22px;
+    }
+    .contenedor_art h1{
+        font-size: 31px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+    
+    p{
+        font-size: 11px;
+    }
+    .pie_foto{
+        font-size: 8px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 7% 3% 0% 10%;
+    }
+
+    .nav_bar h2{
+        font-size:15px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 10%;
+        font-size: 10px;
+    }
+    .Suscribir{
+        font-size: 10px
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 17px;
+    }
+    
+
+    .infofooter a{        
+        font-size: 15px;
+        
+    }
+    .infofooter p{
+        font-size: 15px;
+    }
+    .failed-div p{
+        font-size: 19px;
+  
+    }
+    .failedbutton{
+        font-size: 15px;
+        
+    }
+    .failed-div{
+        margin: 10% 0;
+    }
+    .the_next{
+        font-size: 28px;
+    }
+
+    
+
+    .titular_derch p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    li{
+           font-size: 13px;
+
+        line-height: 20px;
+           
+    }
+    .titular_izq h1{
+        font-size: 28px;
+    }
+    .columna h2{
+        font-size: 20px;
+    }
+    .columna p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 13px;
+    }
+    .contact_cont label{
+        font-size: 16px;
+    }
+    .add {
+        font-size: 14px;
+    }
+    .contact_cont p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .contact_cont h1{
+        font-size: 28px;
+    }
+    .send{
+       font-size: 13px;
+    }
+    .container_peq p{
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .tarjeta p{
+        font-size: 16px;
+    }
+    .results h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:980px){
+    h1{
+        font-size: 18px;
+    }
+    .contenedor_art h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+    .pie_foto{
+        font-size: 7px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 10% 3% 0% 10%;
+    }
+
+    .nav_bar h2{
+        font-size:13px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 10%;
+        font-size: 10px;
+    }
+    .Suscribir{
+        font-size: 10px
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 13px;
+    }
+    
+
+    .infofooter a{        
+        font-size: 15px;
+        
+    }
+    .infofooter p{
+        font-size: 15px;
+    }
+    .failed-div p{
+        font-size: 20px;
+  
+    }
+    .failedbutton{
+        font-size: 12px;
+        
+    }
+    .the_next{
+        font-size: 23px;
+    }
+
+
+    
+    .titular_derch p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    li{
+        font-size: 11px;
+        line-height: 17px;     
+    }
+    .titular_izq h1{
+        font-size: 23px;
+    }
+    .columna h2{
+        font-size: 17px;
+    }
+    .columna p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 11px;
+    }
+    .contact_cont label{
+        font-size: 14px;
+    }
+    .add {
+        font-size: 12px;
+    }
+    .contact_cont p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .contact_cont h1{
+        font-size: 23px;
+    }
+    .send{
+       font-size: 11px;
+    }
+    .container_peq p{
+        line-height: 18px;
+        font-size: 11px;
+    }
+    .tarjeta p{
+        font-size: 13px;
+    }
+    .results h1{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:880px){
+    h1{
+        font-size: 18px;
+    }
+    .contenedor_art h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+    
+    h3{
+        font-size: 12px;
+    }
+    
+    p{
+        font-size: 8px;
+    }
+    .pie_foto{
+        font-size: 5px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 7% 3% 0% 10%;
+    }
+
+    
+
+    .input-search{
+        font-size: 10px;
+    }
+
+    .nav_bar h2{
+        font-size:11px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 5%;
+        font-size: 9px;
+    }
+    .Suscribir{
+        font-size: 9px;
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 13px;
+    }
+    
+
+    .infofooter a{   
+        font-size: 15px;    
+    }
+    .infofooter p{
+        font-size: 15px;
+    }
+    .failed-div p{
+        font-size: 18px;
+  
+    }
+    .failedbutton{
+        font-size: 10px;
+        
+    }
+    .failed-div{
+        margin: 13% 0;
+    }
+    .the_next{
+        font-size: 23px;
+    }
+
+
+    
+    .titular_derch p{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    li{
+           font-size: 11px;
+
+        line-height: 17px;
+           
+    }
+    .titular_izq h1{
+        font-size: 23px;
+    }
+    .columna h2{
+        font-size: 17px;
+    }
+    .columna p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 11px;
+    }
+    .contact_cont label{
+        font-size: 14px;
+    }
+    .add {
+        font-size: 12px;
+    }
+    .contact_cont p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .contact_cont h1{
+        font-size: 23px;
+    }
+    .send{
+       font-size: 11px;
+    }
+    .container_peq p{
+        line-height: 18px;
+        font-size: 11px;
+    }
+    .tarjeta p{
+        font-size: 13px;
+    }
+    .results h1{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:750px){
+    h1{
+        font-size: 16px;
+    }
+    .contenedor_art h1{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 10px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    p{
+        font-size: 8px;
+    }
+    .pie_foto{
+        font-size: 5px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 8% 3% 0% 10%;
+    }
+
+    .input-search{
+        font-size: 8px;
+    }
+    .nav_bar h2{
+        font-size:8px;
+    }
+   
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 5%;
+        font-size: 8px;
+    }
+    .Suscribir{
+        font-size: 8px;
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 11px;
+    }
+    
+
+    .infofooter a{       
+        font-size: 15px;
+        
+    }
+    .infofooter p{
+        font-size: 15px;
+    }
+    .failed-div p{
+        font-size: 16px;
+  
+    }
+    .failedbutton{
+        font-size: 10px;
+        
+    }
+    .failed-div{
+        margin: 18% 0;
+    }
+    .failed-div{
+        margin: 20% 0;
+    }
+    .the_next{
+        font-size: 21px;
+    }
+
+
+    
+
+    .titular_derch p{
+        font-size: 9.5px;
+        line-height: 15px;
+    }
+    li{
+           font-size: 9px;;
+
+        line-height: 15px;
+           
+    }
+    .titular_izq h1{
+        font-size: 21px;
+    }
+    .columna h2{
+        font-size: 15px;
+    }
+    .columna p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 9px;
+    }
+    .contact_cont label{
+        font-size: 12px;
+    }
+    .add {
+        font-size: 10px;
+    }
+    .contact_cont p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .contact_cont h1{
+        font-size: 21px;
+    }
+    .send{
+       font-size: 9px;
+    }
+    .container_peq p{
+        line-height: 16px;
+        font-size: 9px;
+    }
+    .tarjeta p{
+        font-size: 12px;
+    }
+    .results h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:640px){
+    h1{
+        font-size: 16px;
+    }
+    .contenedor_art h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 10px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    p{
+        font-size: 7px;
+    }
+    .pie_foto{
+        font-size: 4px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 7% 3% 0% 10%;
+    }
+
+    .nav_bar h2{
+        font-size:7px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 10%;
+        font-size: 8px;
+    }
+    .Suscribir{
+        font-size: 8px;
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 10px;
+    }
+    
+
+    .infofooter a{
+        font-size: 15px;
+        
+    }
+    .infofooter p{
+
+        font-size: 15px;
+    }
+    .failed-div p{
+        font-size: 16px;
+  
+    }
+    .failedbutton{
+        font-size: 8px;
+        
+    }
+    .the_next{
+        font-size: 21px;
+    }
+
+
+    
+    .titular_derch p{
+        font-size: 9px;
+        line-height: 13px;
+    }
+    li{
+           font-size: 9px;;
+
+        line-height: 13px;
+           
+    }
+    .titular_izq h1{
+        font-size: 21px;
+    }
+    .columna h2{
+        font-size: 15px;
+    }
+    .columna p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 9px;
+    }
+    .contact_cont label{
+        font-size: 12px;
+    }
+    .add {
+        font-size: 10px;
+    }
+    .contact_cont p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .contact_cont h1{
+        font-size: 21px;
+    }
+    .send{
+       font-size: 9px;
+    }
+    .container_peq p{
+        line-height: 16px;
+        font-size: 9px;
+    }
+    .tarjeta p{
+        font-size: 12px;
+    }
+    .results h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:600px){
+    h1{
+        font-size: 15px;
+    }
+    .contenedor_art h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 9px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    p{
+        font-size: 6px;
+    }
+    .pie_foto{
+        font-size: 3px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 4% 3% 0% 10%;
+        height: 10%;
+    }
+
+
+    .nav_bar h2{
+        font-size:6px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 5%;
+        font-size: 6px;
+    }
+    .Suscribir{
+        font-size: 6px;
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 10px;
+    }
+    
+
+    .infofooter a{
+        font-size: 15px;
+        
+    }
+
+    .infofooter p{
+
+        font-size: 15px;
+    }
+    .failed-div{
+        margin: 25.5% 0;
+    }
+    .the_next{
+        font-size: 19px;
+    }
+
+
+
+    
+    .titular_derch p{
+        font-size: 8.5px;
+        line-height: 13px;
+    }
+    li{
+           font-size: 8.5p;
+
+        line-height: 13px;
+           
+    }
+    .titular_izq h1{
+        font-size: 19px;
+    }
+    .columna h2{
+        font-size: 13px;
+    }
+    .columna p{
+        font-size: 8.5px;
+        line-height: 13px;
+    }
+
+    .placeholder::placeholder{
+        font-size: 8.5px;
+    }
+    .contact_cont label{
+        font-size: 11px;
+    }
+    .add {
+        font-size: 9px;
+    }
+    .contact_cont p{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .contact_cont h1{
+        font-size: 19px;
+    }
+    .send{
+       font-size: 8.5px;
+    }
+    .container_peq p{
+        line-height: 15px;
+        font-size: 8.5px;
+    }
+    .tarjeta p{
+        font-size: 11px;
+    }
+    .results h1{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:520px){
+    h1{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 8px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    p{
+        font-size: 6px;
+    }
+    .pie_foto{
+        font-size: 3px;
+    }
+
+    .princ_derch{
+        max-width: 30%;
+        margin: 7% 3% 0% 10%;
+    }
+    
+
+    .nav_bar h2{
+        font-size:6.2px;
+    }
+
+    .Downloadbutton{
+        cursor: pointer;
+        margin-top: 8%;
+        font-size: 5px;
+    }
+    .Suscribir{
+        font-size: 5px;
+    }
+
+    .inforev{
+        padding-right: 15%;
+        line-height: 8px;
+    }
+    
+
+    .infofooter a{
+        font-size: 12px;
+        
+    }
+    .infofooter p{
+
+        font-size: 12px;
+    }
+    .failed-div{
+        margin: 29% 0;
+    }
+    .the_next{
+        font-size: 18px;
+    }
+
+
+    
+    .titular_derch p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    li{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .titular_izq h1{
+        font-size: 18px;
+    }
+    .columna h2{
+        font-size: 12px;
+    }
+    .columna p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    input::placeholder{
+        font-size: 5px;
+    }
+    .contact_cont label{
+        font-size: 10px;
+    }
+    .add {
+        font-size: 8px;
+    }
+    .contact_cont p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .contact_cont h1{
+        font-size: 18px;
+    }
+    .send{
+       font-size: 8px;
+    }
+    .container_peq p{
+        line-height: 14px;
+        font-size: 8px;
+    }
+    .tarjeta p{
+        font-size: 10px;
+    }
+    .results h1{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px){
+    .revista_desk{
+        display: none;
+    }
+    .revista_phone{
+        display: block;
+    }
+}
