@@ -65,11 +65,13 @@ a{
 
 
 
-/*Made By: Frank Pérez +5353103058
-           David Li    +5353093529    
-*/
+
+            /*MADE BY: FRANK PÉREZ +5353103058  ++++++++++++++++++++++++++++++++++++++++++++++++++ DAVID LI    +5353093529    */
+
+
 
 /*Presentation******************/
+
 .Presentation{
     background-color: #cecece;
     display: flex;
@@ -78,15 +80,22 @@ a{
 }
 .Networks{
     width: 23%;
-    margin-top:47%;
-    padding-left: 7%;
-    margin-bottom: 3.8%;
+    margin-top:43%;
+    padding-left: 10%;
+    margin-bottom: 7%;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
 }
 .Link_net{
-    padding-top: 15% !important;
+    padding-top: 2% !important;
+}
+.Link{
+    width: 20%;
+    margin-bottom: 3%;
+}
+.Link:last-of-type{
+    margin-bottom: 1%;
 }
 .Promo_Pic{
     z-index: 2;
@@ -105,6 +114,7 @@ a{
     color: white;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 .Nav_menu a:first-of-type{
     margin-top: 8%;
@@ -185,13 +195,16 @@ a{
 
 /*Layout****************************/
 
-.a-to-home a{
+.logorevista{
     cursor: pointer;
+    margin-bottom: 0.5%;
 }
 
 header{
     padding: 1% 7%;
     padding-bottom: 0%;
+    top: 0;
+    z-index: 5;
     position: sticky;
     background-color: white;
     border-bottom: solid;
@@ -235,9 +248,12 @@ header{
     font-size: 20px;
 }
 
-.pestana_actual h2{
+.pestana_actual {
     font-family: mohol_ultra;
+    text-decoration: none !important;
 }
+
+
 
 .infofooter{
     display: flex;
@@ -264,7 +280,7 @@ header{
 
 /*-------------------------------revista desk verion*/
 
-.barra-div{
+.Search_Bar{
     display: flex;
     justify-content: space-between;
 }
@@ -274,30 +290,28 @@ header{
 }
 
 .barra_izq{
-    width: 15%;
-    margin-right: 0%;
-    padding-left: 8.35%;
-    margin-top: 2%;
+    width: 25%;
+    padding-left: 6%;
+    margin-top: 1%;
 }
-
-.linea_links {
-    width: 70%;
-}
-
-
 
 .barra_derch{
-    width: 38.8%;
+    width: 30%;
     margin-top: 2%;
     display: flex;
 }
-
 .links_redes{
+    display: flex;
     width: 40%;
-    margin-top: 5%;
-    margin-left: -80%;
+    margin-top: 1%;
+    margin-left: 4%;
 }
-
+.links2follow{
+    width: 80%;
+}
+.LineaLinks{
+    width: 45%;
+}
 .search{
     width: 60%;
     margin-left: 2%;
@@ -305,11 +319,10 @@ header{
 }
 
 .to-search{
-    margin-left: 5%;
-    width:9%;
+    width:30%;
+    margin-left: 25%;
+    cursor: pointer;
 }
-
-
 
 .letter{
     margin-left: 2%;
@@ -324,25 +337,16 @@ header{
 }
 
 .letterimg{
-    padding-top: 1%;
-    width: 13%;
-    padding-left: 6%;
-    cursor: pointer;
+    padding-left: 20% ;
+    cursor: pointer ;
 }
-
-
-.linea_letter{
-    width: 25%;
-    padding-bottom: 4.5%;
+.Letter-div{
+    max-width: 26%;
+    margin-left: 3%;
 }
-
-.linea_search {
-    margin-right: 2%;
-    width: 100%;
-    padding-bottom: 2%;
-    padding-bottom: 1.5%;
+.letter_line{
+    max-width: 35%;
 }
-
 input:focus{
     outline: none;
 }
@@ -355,22 +359,22 @@ input:focus{
 
 
 .principal_div{
+    width: 90%;
     display: flex;
     justify-content: space-around;
-    margin: 0% 5%;
+    margin: 5% 5%;
 }
 
 .princ_derch{
     width: 40%;
-    margin: 7% 0 0 8%;
-}
-
-.princ_derch h1{
-    margin-bottom: 0;
+    margin-top: 9%;
+    margin-left: -5%;
+    margin-right: 5%;
 }
 
 .princ_izq{
-    width: 50%;
+    width: 70%;
+    margin-left: 5%;
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
@@ -386,33 +390,33 @@ input:focus{
     color: white;
     background-color: black;
     cursor: pointer;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 30%;
     height: 7%;
 }
 
 .linea_edic {
     width: 90%;
-    margin: 3% 7%;
+    margin: 0 5%;
 }
 
 .big_rect {
-    width: 250%;
-    margin-left: 25%;
+    max-width: 55.6%;
+} 
+
+.rectspeqs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.rectspeqs img{
-    display: inherit;
-    margin-right: 0%;
-}
 
-.small_rect{ 
-    width: 40.2%;
-    margin-top: 8.2%;
-    margin-left: 70%;
+.RectPeq{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 52%;
 }
-
-.small_rect:first-of-type{ 
+.RectPeq:first-of-type{
     margin-top: 0%;
 }
 
@@ -734,8 +738,10 @@ ol{
 
 /*----------------------------------Articulo-----------------*/
 
-.lineasubt {
-    max-width: 50%;
+.lineasubt{
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .main_article p{
@@ -777,9 +783,7 @@ ol{
     width: 100%;
 }
 .linea_fecha_img{
-    width: 100%;
-    padding-top: 3.8%;
-    padding-left: 0%;
+    padding-right: 3% !important;
 }
 .keywords{
     margin-top: 1%;
@@ -803,19 +807,20 @@ ol{
     margin-right: 2%;
     text-decoration: none;
 }
-.contenedor_tit_img{
-    width: 6%;
+.share-div{
+    display: flex;
+}
+.share{
+    max-width: 15%;
+}
+.share:last-of-type{
+    margin-right: 50%;
 }
 .pic_art{
-    margin-left: 20%;
-    margin-top: 2%;
+    margin-right: -2%;
+    margin-left: 30%;
+    margin-top: -5%;
     margin-bottom: 7%;
-}
-.pic_art_img{    
-    height: 100% ;
-    max-width: 100%;
-    margin-left: 6%;
-    margin-bottom: 2%;
 }
 .main_article {
     display: flex;
@@ -824,8 +829,7 @@ ol{
 
 .linea_promo{
     width: 65%;
-    margin-top: 15.2%;
-    padding-right: 10%;
+    padding-top: 20% !important;
 }
 .linea_promo2 {
     margin-top: 0%;
@@ -835,7 +839,8 @@ ol{
 }
 .siguenos h2{
     font-weight: 400;
-    margin-bottom: 3%;
+    margin-top: 7%;
+    margin-bottom: 15%;
 }
 .siguenos_img{
     max-width: 20%;
@@ -845,14 +850,19 @@ ol{
 .reciente{
     margin-top: 2%;
 }
-
+.Links{
+    max-width: 20%;
+}
+.LinkFollow{
+    display: flex;
+}
 .reciente p{
     font-weight: 800;
     margin-right: 50%;
     color: #7f7d7d;
 }
 .reciente h2{
-    margin: 3% 0;
+    margin: 9% 0;
 }
 .reciente a{
     text-decoration: none;
@@ -863,14 +873,11 @@ ol{
     margin-bottom: 3%;
 }
 .vert_line{
-    height: 100%;
-    width: 1%;
-    padding-top: 1%;
+    margin-top: 2%;
+    height: 20vh;
+    max-width: 1.5vw;
 }
-.vert_line_img{
-    max-width: 100%;
-    height: 100%;
-}
+
 .coment p{
     margin: 1% 2% 0 2%;
 }
@@ -921,11 +928,6 @@ ol{
     }
     .nav_bar h2{
         font-size:17px;
-    }
-
-    .princ_derch{
-        max-width: 30%;
-        margin: 7% 3% 0% 10%;
     }
 
     .Downloadbutton{
@@ -1033,10 +1035,7 @@ ol{
         font-size: 8px;
     }
 
-    .princ_derch{
-        max-width: 30%;
-        margin: 7% 3% 0% 10%;
-    }
+   
 
     .nav_bar h2{
         font-size:15px;
@@ -1156,10 +1155,6 @@ ol{
         font-size: 7px;
     }
 
-    .princ_derch{
-        max-width: 30%;
-        margin: 10% 3% 0% 10%;
-    }
 
     .nav_bar h2{
         font-size:13px;
@@ -1272,11 +1267,6 @@ ol{
     }
     .pie_foto{
         font-size: 5px;
-    }
-
-    .princ_derch{
-        max-width: 30%;
-        margin: 7% 3% 0% 10%;
     }
 
     
@@ -1399,11 +1389,6 @@ ol{
     }
     .pie_foto{
         font-size: 5px;
-    }
-
-    .princ_derch{
-        max-width: 30%;
-        margin: 8% 3% 0% 10%;
     }
 
     .input-search{
@@ -1531,10 +1516,6 @@ ol{
         font-size: 4px;
     }
 
-    .princ_derch{
-        max-width: 30%;
-        margin: 7% 3% 0% 10%;
-    }
 
     .nav_bar h2{
         font-size:7px;
@@ -1651,11 +1632,6 @@ ol{
         font-size: 3px;
     }
 
-    .princ_derch{
-        max-width: 30%;
-        margin: 4% 3% 0% 10%;
-        height: 10%;
-    }
 
 
     .nav_bar h2{
@@ -1701,10 +1677,8 @@ ol{
         line-height: 13px;
     }
     li{
-           font-size: 8.5p;
-
+        font-size: 8.5p;
         line-height: 13px;
-           
     }
     .titular_izq h1{
         font-size: 19px;
@@ -1767,11 +1741,7 @@ ol{
         font-size: 3px;
     }
 
-    .princ_derch{
-        max-width: 30%;
-        margin: 7% 3% 0% 10%;
-    }
-    
+
 
     .nav_bar h2{
         font-size:6.2px;

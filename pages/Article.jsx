@@ -1,29 +1,7 @@
-import Image from 'next/image'
-import '../Desk.css'
+import Image from 'next/image';
+import Link from 'next/link';
+import Search_Bar from '../components/DeskVersion/Search_Bar';
 
-
-//For this section
-import {ReactComponent as Date_Line} from '../../imgs/linea_fecha.svg';
-import {ReactComponent as ShareTwit} from '../../imgs/Twitter_share.svg';
-import {ReactComponent as ShareFace} from '../../imgs/Facebook_share.svg';
-import {ReactComponent as ShareWhats} from '../../imgs/icono_whatsapp.svg';
-import {ReactComponent as Pic_article} from '../../imgs/pic_art.svg';
-import {ReactComponent as VerticalLine} from '../../imgs/vertical_line.svg';
-import {ReactComponent as Top_column} from '../../imgs/promo_column_img.svg';
-import {ReactComponent as Boton_home_art} from '../../imgs/Boton_Art.svg';
-
-
-
-//For All sections
-import {ReactComponent as Failed} from '../../imgs/failed.svg';
-import {ReactComponent as Stick} from '../../imgs/stick.svg';
-import {ReactComponent as FollowInsta} from '../../imgs/instagram.svg';
-import {ReactComponent as FollowFace} from '../../imgs/facebook.svg';
-import {ReactComponent as FollowTwit} from '../../imgs/twitter.svg';
-
-
-var fondo = document.getElementById("tenue");
-var form = document.getElementById("form_letter");
 
 
 function Article(){
@@ -33,12 +11,14 @@ function Article(){
         fondo.classList.remove("form_enabled");
     }
 
+
     return(
+    
            
         <div className="us-div">
 
-            <div className="Article">
-        
+            <div className="Article" id="article">
+                
                 <div className="main_article">
                     <div className="info_art" >
                         <div className="cont">
@@ -46,9 +26,9 @@ function Article(){
                                 <div className="fecha">
                                     <h5 className="fecha_public pie_foto">Publicado el 3 de noviembre de 2020</h5> 
                                 </div>
-                                <div className="">
-                                    
-                                    <Date_Line className="linea_fecha_img"/>
+                                <div>
+                                    <Image src="/linea_fecha.svg"
+                                    width="800%" height="50%" className="linea_fecha_img"/>
                                 </div>
                             </div>
                         </div>
@@ -63,17 +43,25 @@ function Article(){
 
                                     <p>por Chrystian López</p>
 
-                                    <a href="">
-                                        <ShareTwit className="contenedor_tit_img"/>
-                                    </a>
+                                    <div className="share-div">
+                                        <a href="" className="share">
+                                            <div >
+                                                <Image src="/Twitter_share.svg" width="50%" height="50%" />
+                                            </div>    
+                                        </a>
 
-                                    <a href="javascript:window.location.href=('http://www.facebook.com/share.php?u= '+actual_path+'&t='+tit_act+'')">
-                                        <ShareFace className="contenedor_tit_img"/>
-                                    </a>
+                                        <a href="" className="share">
+                                            <div >
+                                                <Image src="/Facebook_share.svg" width="50%" height="50%" />
+                                            </div>    
+                                        </a>
 
-                                    <a href="https://api.whatsapp.com/send? text=window.location.href">
-                                        <ShareWhats className="contenedor_tit_img"/>
-                                    </a>
+                                        <a href="" className="share" >
+                                            <div >
+                                                <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
+                                            </div>    
+                                        </a>
+                                    </div>
 
                                     <h2>ALGUNAS REFLEXIONES SOBRE LA DIVERSIDAD ÉTNICA EN LA PUBLICIDAD Y EL DISEÑO.</h2>
 
@@ -83,7 +71,7 @@ function Article(){
                                 <p>A <b>Miguel</b> lo conocí, hace poco más de un año, en una de sus conferencias de tipografía. En ese momento no tenía idea de la persona que tenía de frente. El tiempo hizo lo suyo; hoy puedo decir, con certeza, que tuve la oportunidad de conversar con uno de los diseñadores de carteles e ilustraciones más importantes del país.<br/><br/>A pesar de su apretada agenda y los momentos inciertos que se vive en el mundo, me sorprendió saber que había aceptado mi invitación. Aceptar la entrevista para Énfasis, quizás es la forma en la que el...</p>
                                         
                                 <div className="pic_art">
-                                    <Pic_article className="pic_art_img"/>
+                                    <Image src="/pic_art.svg" width="1000%" height="1060%" className="pic_art_img"/>
 
                                     <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
                                 </div>
@@ -105,9 +93,9 @@ function Article(){
 
                         <div className="coment">
 
-                                <div className="vert_line">
-                                    <VerticalLine className="vert_line_img"/>
-                                </div>
+                            <div className="vert_line">
+                                <Image src="/vertical_line.svg" width="100%" height="1000%" className="vert_line_img"/>
+                            </div>
 
                             <div className="text_com">
                                     <p>Ni pensarlo. Me considero no apto para tan compleja tarea. Creo que colaborar con un guionista puede ser. En el máster de ilustración, que recién terminé, tuve la oportunidad de hacer guiones y bocetos de historietas. Es muy complejo y termino con dolor de cabeza. No hay que equivocarse. No todos somos buenos para todo. Aunque he ilustrado varias hostorietas, no es algo que ando buscando para hacer.</p>
@@ -136,54 +124,62 @@ function Article(){
                     
                     <div className="promo_colum">
 
-                            <div >
+                        <div >
+                            <Image src="/promo_column_img.svg" width="200%" height="50%" className="linea_promo"/>
 
-                                <Top_column className="linea_promo"/>
+                        </div>
 
-                            </div>
+                        <div className="siguenos">
+                            <h2>Síguenos</h2>
 
-                            <div className="siguenos">
-                                <h2>Síguenos</h2>
-
-                                <a href="https://www.instagram.com/enfasismag"> <FollowInsta className="siguenos_img"/> </a>
-                                <a href="https://www.facebook.com/enfasismag"> <FollowFace  className="siguenos_img"/> </a>
-                                <a href="https://www.twitter.com/enfasismag"> <FollowTwit className="siguenos_img"/> </a>
-                            
-                            </div>
-
-                            <Top_column className="linea_promo linea_promo2 "/>
-
-                            <div className="reciente">
-
-
-                                <h2>LO MÁS RECIENTE</h2>
-
-                                <a href="">
-                                    <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                                </a>
-                                    
-                                <a href="">
-                                    <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                                </a>
-                                <a href="">
-                                    <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                                </a>
-                        
-                            </div>
-
-                            <div className="home-button Home_art">
-                                <a href="#article" >
-                                    <Boton_home_art className="Home_art_img"/>
-                                </a>
-                            </div>
-
-
-                            <div className="public_pagada">
+                            <div className="LinkFollow">
+                                <Link href="https://www.instagram.com/enfasismag" > 
+                                    <Image src="/instagram.svg" width="60%" height="50%" className="siguenos_img"/>
+                                </Link>
                                 
-                            </div>
-                        
+                                <Link href="https://www.facebook.com/enfasismag" >
+                                    <Image src="/facebook.svg" width="60%" height="50%" className="siguenos_img"/>
+                                </Link>
 
-            
+                                <Link href="https://www.twitter.com/enfasismag" > 
+                                    <Image src="/twitter.svg" width="60%" height="50%" className="siguenos_img"/> 
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div >
+                            <Image src="/promo_column_img.svg" width="200%" height="50%" className="linea_promo linea_promo2 "/>
+                        </div>
+
+                        <div className="reciente">
+
+
+                            <h2>LO MÁS RECIENTE</h2>
+
+                            <a href="">
+                                <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
+                            </a>
+                                
+                            <a href="">
+                                <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
+                            </a>
+                            <a href="">
+                                <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
+                            </a>
+                    
+                        </div>
+
+                        <div className="home-button Home_art">
+                            <a href="#article" >
+                                <Image src="/Boton_Art.svg" width="60%" height="60%" className="Home_art_img"/>
+                            </a>
+                        </div>
+
+
+                        <div className="public_pagada">
+                            
+                        </div>
+
                     </div>
 
                     
@@ -195,16 +191,14 @@ function Article(){
 
             <div id="form_letter" className="form_letter form_active" >
 
-                        <div  >
-
-                            <Failed id="close" className="cerrar_form" onClick={hide}/>
-                            
+                        <div>
+                            <Image src="/failed.svg" width="100%" height="100%" id="close" className="cerrar_form" onClick={hide}/>
                         </div>
                         
 
                         <div className="cont_form">
                                 
-                            <Stick className="stick"/>
+                            <Image src="/stick.svg" width="100%" height="100%" className="stick"/>
                             
                             
                             <div className="live_mail">
@@ -226,7 +220,7 @@ function Article(){
 
             <div className="fondo_atenuado" id="tenue">
                         
-                    </div>
+            </div>
         
         </div>
             

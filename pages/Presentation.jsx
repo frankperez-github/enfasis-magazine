@@ -5,23 +5,27 @@ import Link from 'next/link';
 
 export default function Presentation(){
 
-
-
+   
     return(
         
         <div className="Presentation">
             
-
             <div className="Networks">
                 
                 <Link href="https://www.instagram.com/enfasismag" > 
-                    <Image src="/instagram_home.svg" width="60%" height="50%" className="Link_net"/>
+                    <div className="Link">
+                        <Image src="/instagram_home.svg" width="100%" height="100%" />
+                    </div>
                 </Link>
                 <Link href="https://www.facebook.com/enfasismag" >
-                    <Image src="/facebook_home.svg" width="60%" height="50%"className="Link_net"/>
+                    <div className="Link">
+                        <Image src="/facebook_home.svg" width="100%" height="100%" />
+                    </div>
                 </Link>
                 <Link href="https://www.twitter.com/enfasismag" > 
-                    <Image src="/twitter_home.svg" width="60%" height="50%"className="Link_net"/> 
+                    <div className="Link">
+                        <Image src="/twitter_home.svg" width="100%" height="100%" />
+                    </div>
                 </Link>
                      
             </div>
@@ -63,13 +67,11 @@ export default function Presentation(){
                     <p className="Link4">creadores</p>
                 </Link>
                 
-                <Link href="">
+                <Link href="/Magazine">
                     <p className="Link5">revista</p>
                 </Link>
             </div>
             
-
-
         </div>
 
     );
