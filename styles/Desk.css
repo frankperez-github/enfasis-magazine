@@ -274,6 +274,12 @@ header{
     text-decoration: none;
     color: black;
 }
+.infofooter span{
+    margin-top: 3%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
 /*End of Layout*********************/
 
 

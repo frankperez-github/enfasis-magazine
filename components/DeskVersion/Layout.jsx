@@ -20,6 +20,7 @@ export default function Layout(props){
     return(
         
         <div className="Layout">
+            
             <Head>
                 <title>Énfasis Magazine</title>
                 <meta name="description" content="Generated with create next app by Frank Pérez,Adrian Valdés y David Li" />
@@ -72,7 +73,12 @@ export default function Layout(props){
                 
                     <div className="infofooter ">
             
-                        <a href="nosotros.html">SOBRE <br/> NOSOTROS</a>
+                        <Link href="/About_Us"> 
+                            <span>
+                                SOBRE  <br/>
+                                NOSOTROS
+                            </span>
+                        </Link>
             
             
                         <div className="networksft">
