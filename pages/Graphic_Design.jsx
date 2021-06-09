@@ -208,6 +208,167 @@ export default function Graphic_Design(){
 
                 </div>
 
+                <div className="Inviteds_line">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Valerio: ilustraciones para el libro Cuentos y Colores
+                            </p>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
+                            </p>
+                        </div>
+                    </Link>
+
+
+                </div>
+
+                <div className="Tittle CreatorTittle">
+                    <h1>Diseño Industrial</h1>
+                    
+                    <div className="LineDownload">
+                        <Image src="/linea.svg" width="3000%" height="20%" />
+                    </div>
+                    
+                </div>
+
+                <div className="InvitationLine">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                            </div>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+            
+                <div className="LineDown">
+                    <Image src="/linea.svg" width="7000%" height="15%" />
+                </div>
+
+                <div className="Inviteds_line">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Valerio: ilustraciones para el libro Cuentos y Colores
+                            </p>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
+                            </p>
+                        </div>
+                    </Link>
+
+
+                </div>
+
+                <div className="Inviteds_line">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Crematorium
+                            </p>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
+                            </p>
+                        </div>
+                    </Link>
+
+
+                </div>
+
+                <div className="Inviteds_line">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Patrizia Stalder, ilustrando Cuba desde la distancia.
+                            </p>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Reconocemos la labor de Raupa, por su trabajo en ilustración.
+                            </p>
+                        </div>
+                    </Link>
+
+
+                </div>
+
+                <div className="Inviteds_line">
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Valerio: ilustraciones para el libro Cuentos y Colores
+                            </p>
+                        </div>
+                    </Link>
+                    
+                    <Link href="#">
+                        <div className="Invitation_card">
+                            <div className="invited">
+                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                            </div>
+                            <p className="Invited-description">
+                                Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
+                            </p>
+                        </div>
+                    </Link>
+
+
+                </div>
+
                 <div className="Tittle CreatorTittle">
                     <h1>Creadores</h1>
                     
@@ -217,7 +378,7 @@ export default function Graphic_Design(){
                     
                 </div>
 
-                <div className="CreatorsLine">
+                <div className="InvitationLine">
                     <Link href="#">
                         <div className="Invitation_card">
                             <div className="invited">
@@ -234,6 +395,7 @@ export default function Graphic_Design(){
                         </div>
                     </Link>
                 </div>
+            
             </div>
         </div>
     );

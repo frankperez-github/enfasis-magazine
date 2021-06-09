@@ -1,9 +1,6 @@
-import Search_Bar from '../components/DeskVersion/Search_Bar';
 import Image from 'next/image';
 import FormDesk from '../components/FormDesk'
-
-
-
+import Search_Bar from '../components/DeskVersion/Search_Bar';
 
 
 function Magazine(){
