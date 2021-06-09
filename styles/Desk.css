@@ -4,6 +4,9 @@
     margin: 0%;
     padding: 0%;
 }
+:root{
+    --to-anim: 11%;
+}
 .Working h1{
     text-align: center;
     margin-top: 25%;
@@ -86,32 +89,23 @@ a{
 
 .Presentation{
     background-color: #cecece;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     z-index: -1;
 }
 .Networks{
-    width: 23%;
-    margin-top:43%;
-    padding-left: 10%;
-    margin-bottom: 7%;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-}
-.Link_net{
-    padding-top: 2% !important;
-}
-.Link{
-    width: 20%;
-    margin-bottom: 3%;
-}
-.Link:last-of-type{
-    margin-bottom: 1%;
+    width: 33%;   
 }
 .Promo_Pic{
     z-index: 2;
-    width: 30%;
+    width: 33%;
+}
+.pic-div{
+    position: fixed;
+    text-align: center;
+    top: 10%;
+    width: 100%;
 }
 .Nav_menu{
     margin-top: 3%;
@@ -121,6 +115,28 @@ a{
     flex-direction: column;
     text-align: right;
 }
+
+.network-div{
+    position: absolute;
+    width: 20%;
+    left: 7%;
+    bottom: 5%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.Link_net{
+    padding-top: 2% !important;
+}
+.Link{
+    width: 15%;
+    margin-bottom: 3%;
+}
+.Link:last-of-type{
+    margin-bottom: 1%;
+}
+
+
 .Nav_menu p{
     margin-top: 5%;
     margin-right: 26%;
@@ -129,12 +145,12 @@ a{
     cursor: pointer;
 }
 .WhiteLogo{
-    width: 87%;
-    padding-right: 2%;
+    padding-left: 34%;
+    max-width: 50%;
 }
 .White_Stick{
-    width: 20%;
-    margin-left: 66% ;
+    width: 12%;
+    margin-left: 72%;
     padding-top: 3% ;
 }
 .Nav_menu a:first-of-type{
@@ -156,7 +172,7 @@ a{
     padding-left: 65%;
 }
 #ed1{
-    position: absolute;
+    position: fixed;
     width: 30%;
     top: -90%;
     animation-name: Ed1;
@@ -165,7 +181,7 @@ a{
     animation-iteration-count: infinite;
 }
 #ed2{
-    position: absolute;
+    position: fixed;
     width: 30%;
     top: -90%;
     animation-name: Ed2;
@@ -174,35 +190,36 @@ a{
     animation-iteration-count: infinite;
 }
 #ed3{
-    position: absolute;
+    position: fixed;
     width: 30%;
-    top: 19.2%;
     animation-name: Ed3;
     animation-duration: 51s;   
     z-index: 1;
     animation-iteration-count: infinite;
 }
 
+
+
 @keyframes Ed2 {
     0%{}
     29%{top: -90%;}/*sec 15*/
-    33%{top: 19.2%;} /*sec 17*/
+    33%{top: var(--to-anim);} /*sec 17*/
     90%{visibility: hidden;}
-    100%{top: 19.2%;visibility: hidden;}
+    100%{top: var(--to-anim);visibility: hidden;}
 }
 @keyframes Ed1 {
     0%{}
     63%{top: -90%;} /*sec 32*/
-    67%{top: 19.2%;} /*sec 34*/
-    100%{top: 19.2%;}
+    67%{top: var(--to-anim);} /*sec 34*/
+    100%{top: var(--to-anim);}
 }
 @keyframes Ed3 {
-    0%{top: 19.2%;z-index: 1;}
+    0%{top: var(--to-anim);z-index: 1;}
     32.5%{z-index: 1;}
-    33%{top: 19.2%; visibility: hidden;}
+    33%{top: var(--to-anim); visibility: hidden;}
     34%{top: -90%; visibility: hidden;}
     96%{top: -90%;z-index: 4;}/*sec 49*/
-    100%{top: 19.2%;z-index: 4;}/*sec 51*/
+    100%{top: var(--to-anim);z-index: 4;}/*sec 51*/
 }
 /*end of presentation***********/
 
@@ -1054,12 +1071,17 @@ ol{
 }
 /* end of Graphic Design***************************/
 
-
-
-
+@media (min-width: 1500px){
+    :root{
+        --to-anim: 20%;
+    }
+}
 
 @media (max-width: 1125px){
 
+    :root{
+        --to-anim: 15%;
+    }
     h1{
         font-size: 24px;
     }
@@ -1176,6 +1198,9 @@ ol{
 }
 
 @media (max-width: 1080px){
+    :root{
+        --to-anim: 17%;
+    }
     h1{
         font-size: 22px;
     }
@@ -1301,6 +1326,9 @@ ol{
 }
 
 @media (max-width:980px){
+    :root{
+        --to-anim: 20%;
+    }
     h1{
         font-size: 18px;
     }
@@ -1425,6 +1453,9 @@ ol{
 }
 
 @media (max-width:880px){
+    :root{
+        --to-anim: 24%;
+    }
     h1{
         font-size: 16px;
     }
@@ -1557,6 +1588,9 @@ ol{
 }
 
 @media (max-width:750px){
+    :root{
+        --to-anim: 27%;
+    }
     h1{
         font-size: 14px;
     }
@@ -1694,6 +1728,9 @@ ol{
 }
 
 @media (max-width:640px){
+    :root{
+        --to-anim: 30%;
+    }
     h1{
         font-size: 12px;
     }
@@ -1941,6 +1978,9 @@ ol{
 }
 
 @media (max-width:520px){
+    :root{
+        --to-anim: 35%;
+    }
     h1{
         font-size: 8px;
     }
