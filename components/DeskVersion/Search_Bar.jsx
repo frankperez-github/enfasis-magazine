@@ -1,11 +1,13 @@
 import Image from 'next/image'
 
+function ShowForm(){
+    document.getElementById('FormDesk').style.display="block";
+}
 
 export default function Search_Bar(){
     return(
-        <div className="Search_Bar">
 
-        
+        <div className="Search_Bar">
 
             <div className="barra_izq">
     
@@ -30,7 +32,7 @@ export default function Search_Bar(){
                 </div>            
                 
                 <div className="LineaLinks">
-                    <Image src="/L_nea_42.svg" width="300%" height="5%" />
+                    <Image src="/L_nea_42.svg" width="300%" height="10%" />
                 </div>
                 
             </div>
@@ -61,11 +63,11 @@ export default function Search_Bar(){
                 <div className="letter">
     
                     <div className="Letter-div" >
-                        <Image src="/Newsletter.svg" width="35%" height="25%" className="letterimg" id="openform"/>
+                        <Image src="/Newsletter.svg" width="40%" height="26%" className="letterimg" onClick={ShowForm}/>
                     </div>
                     
                     <div className="letter_line">
-                        <Image src="/L_nea_43.svg" width="55%" height="20%" />
+                        <Image src="/L_nea_43.svg" width="55%" height="5%" />
                     </div>
                     
     

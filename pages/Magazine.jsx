@@ -107,39 +107,7 @@ function Magazine(){
             </div>
 
 
-            <div id="form_letter" className="form_letter form_active" >
-
-                <div  >
-                    <Image src="/failed.svg" width="100%" height="100%" id="close" className="cerrar_form" />
-                </div>
-                
-
-                <div className="cont_form">
-                        
-                    <Image src="/stick.svg" width="100%" height="100%" className="stick" />
-                    
-                    
-                    <div className="live_mail">
-                        <p>Déjanos tu correo para que no te pierdas ninguna de nuestras ediciones.</p>
-                    </div>
-                    
-                    <form action="Submit">
-
-                        <input type="text" name="email" placeholder="escribe tu correo" className="placeholder" required/><br/>
-        
-                    </form>
-                    
-                    <button id="sendinfo"  className="Suscribir ">Suscribirme</button>            
-
-                </div> 
-                        
-                    
-            </div>
-
-            <div className="fondo_atenuado" id="tenue">
-                        
-            </div>
-        
+           
         </div>
         
     );

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 
@@ -10,15 +11,15 @@ function Failed_Search(){
         <div className="Failed_Search-div">
             
             <div class="failed-div">
-
-                <Image src="/failed.svg" width="100%" height="100%" className="failedimg" />
-
-                <p>Lo sentimos, no hemos encontrado resultados para"<h2/>".</p>
+                <div className="failed_svg">
+                    <Image src="/failed.svg" width="200%" height="200%" />
+                </div>
+                <p>Lo sentimos, no hemos encontrado resultados para " <span/> ".</p>
 
                 <div class="button-div">
-                    <a href="home.html">
+                    <Link href="/">
                         <button class="failedbutton">Volver a la pagina principal</button>
-                    </a>
+                    </Link>
                 </div>
         
             </div>

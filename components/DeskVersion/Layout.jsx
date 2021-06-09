@@ -42,24 +42,24 @@ export default function Layout(props){
                         </div>
                         
                         <nav className="nav_bar">
-                            <a href="">
+                            <Link href="/Graphic_Design" className="LinkNav">
                                 <h2 className= {grafico}>diseño gráfico</h2>
-                            </a>
+                            </Link>
 
-                            <a href="#">
+                            <Link href="#" className="LinkNav">
                                 <h2 className= {industrial}>diseño industrial</h2>
-                            </a>
+                            </Link>
                             
-                            <a href="#">
+                            <Link href="#" className="LinkNav">
                                 <h2 className= {arquitectura}>arquitectura</h2>
-                            </a>
+                            </Link>
 
-                            <a href="#">
+                            <Link href="#" className="LinkNav">
                                 <h2 className= {creadores}>creadores</h2>
-                            </a>
-                            <a href="/Magazine">
+                            </Link>
+                            <Link href="/Magazine" className="LinkNav">
                                 <h2 className= {revista}>revista</h2>
-                            </a>
+                            </Link>
                         </nav>
                         
                     </div>

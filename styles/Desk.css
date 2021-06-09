@@ -213,6 +213,7 @@ header{
 .header-div{
     display: flex;
     justify-content: space-around;
+    margin-top: 1%;
 }
 .logorevista{
     width: 23%;
@@ -224,26 +225,31 @@ header{
     justify-content: space-around;
     width: 95%;
     padding-top: 3.5%;
-    margin-left: 3%;
+    margin-left: 6%;
+    margin-right: -3.5%;
     font-family: mohol_light;
 }
 
-.nav_bar a:hover{
+.LinkNav :hover{
     text-decoration: underline;
 }
 
-.nav_bar a{
+.LinkNav{
     text-decoration: none;
+    
     color: black;
     margin-left: 2%;
     height: 10%;
 }
 
-.nav_bar a:first-of-type{
-    margin-left: 0%;
+.LinkNav:first-of-type{
+    margin-left: 0;
 }
 
+
 .nav_bar h2{
+    margin-bottom: 2.5%;
+    cursor: pointer;
     font-weight: 300;
     font-size: 20px;
 }
@@ -253,13 +259,15 @@ header{
     text-decoration: none !important;
 }
 
-
+footer{
+    position: relative;
+    bottom: 0;
+}
 
 .infofooter{
     display: flex;
     justify-content: space-between;
     padding: 2% 7%;
-    margin-top: 5%;
     background-color: #e1e1e1;
 }
 
@@ -275,6 +283,7 @@ header{
     color: black;
 }
 .infofooter span{
+    cursor: pointer;
     margin-top: 3%;
     font-size: 20px;
     text-decoration: none;
@@ -297,12 +306,13 @@ header{
 
 .barra_izq{
     width: 25%;
+    margin-right:50%;
     padding-left: 6%;
     margin-top: 1%;
 }
 
 .barra_derch{
-    width: 30%;
+    width: 35%;
     margin-top: 2%;
     display: flex;
 }
@@ -369,8 +379,8 @@ input:focus{
     display: flex;
     justify-content: space-around;
     margin: 5% 5%;
+    margin-top: 2%;
 }
-
 .princ_derch{
     width: 40%;
     margin-top: 9%;
@@ -439,6 +449,9 @@ input:focus{
 .infofooter a{
     font-family: font_text_regular;
 }
+.infofooter span{
+    font-family: font_text_regular;
+}
 .infofooter a:hover{
     text-decoration: underline;
 }
@@ -468,11 +481,10 @@ input:focus{
     font-size: 25px;
     font-weight: 800;
 }
-.failedimg{
-    margin: 2% 0;
-    width: 5%;
+.failed_svg{
+    margin: 6.5% 0;
+    max-width: 100%;
 }
-
 .failedbutton{
     font-size: 16px;
     border: none;
@@ -503,7 +515,8 @@ input:focus{
 .titular{
     display: flex;
     justify-content: space-between;
-    margin: 5% 0%;
+    margin-bottom: 8%;
+    margin-top: 3%;
 }
 .add{
     font-size: 16px;
@@ -511,16 +524,15 @@ input:focus{
 
 .titular_izq{
     width: 50%;
-    margin-top: 2%;
+    margin-top:2%;
 }
 .titular_izq h1{
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 800;
 }
 .titular_derch{
     width: 90%;
-    padding-top: 0%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 .titular_derch p{
     font-size: 16px;
@@ -537,6 +549,7 @@ input:focus{
     margin-left: 5%;
 }
 .columna h2{
+    margin-bottom: 3%;
     font-size: 25px;
 }
 .columna:first-of-type{
@@ -601,8 +614,12 @@ ol{
     font-size: 16px;
     padding-left: 2.8%;
 }
-.lineamenor_img{
-    width: 33%;
+.lineamenor{
+    max-width: 25%;
+}
+.lineamenor_body{
+    width: 28%;
+    margin-top: 1%;
 }
 .linea_larga{
     width: 100%;
@@ -638,67 +655,71 @@ ol{
 
 
 /*--------------------------formulario*/
-
+#FormDesk{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 8;
+    display: block;
+}
 .form_letter{
-    top: 15vh;
     position: absolute;
-    display: none;
-    z-index: 3;
-    width: 28%;
-    margin-left: 36%;
-    margin-top: 3%;
+    top: 26.5%;
+    left: 35%;
+    z-index: 6;
+    width: 32%;
     background-color: white;
 }
 .cont_form{
     text-align: center;
 }
 .cont_form input{
-    width: 83%;
+    width: 78%;
     margin: 2% 0;
     padding: 2% 3%;
 }
+.cont_form input::placeholder{
+    font-size: 18px;
+}
 .fondo_atenuado{
-    position: absolute;
-    display: none;
-    top: 0;
-    z-index: 2;
+    top: 0%;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-    display: none;
-    background-color: rgba(138, 132, 132, 0.753);
+    z-index: 8;
+    backdrop-filter: blur(3.3px);
+    background-color: rgba(102, 101, 101, 0.288);
 }
 .Suscribir{
     cursor: pointer;
     background-color: black;
     color: white;
+    font-size: 24px;
     border: solid;
     border-color: black;
-    margin: 4% 0;
-    width: 40%;
-    padding: 2.5% 0;
+    margin: 5% 0;
+    margin-bottom: 7%;
+    width: 50%;
+    padding: 1.5% 0;
 }
 .stick{
-    margin-top: 3%;
-    width: 7%;
+    margin-left: 43%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    width: 19%;
 }
 .live_mail{
-    
-    padding: 0 15%;
+    padding: 0 10%;
     text-align: center;
+    margin-bottom: 7.5%;
 }
 .live_mail p{
-    font-size: 16px;
+    font-size: 18px;
 }
 .cerrar_form {
-    margin-top: 5%;
     cursor: pointer;
-    width: 1%;
-    margin-left: 89%;
-}
-
-
-.form_enabled{
-    display: block;
+    width: 7%;
+    margin-left:90%;
+    margin-top: 4%;
 }
 
 
@@ -719,6 +740,9 @@ ol{
     display: flex;
     justify-content: space-around;
     padding: 3% 0%;
+}
+.tarjeta{
+    width: 45%;
 }
 .invit_tarjeta {
     width: 97%;
@@ -907,7 +931,109 @@ ol{
 /*----------------------------------end of Articulo-----------------*/
 
 
-
+/*Graphic Design***********************************/
+.GraphicArt{
+    text-align: center;
+    margin: 2% 0;
+}
+.contenedor{
+    margin: 0% 5.5%;
+}
+.Inviteds_line{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.Invitation_card{
+    max-width: 49.5%;
+}
+.invited{
+    max-width: 100%;
+}
+.Invited-description{
+    width: 70%;
+    text-align: left;
+    padding-left: 2%;
+}
+.Tittle{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+.LineDownload{
+    width: 75%;
+}
+.Info-to-Download{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    margin: 3.5% 3%;
+}
+.Info-to-Download h1{
+    font-size: 20px;
+}
+.tittle_image{
+    margin-top: -1.5%;
+    width: 85%;
+    margin-bottom: 3%;
+}
+.ButtonsDownload button{
+    width: 80%;
+    padding: 4.75% 0;
+    margin-top: 7%;
+}
+.BlackButton{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.BlackButton:hover{
+    padding: 4.15% 0;
+    border-width: 0.05rem;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.WhiteButton{
+    background-color: white;
+    color: black;
+    border-width:0.05rem;
+}
+.WhiteButton:hover{
+    padding: 4.75% 0;
+    border-width: 0.05rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.DownloadCardImg{
+    width: 50%;
+}
+.Download{
+    display: flex;
+}
+.Download_Card{
+    display: flex;
+    width: 50%;
+}
+.LineDown{
+    width: 100%;
+    margin: 1.5% 0;
+}
+.CreatorsLine{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.CreatorTittle{
+    margin-top: 5%;
+}
+/* end of Graphic Design***************************/
 
 
 
@@ -954,6 +1080,9 @@ ol{
     .infofooter a{        
         font-size: 15px;
         
+    }
+    .infofooter span{
+        font-size: 15px;
     }
 
     .infofooter p{
@@ -1065,6 +1194,9 @@ ol{
     .infofooter a{        
         font-size: 15px;
         
+    }
+    .infofooter span{
+        font-size: 15px;
     }
     .infofooter p{
         font-size: 15px;
@@ -1185,6 +1317,9 @@ ol{
         font-size: 15px;
         
     }
+    .infofooter span{
+        font-size: 15px;
+    }
     .infofooter p{
         font-size: 15px;
     }
@@ -1302,6 +1437,9 @@ ol{
 
     .infofooter a{   
         font-size: 15px;    
+    }
+    .infofooter span{
+        font-size: 15px;
     }
     .infofooter p{
         font-size: 15px;
@@ -1423,6 +1561,9 @@ ol{
     .infofooter a{       
         font-size: 15px;
         
+    }
+    .infofooter span{
+        font-size: 15px;
     }
     .infofooter p{
         font-size: 15px;
@@ -1546,6 +1687,9 @@ ol{
         font-size: 15px;
         
     }
+    .infofooter span{
+        font-size: 15px;
+    }
     .infofooter p{
 
         font-size: 15px;
@@ -1663,6 +1807,9 @@ ol{
         font-size: 15px;
         
     }
+    .infofooter span{
+        font-size: 15px;
+    }
 
     .infofooter p{
 
@@ -1771,6 +1918,9 @@ ol{
     .infofooter a{
         font-size: 12px;
         
+    }
+    .infofooter span{
+        font-size: 12px;
     }
     .infofooter p{
 

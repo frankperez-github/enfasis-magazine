@@ -1,34 +1,51 @@
-<div id="form_letter" className="form_letter form_active" >
-
-<div  >
-
-    <Failed id="close" className="cerrar_form" onClick={hide}/>
-    
-</div>
+import Image from 'next/image'
 
 
-<div className="cont_form">
-        
-    <Stick className="stick"/>
-    
-    
-    <div className="live_mail">
-        <p>Déjanos tu correo para que no te pierdas ninguna de nuestras ediciones.</p>
-    </div>
-    
-    <form action="Submit">
+function HideForm(){
+    document.getElementById('FormDesk').style.display="none";
+}
 
-        <input type="text" name="email" placeholder="escribe tu correo" className="placeholder" required/><br/>
+export default function FormDesk(){
+    return(
+        <div id="FormDesk">
+                
+            <div id="form_letter" className="form_letter" >
 
-    </form>
-    
-    <button id="sendinfo"  className="Suscribir " onClick = {hide}>Suscribirme</button>            
-
-</div> 
+                <div className="cerrar_form">
+                    <Image src="/failed.svg" width="100%" height="100%" onClick={HideForm}/>
+                </div>
 
 
-</div>
+                <div className="cont_form">
+                        
+                    <div className="stick">
+                        <Image src="/stick.svg" width="100%" height="100%" className="stick" /> 
+                    </div>
+                    
+                    
+                    <div className="live_mail">
+                        <p>Déjanos tu correo para que no te pierdas ninguna de nuestras ediciones.</p>
+                    </div>
+                    
+                    <form action="Submit">
 
-<div className="fondo_atenuado" id="tenue">
+                        <input type="text" name="email" placeholder="escribe tu correo" className="placeholder" required/><br/>
 
-</div>
+                    </form>
+                    
+                    <button id="sendinfo"  className="Suscribir" onClick={HideForm}>Suscribirme</button>            
+
+                </div> 
+
+
+            </div>
+
+            <div className="fondo_atenuado" id="tenue">
+            
+            </div>
+
+        </div>
+    );
+}
+
+

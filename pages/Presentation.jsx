@@ -51,7 +51,7 @@ export default function Presentation(){
 
                 <Image src="/White_Stick.svg" width="50%" height="80%" className="whiteStick"/>
 
-                <Link href="" >
+                <Link href="/Graphic_Design" >
                     <p className="Link1">diseño gráfico </p>
                 </Link>
 
