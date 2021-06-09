@@ -1,5 +1,6 @@
 import Search_Bar from '../components/DeskVersion/Search_Bar';
 import Image from 'next/image';
+import FormDesk from '../components/FormDesk'
 
 
 
@@ -11,8 +12,10 @@ function Magazine(){
 
     return(
 
-        <div className="magazine-div">
+        <div className="Magazine">
             <Search_Bar/>
+
+            <FormDesk />
                   
             <div className="principal_div">
 

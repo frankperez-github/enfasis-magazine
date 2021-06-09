@@ -7,7 +7,7 @@ function Us(){
 
     return(
            
-    <div className="us-div">
+    <div className="About_Us">
 
         <div className="Nosotros">
     

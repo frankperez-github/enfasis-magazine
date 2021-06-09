@@ -47,23 +47,28 @@ export default function Presentation(){
             </div>
 
             <div className="Nav_menu">
-                <Image src="/White_Logo.svg" width="200%" height="65%"/>
-
-                <Image src="/White_Stick.svg" width="50%" height="80%" className="whiteStick"/>
+                <div className="WhiteLogo">
+                    <Image src="/White_Logo.svg" width="200%" height="65%"/>
+                </div>
+                
+                <div className="White_Stick">
+                    <Image src="/White_Stick.svg" width="50%" height="80%" className="whiteStick"/>
+                </div>
+                
 
                 <Link href="/Graphic_Design" >
                     <p className="Link1">diseño gráfico </p>
                 </Link>
 
-                <Link href="" >
+                <Link href="/Industrial_Design" >
                     <p className="Link2">diseño industrial</p>
                 </Link>
 
-                <Link href="">
+                <Link href="/Architecture">
                     <p className="Link3">arquitectura</p>
                 </Link>
 
-                <Link href="">
+                <Link href="/Creators">
                     <p className="Link4">creadores</p>
                 </Link>
                 

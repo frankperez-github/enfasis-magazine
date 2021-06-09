@@ -3,11 +3,10 @@ import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
 
-
-
-export default function Graphic_Design(){
+export default function Creators(){
     return(
-        <div className="Graphic_Design ">
+        <div className="Creators">
+            
 
             <FormDesk />
             
@@ -209,7 +208,7 @@ export default function Graphic_Design(){
                 </div>
 
                 <div className="Tittle CreatorTittle">
-                    <h1>Creadores</h1>
+                    <h1>Arquitectura</h1>
                     
                     <div className="LineDownload">
                         <Image src="/linea.svg" width="3000%" height="20%" />
@@ -235,6 +234,7 @@ export default function Graphic_Design(){
                     </Link>
                 </div>
             </div>
+        
         </div>
     );
 }

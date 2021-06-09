@@ -10,7 +10,7 @@ function Good_Search(){
 
     return(
            
-    <div className="good-search-div">
+    <div className="Good_Search">
 
         <div class="container_about_us">
     

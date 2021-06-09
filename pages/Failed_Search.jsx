@@ -8,7 +8,7 @@ function Failed_Search(){
 
     return(
 
-        <div className="Failed_Search-div">
+        <div className="Failed_Search">
             
             <div class="failed-div">
                 <div className="failed_svg">

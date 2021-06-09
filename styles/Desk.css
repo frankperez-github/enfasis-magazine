@@ -4,7 +4,15 @@
     margin: 0%;
     padding: 0%;
 }
-
+.Working h1{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 50px;
+}
+.faviconWork{
+    text-align: center;
+    margin-top: 20%;
+}
 @font-face {
     font-family: mohol_light;
     src: url('../fonts/Mohol-Light.ttf');
@@ -40,17 +48,21 @@ button:hover{
 body::-webkit-scrollbar{
     display: none;
 }
+h1{
+    font-size: 25px;
+    font-family: mohol_light;
+}
 h2{
     font-size: 20px;
     font-family: mohol_light;
 }
+h4{
+    font-size: 18px;
+}
 label{
     font-family: mohol_light;
 }
-h1{
-    font-size: 27px;
-    font-family: mohol_light;
-}
+
 p{
     font-size: 18px;
     font-family: font_text_regular;
@@ -104,6 +116,7 @@ a{
 .Nav_menu{
     margin-top: 3%;
     width: 30%;
+    margin-right: 3%;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -112,9 +125,17 @@ a{
     margin-top: 5%;
     margin-right: 26%;
     color: white;
-    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+}
+.WhiteLogo{
+    width: 87%;
+    padding-right: 2%;
+}
+.White_Stick{
+    width: 20%;
+    margin-left: 66% ;
+    padding-top: 3% ;
 }
 .Nav_menu a:first-of-type{
     margin-top: 8%;
@@ -133,10 +154,6 @@ a{
 }
 .Link5{
     padding-left: 65%;
-}
-.whiteStick{
-    margin-left: 27.5% !important;
-    padding-top: 3% !important;
 }
 #ed1{
     position: absolute;
@@ -660,7 +677,7 @@ ol{
     width: 100%;
     top: 0%;
     z-index: 8;
-    display: block;
+    display: none;
 }
 .form_letter{
     position: absolute;
@@ -841,7 +858,10 @@ ol{
     display: flex;
 }
 .share{
-    max-width: 15%;
+    max-width: 13%;
+}
+.home-button{
+    width: 30%;
 }
 .share:last-of-type{
     margin-right: 50%;
@@ -973,9 +993,7 @@ ol{
     width: 30%;
     margin: 3.5% 3%;
 }
-.Info-to-Download h1{
-    font-size: 20px;
-}
+
 .tittle_image{
     margin-top: -1.5%;
     width: 85%;
@@ -1010,6 +1028,7 @@ ol{
     background-color: black;
     color: white;
 }
+
 .DownloadCardImg{
     width: 50%;
 }
@@ -1051,7 +1070,9 @@ ol{
     h2{
         font-size: 14px;
     }
-    
+    h4{
+        font-size: 15px;
+    }
     p{
         font-size: 12px;
     }
@@ -1066,6 +1087,9 @@ ol{
         cursor: pointer;
         margin-top: 17%;
         font-size: 11px;
+    }
+    .DownButt{
+        font-size: 13px;
     }
     .Suscribir{
         font-size: 11px
@@ -1162,7 +1186,9 @@ ol{
     h2{
         font-size: 12px;
     }
-    
+    h4{
+        font-size: 13px;
+    }
     p{
         font-size: 11px;
     }
@@ -1180,6 +1206,10 @@ ol{
         cursor: pointer;
         margin-top: 10%;
         font-size: 10px;
+    }
+
+    .DownButt{
+        font-size: 12px;
     }
     .Suscribir{
         font-size: 10px
@@ -1285,6 +1315,9 @@ ol{
     h3{
         font-size: 12px;
     }
+    h4{
+        font-size: 12px;
+    }
     
     p{
         font-size: 10px;
@@ -1302,6 +1335,10 @@ ol{
         cursor: pointer;
         margin-top: 10%;
         font-size: 10px;
+    }
+
+    .DownButt{
+        font-size: 11px;
     }
     .Suscribir{
         font-size: 10px
@@ -1389,7 +1426,7 @@ ol{
 
 @media (max-width:880px){
     h1{
-        font-size: 18px;
+        font-size: 16px;
     }
     .contenedor_art h1{
         font-size: 25px;
@@ -1402,7 +1439,9 @@ ol{
     h3{
         font-size: 12px;
     }
-    
+    h4{
+        font-size: 10px;
+    }
     p{
         font-size: 8px;
     }
@@ -1424,6 +1463,10 @@ ol{
         cursor: pointer;
         margin-top: 5%;
         font-size: 9px;
+    }
+
+    .DownButt{
+        font-size: 11px;
     }
     .Suscribir{
         font-size: 9px;
@@ -1515,7 +1558,7 @@ ol{
 
 @media (max-width:750px){
     h1{
-        font-size: 16px;
+        font-size: 14px;
     }
     .contenedor_art h1{
         font-size: 21px;
@@ -1526,6 +1569,9 @@ ol{
 
     h3{
         font-size: 10px;
+    }
+    h4{
+        font-size: 8px;
     }
     
     p{
@@ -1547,6 +1593,12 @@ ol{
         cursor: pointer;
         margin-top: 5%;
         font-size: 8px;
+    }
+    .ButtonsDownload{
+        margin-bottom: 2%;
+    }
+    .DownButt{
+        font-size: 10.5px;
     }
     .Suscribir{
         font-size: 8px;
@@ -1643,7 +1695,7 @@ ol{
 
 @media (max-width:640px){
     h1{
-        font-size: 16px;
+        font-size: 12px;
     }
     .contenedor_art h1{
         font-size: 20px;
@@ -1654,6 +1706,9 @@ ol{
 
     h3{
         font-size: 10px;
+    }
+    h4{
+        font-size: 8px;
     }
     
     p{
@@ -1671,6 +1726,10 @@ ol{
     .Downloadbutton{
         cursor: pointer;
         margin-top: 10%;
+        font-size: 8px;
+    }
+
+    .DownButt{
         font-size: 8px;
     }
     .Suscribir{
@@ -1762,7 +1821,7 @@ ol{
 
 @media (max-width:600px){
     h1{
-        font-size: 15px;
+        font-size: 11px;
     }
     .contenedor_art h1{
         font-size: 16px;
@@ -1774,7 +1833,9 @@ ol{
     h3{
         font-size: 10px;
     }
-    
+    h4{
+        font-size: 7px;
+    }
     p{
         font-size: 6px;
     }
@@ -1792,6 +1853,10 @@ ol{
         cursor: pointer;
         margin-top: 5%;
         font-size: 6px;
+    }
+
+    .DownButt{
+        font-size: 7px;
     }
     .Suscribir{
         font-size: 6px;
@@ -1877,7 +1942,7 @@ ol{
 
 @media (max-width:520px){
     h1{
-        font-size: 14px;
+        font-size: 8px;
     }
     h2{
         font-size: 8px;
@@ -1886,7 +1951,9 @@ ol{
     h3{
         font-size: 10px;
     }
-    
+    h4{
+        font-size: 6px;
+    }
     p{
         font-size: 6px;
     }
@@ -1904,6 +1971,12 @@ ol{
         cursor: pointer;
         margin-top: 8%;
         font-size: 5px;
+    }
+    .ButtonsDownload{
+        margin-bottom: 4.5%;
+    }
+    .DownButt{
+        font-size: 6px;
     }
     .Suscribir{
         font-size: 5px;
@@ -1985,11 +2058,49 @@ ol{
     }
 }
 
+
+.Working{
+    display: none;
+}
+
 @media (max-width: 500px){
-    .revista_desk{
+    .Working{
+        display: block;
+    }
+    .Magazine{
         display: none;
     }
-    .revista_phone{
-        display: block;
+    .Presentation{
+        display: none;
+    }
+    .Good_Search{
+        display: none;
+    }
+    .Failed_Search{
+        display: none;
+    }
+    .Graphic_Design{
+        display: none;
+    }
+    .About_Us{
+        display: none;
+    }
+    .Article{
+        display: none;
+    }
+    .Industrial_Design{
+        display: none;
+    }
+    .Creators{
+        display: none;
+    }
+    .Architecture{
+        display: none;
+    }
+    header{
+        display: none !important;
+    }
+    footer{
+        display: none !important;
     }
 }

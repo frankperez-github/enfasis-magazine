@@ -2,6 +2,7 @@ import Image from 'next/image';
 import {useRouter} from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link'
+import Working from '../../pages/Working...';
 
 
 export default function Layout(props){
@@ -12,9 +13,9 @@ export default function Layout(props){
     const display = router.pathname === "/" ? "none" : "block";
     const revista = router.pathname === "/Magazine" ? "pestana_actual" : "";
     const grafico = router.pathname === "/Graphic_Design" ? "pestana_actual" : "";
-    const industrial = router.pathname === "/Idustrial_Design" ? "pestana_actual" : "";
+    const industrial = router.pathname === "/Industrial_Design" ? "pestana_actual" : "";
     const arquitectura = router.pathname === "/Architecture" ? "pestana_actual" : "";
-    const creadores = router.pathname === "/Ceators" ? "pestana_actual" : "";
+    const creadores = router.pathname === "/Creators" ? "pestana_actual" : "";
     
 
     return(
@@ -27,7 +28,7 @@ export default function Layout(props){
                 <link rel="icon" href="/favicon_1.ico" />
             </Head>
         
-        
+            <Working />
             <div>
                 <header style={{display: display}}>
                     
@@ -46,15 +47,15 @@ export default function Layout(props){
                                 <h2 className= {grafico}>diseño gráfico</h2>
                             </Link>
 
-                            <Link href="#" className="LinkNav">
+                            <Link href="/Industrial_Design" className="LinkNav">
                                 <h2 className= {industrial}>diseño industrial</h2>
                             </Link>
                             
-                            <Link href="#" className="LinkNav">
+                            <Link href="/Architecture" className="LinkNav">
                                 <h2 className= {arquitectura}>arquitectura</h2>
                             </Link>
 
-                            <Link href="#" className="LinkNav">
+                            <Link href="/Creators" className="LinkNav">
                                 <h2 className= {creadores}>creadores</h2>
                             </Link>
                             <Link href="/Magazine" className="LinkNav">
