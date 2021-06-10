@@ -4,8 +4,11 @@
     margin: 0%;
     padding: 0%;
 }
+
 :root{
     --to-anim: 11%;
+    --height-pic: 60vh;
+    --height-PrincPic: 80vh;
 }
 .Working h1{
     text-align: center;
@@ -56,7 +59,7 @@ h1{
     font-family: mohol_light;
 }
 h2{
-    font-size: 20px;
+    font-size: 17px;
     font-family: mohol_light;
 }
 h4{
@@ -969,25 +972,68 @@ ol{
 
 
 /*Graphic Design***********************************/
-.GraphicArt{
+.PrincipalArt{
     text-align: center;
-    margin: 2% 0;
+    background-image: url('/Invited.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: var(--height-PrincPic);
+    margin-top: 2%;
+    
+}
+.PrincLink{
+    cursor: pointer;
+}
+.PicBy{
+    transform: rotate(-90deg);
+    margin-left: 75%;
+    margin-right: -10%;
+    margin-bottom: -11%;
+    margin-top: 8%;
+}
+.PicByPrinc{
+    position: relative;
+    transform: rotate(-90deg);
+    margin-left: 75%;
+    margin-right: -10%;
+    top: 8%;
+}
+.LinkArt{
+    cursor: pointer;
 }
 .contenedor{
     margin: 0% 5.5%;
+}
+.NameLabel{
+    position: relative;
+    margin-top: -10%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    width: 38%;
+    padding: 0.1%;
+    background-color: white;
+    color: black;
 }
 .Inviteds_line{
     display: flex;
     justify-content: space-between;
     margin: 3% 0;
-    margin-bottom: 0;
     text-align: center;
 }
 .Invitation_card{
     max-width: 49.5%;
+    cursor: pointer;
 }
 .invited{
-    max-width: 100%;
+    width: 50vw;
+    height: var(--height-pic);
+    margin-bottom: 3%;
+    background-image: url('/Invited.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .Invited-description{
     width: 70%;
@@ -1016,6 +1062,56 @@ ol{
     width: 85%;
     margin-bottom: 3%;
 }
+.EspecialityLabel{
+    
+    position: relative;
+    margin-top: -25%;
+    margin-left: 14.1%;
+    width: 33%;
+    padding: 0.2% 2%;
+    background-color: white;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}
+.EspecialityLabelPrinc{
+    
+    position: relative;
+    margin-top: -17%;
+    margin-bottom: 20%;
+    margin-left: 7%;
+    width: 14.5%;
+    padding: 0.3% 2%;
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+.TittleLabelPrinc{
+    font-variant-caps: small-caps;
+    position: relative;
+    margin-top: -18.5%;
+    margin-bottom: 8%;
+    margin-left: 7%;
+    width: 40%;
+    padding: 2% 2%;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}
+.TittleLabel{
+    font-variant-caps: small-caps;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 14.1%;
+    width: 65.5%;
+    padding: 2% 3%;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    text-align: left;
+}
 .ButtonsDownload button{
     width: 80%;
     padding: 4.75% 0;
@@ -1027,25 +1123,12 @@ ol{
     border: none;
 }
 .BlackButton:hover{
-    padding: 4.15% 0;
+    padding: 4.2% 0;
     border-width: 0.05rem;
     cursor: pointer;
     background-color: white;
     color: black;
 }
-.WhiteButton{
-    background-color: white;
-    color: black;
-    border-width:0.05rem;
-}
-.WhiteButton:hover{
-    padding: 4.75% 0;
-    border-width: 0.05rem;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-}
-
 .DownloadCardImg{
     width: 50%;
 }
@@ -1057,7 +1140,7 @@ ol{
     width: 50%;
 }
 .LineDown{
-    width: 100%;
+    width: 120%;
     margin: 1.5% 0;
 }
 .InvitationLine{
@@ -1065,22 +1148,36 @@ ol{
     width: 100%;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 5%;
 }
 .CreatorTittle{
     margin-top: 5%;
 }
 /* end of Graphic Design***************************/
 
-@media (min-width: 1500px){
+@media (min-width: 1400px){
     :root{
-        --to-anim: 20%;
+        --to-anim: 25%;
+        --height-pic:60vh;
+        --height-PrincPic:120vh;
+    }
+    .PicByPrinc{
+        top: 5%;
     }
 }
-
+@media (width: 1200px){
+    :root{
+        --to-anim: 25%;
+        --height-pic:37vh;
+        --height-PrincPic:80vh;
+    }
+}
 @media (max-width: 1125px){
 
     :root{
         --to-anim: 15%;
+        --height-pic:50vh;
+        --height-PrincPic:77vh;
     }
     h1{
         font-size: 24px;
@@ -1120,6 +1217,18 @@ ol{
     .inforev{
         padding-right: 15%;
         line-height: 20px;
+    }
+    .EspecialityLabel{
+        font-size: 16px;
+    }
+    .TittleLabel{
+        font-size: 20px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 16px;
+    }
+    .TittleLabelPrinc{
+        font-size: 27px;
     }
     
 
@@ -1200,6 +1309,8 @@ ol{
 @media (max-width: 1080px){
     :root{
         --to-anim: 17%;
+        --height-pic:45vh;
+        --height-PrincPic:70vh;
     }
     h1{
         font-size: 22px;
@@ -1209,7 +1320,7 @@ ol{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 12.5px;
     }
     h4{
         font-size: 13px;
@@ -1221,7 +1332,9 @@ ol{
         font-size: 8px;
     }
 
-   
+    .PicByPrinc{
+        top: 6%;
+    }
 
     .nav_bar h2{
         font-size:15px;
@@ -1244,7 +1357,18 @@ ol{
         padding-right: 15%;
         line-height: 17px;
     }
-    
+    .EspecialityLabel{
+        font-size: 14px;
+    }
+    .TittleLabel{
+        font-size: 18px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 16px;
+    }
+    .TittleLabelPrinc{
+        font-size: 25px;
+    }
 
     .infofooter a{        
         font-size: 15px;
@@ -1328,6 +1452,8 @@ ol{
 @media (max-width:980px){
     :root{
         --to-anim: 20%;
+        --height-pic:43vh;
+        --height-PrincPic:65vh;
     }
     h1{
         font-size: 18px;
@@ -1337,7 +1463,7 @@ ol{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     h3{
@@ -1377,7 +1503,18 @@ ol{
         line-height: 13px;
     }
     
-
+    .EspecialityLabel{
+        font-size: 12px;
+    }
+    .TittleLabel{
+        font-size: 14px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 15px;
+    }
+    .TittleLabelPrinc{
+        font-size: 23px;
+    }
     .infofooter a{        
         font-size: 15px;
         
@@ -1455,6 +1592,8 @@ ol{
 @media (max-width:880px){
     :root{
         --to-anim: 24%;
+        --height-pic:35vh;
+        --height-PrincPic:63vh;
     }
     h1{
         font-size: 16px;
@@ -1464,7 +1603,7 @@ ol{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 10px;
     }
     
     h3{
@@ -1508,7 +1647,18 @@ ol{
         line-height: 13px;
     }
     
-
+    .EspecialityLabel{
+        font-size: 10px;
+    }
+    .TittleLabel{
+        font-size: 12px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 13px;
+    }
+    .TittleLabelPrinc{
+        font-size: 20px;
+    }
     .infofooter a{   
         font-size: 15px;    
     }
@@ -1590,6 +1740,8 @@ ol{
 @media (max-width:750px){
     :root{
         --to-anim: 27%;
+        --height-pic:30vh;
+        --height-PrincPic:57vh;
     }
     h1{
         font-size: 14px;
@@ -1598,7 +1750,7 @@ ol{
         font-size: 21px;
     }
     h2{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     h3{
@@ -1643,7 +1795,18 @@ ol{
         line-height: 11px;
     }
     
-
+    .EspecialityLabel{
+        font-size: 8px;
+    }
+    .TittleLabel{
+        font-size: 10px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 13px;
+    }
+    .TittleLabelPrinc{
+        font-size: 17px;
+    }
     .infofooter a{       
         font-size: 15px;
         
@@ -1730,6 +1893,8 @@ ol{
 @media (max-width:640px){
     :root{
         --to-anim: 30%;
+        --height-pic:27vh;
+        --height-PrincPic:50vh;
     }
     h1{
         font-size: 12px;
@@ -1738,7 +1903,7 @@ ol{
         font-size: 20px;
     }
     h2{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     h3{
@@ -1803,7 +1968,18 @@ ol{
     }
 
 
-    
+    .EspecialityLabel{
+        font-size: 6px;
+    }
+    .TittleLabel{
+        font-size: 8px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 10px;
+    }
+    .TittleLabelPrinc{
+        font-size: 15px;
+    }
     .titular_derch p{
         font-size: 9px;
         line-height: 13px;
@@ -1857,6 +2033,10 @@ ol{
 }
 
 @media (max-width:600px){
+    :root{
+        --height-pic:23vh;
+        --height-PrincPic:43vh;
+    }
     h1{
         font-size: 11px;
     }
@@ -1864,7 +2044,7 @@ ol{
         font-size: 16px;
     }
     h2{
-        font-size: 9px;
+        font-size: 7px;
     }
 
     h3{
@@ -1904,7 +2084,18 @@ ol{
         line-height: 10px;
     }
     
-
+    .EspecialityLabel{
+        font-size: 6px;
+    }
+    .TittleLabel{
+        font-size: 8px;
+    }
+    .EspecialityLabelPrinc{
+        font-size: 8px;
+    }
+    .TittleLabelPrinc{
+        font-size: 13px;
+    }
     .infofooter a{
         font-size: 15px;
         
@@ -1980,12 +2171,13 @@ ol{
 @media (max-width:520px){
     :root{
         --to-anim: 35%;
+        --height-pic:20vh;
     }
     h1{
         font-size: 8px;
     }
     h2{
-        font-size: 8px;
+        font-size: 6px;
     }
 
     h3{

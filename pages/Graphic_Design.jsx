@@ -15,15 +15,32 @@ export default function Graphic_Design(){
 
             <div className="contenedor">
 
-                <div className="GraphicArt">
-                    <Image src="/Graphic-Article.svg" height="3500%" width="6500%" />
-                </div>
+               <Link href="#">
+                    <div className="PrincLink">
+                        <div className="PrincipalArt">
+                            <h2 className="PicByPrinc">Por Frank Perez</h2>
+                        </div>
+                        <div className="EspecialityLabelPrinc">
+                            Fotografía
+                        </div>
+                        <div className="TittleLabelPrinc">
+                            Mario Elias Jaroud: fotografia, <br/>historia, 
+                        </div>
+                    </div>
+                </Link>   
 
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
+                            
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Francesc Freixes: "Defiendo la idea de que el diseño está en las calles de una ciudad".
@@ -33,8 +50,14 @@ export default function Graphic_Design(){
 
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                               
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Más allá del muro, la identidad visual del proyecto dedelmu.
@@ -46,8 +69,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -57,8 +86,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 La tarde de las artes. Un cartel hecho por Claudio Sotolongo.
@@ -117,8 +152,8 @@ export default function Graphic_Design(){
                                     <h4>Sandra Borges</h4>
                                 </div>
                                 <div className="ButtonsDownload">
-                                    <button className="WhiteButton DownButt">ver más</button><br/>
-                                    <button className="WhiteButton DownButt">descargar</button>
+                                    <button className="BlackButton DownButt">ver más</button><br/>
+                                    <button className="BlackButton DownButt">descargar</button>
                                 </div>
                             </div>
                         </div>
@@ -133,8 +168,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -144,8 +185,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -159,8 +206,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Crematorium
@@ -170,8 +223,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
@@ -185,8 +244,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Patrizia Stalder, ilustrando Cuba desde la distancia.
@@ -196,8 +261,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Reconocemos la labor de Raupa, por su trabajo en ilustración.
@@ -211,8 +282,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -222,8 +299,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -246,19 +329,39 @@ export default function Graphic_Design(){
                 <div className="InvitationLine">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                                
+                            </div>
+                            <div className="EspecialityLabel">
+                                Fotografía
+                            </div>
+                            <div className="TittleLabel">
+                                Mario Elias Jaroud: fotografia, <br/>historia, 
                             </div>
                         </div>
                     </Link>
                     
+                    
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                                
+                            </div>
+                            <div className="EspecialityLabel">
+                                Fotografía
+                            </div>
+                            <div className="TittleLabel">
+                                Mario Elias Jaroud: fotografia, <br/>historia, 
                             </div>
                         </div>
                     </Link>
+                    
                 </div>
             
                 <div className="LineDown">
@@ -268,8 +371,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -279,8 +388,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -294,8 +409,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Crematorium
@@ -305,8 +426,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
@@ -320,8 +447,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Patrizia Stalder, ilustrando Cuba desde la distancia.
@@ -331,8 +464,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Reconocemos la labor de Raupa, por su trabajo en ilustración.
@@ -346,8 +485,14 @@ export default function Graphic_Design(){
                 <div className="Inviteds_line">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -357,8 +502,14 @@ export default function Graphic_Design(){
                     
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/invitado.jpg" width="1200%" height="700%" />
+                                
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -381,19 +532,39 @@ export default function Graphic_Design(){
                 <div className="InvitationLine">
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                                
+                            </div>
+                            <div className="EspecialityLabel">
+                                Fotografía
+                            </div>
+                            <div className="TittleLabel">
+                                Mario Elias Jaroud: fotografia, <br/>historia, 
                             </div>
                         </div>
                     </Link>
                     
+                    
                     <Link href="#">
                         <div className="Invitation_card">
+                            <h2 className="PicBy">
+                                por Frank Perez
+                            </h2>
                             <div className="invited">
-                                <Image src="/Art_Creadores.svg" width="1200%" height="810%" />
+                                
+                            </div>
+                            <div className="EspecialityLabel">
+                                Fotografía
+                            </div>
+                            <div className="TittleLabel">
+                                Mario Elias Jaroud: fotografia, <br/>historia, 
                             </div>
                         </div>
                     </Link>
+                    
                 </div>
             
             </div>
