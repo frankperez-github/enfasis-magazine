@@ -24,16 +24,32 @@
     src: url('../fonts/Mohol-Light.ttf');
 }
 @font-face {
+    font-family: mohol_regular;
+    src: url('../fonts/Mohol-Regular.ttf');
+}
+@font-face {
     font-family: mohol_bold;
     src: url('../fonts/Mohol-Bold.ttf');
+}
+@font-face {
+    font-family: mohol_black;
+    src: url('../fonts/Mohol-Black.ttf');
 }
 @font-face {
     font-family: mohol_ultra;
     src: url('../fonts/Mohol-Ultra.ttf');
 }
 @font-face {
+    font-family: cooper_black;
+    src: url('../fonts/CooperBlackStd.otf');
+}
+@font-face {
     font-family: font_text_regular;
     src: url('../fonts/Alegreya-Regular.ttf');
+}
+@font-face {
+    font-family: mohol_thin;
+    src: url('../fonts/Mohol-Thin.ttf');
 }
 
 
@@ -55,7 +71,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 h1{
-    font-size: 25px;
+    font-size: 23px;
     font-family: mohol_light;
 }
 h2{
@@ -63,7 +79,7 @@ h2{
     font-family: mohol_light;
 }
 h4{
-    font-size: 18px;
+    font-size: 16px;
 }
 label{
     font-family: mohol_light;
@@ -119,6 +135,7 @@ a{
     text-align: right;
 }
 
+
 .network-div{
     position: absolute;
     width: 20%;
@@ -141,11 +158,14 @@ a{
 
 
 .Nav_menu p{
+    font-family: mohol_regular;
     margin-top: 5%;
     margin-right: 26%;
     color: white;
-    font-weight: 600;
     cursor: pointer;
+}
+.Nav_menu p:hover{
+    font-family: mohol_black;
 }
 .WhiteLogo{
     padding-left: 34%;
@@ -160,19 +180,24 @@ a{
     margin-top: 8%;
 }
 .Link1{
-    padding-right: 1%;
+    width: 33%;
+    margin-left: 49%;
 }
 .Link2{
-    padding-right: 3.5%;
+    width: 39%;
+    margin-left: 42.8%;
 }
 .Link3{
-    padding-right: 1.5%;
+    width: 30%;
+    margin-left: 51.5%;
 }
 .Link4{
-    padding-left: 56%;
+    width: 23%;
+    margin-left: 58%;
 }
 .Link5{
-    padding-left: 65%;
+    width: 17%;
+    margin-left: 64.2%;
 }
 #ed1{
     position: fixed;
@@ -236,7 +261,6 @@ a{
     cursor: pointer;
     margin-bottom: 0.5%;
 }
-
 header{
     padding: 1% 7%;
     padding-bottom: 0%;
@@ -250,7 +274,7 @@ header{
 .header-div{
     display: flex;
     justify-content: space-around;
-    margin-top: 1%;
+    margin-top: -1%;
 }
 .logorevista{
     width: 23%;
@@ -266,41 +290,32 @@ header{
     margin-right: -3.5%;
     font-family: mohol_light;
 }
-
-.LinkNav :hover{
-    text-decoration: underline;
-}
-
 .LinkNav{
-    text-decoration: none;
-    
     color: black;
     margin-left: 2%;
     height: 10%;
 }
-
+.nav_bar h2:hover{
+    text-decoration: underline ;
+    font-family: mohol_bold;
+}
 .LinkNav:first-of-type{
     margin-left: 0;
 }
-
-
 .nav_bar h2{
     margin-bottom: 2.5%;
     cursor: pointer;
     font-weight: 300;
     font-size: 20px;
+    font-family: mohol_light;
 }
-
 .pestana_actual {
-    font-family: mohol_ultra;
-    text-decoration: none !important;
+    font-family: mohol_ultra !important;
 }
-
 footer{
     position: relative;
     bottom: 0;
 }
-
 .infofooter{
     display: flex;
     justify-content: space-between;
@@ -311,20 +326,23 @@ footer{
 .infofooter p{
     margin-top: 2.8%;
     font-size: 20px;
+    font-family: mohol_thin;
 }
 
 .infofooter a{
-    margin-top: 3%;
+    margin-top: 2.5%;
     font-size: 20px;
     text-decoration: none;
     color: black;
+    font-family: mohol_thin;
 }
 .infofooter span{
     cursor: pointer;
-    margin-top: 3%;
+    margin-top: 2.5%;
     font-size: 20px;
     text-decoration: none;
     color: black;
+    font-family: mohol_thin;
 }
 /*End of Layout*********************/
 
@@ -465,9 +483,9 @@ input:focus{
 
 
 .RectPeq{
-    margin-top: 4%;
-    margin-left: 5%;
-    width: 52%;
+    margin-top: 3.6%;
+    margin-left: 4.3%;
+    width: 60.9%;
 }
 .RectPeq:first-of-type{
     margin-top: 0%;
@@ -483,16 +501,38 @@ input:focus{
     
     display: inherit;
 }
-.infofooter a{
-    font-family: font_text_regular;
-}
-.infofooter span{
-    font-family: font_text_regular;
-}
 .infofooter a:hover{
     text-decoration: underline;
+    font-family: mohol_regular;
+    margin-top: 2.5%;
+    margin-left: -0.7%;
+    margin-right: 0;
+    width: 15%;
 }
-
+.infofooter span:hover{
+    text-decoration: underline;
+    font-family: mohol_regular;
+    width: 10%;
+}
+.span:hover{
+    text-decoration: underline;
+    font-family: mohol_regular;
+    margin-top: 2.5%;
+    margin-left: -0.7%;
+    margin-right: 0;
+    width: 15%;
+}
+.span{
+    cursor: pointer;
+    margin-top: 2.5%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: mohol_thin;
+}
+.Insta:hover{
+    margin-top: 2% !important;
+}
 
 
 /*-----------------------------------end revista desk version*/
@@ -778,6 +818,14 @@ ol{
     justify-content: space-around;
     padding: 3% 0%;
 }
+.PicSearch{
+    width: 50vw;
+    height: var(--height-pic);
+    background-image: url('/Invited.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .tarjeta{
     width: 45%;
 }
@@ -988,17 +1036,19 @@ ol{
 }
 .PicBy{
     transform: rotate(-90deg);
+    font-family: cooper_black;
     margin-left: 75%;
     margin-right: -10%;
-    margin-bottom: -11%;
+    margin-bottom: -12.5%;
     margin-top: 8%;
 }
 .PicByPrinc{
     position: relative;
+    font-family: cooper_black;
     transform: rotate(-90deg);
     margin-left: 75%;
     margin-right: -10%;
-    top: 8%;
+    top: 10%;
 }
 .LinkArt{
     cursor: pointer;
@@ -1012,9 +1062,13 @@ ol{
     margin-left: 7%;
     margin-bottom: 5%;
     width: 38%;
-    padding: 0.1%;
+    padding: 0.2%;
+    padding-top: 0;
     background-color: white;
     color: black;
+}
+.NameLabel p{
+    font-family: mohol_regular;
 }
 .Inviteds_line{
     display: flex;
@@ -1025,6 +1079,12 @@ ol{
 .Invitation_card{
     max-width: 49.5%;
     cursor: pointer;
+}
+button{
+    font-family: mohol_regular;
+}
+button:hover{
+    font-family: mohol_regular;
 }
 .invited{
     width: 50vw;
@@ -1062,33 +1122,37 @@ ol{
     width: 85%;
     margin-bottom: 3%;
 }
-.EspecialityLabel{
-    
+.CategoryLabel{
     position: relative;
     margin-top: -25%;
     margin-left: 14.1%;
-    width: 33%;
-    padding: 0.2% 2%;
+    width: 28%;
+    padding: 0.4% 2%;
+    padding-top: 0%;
     background-color: white;
     font-size: 18px;
+    font-family: mohol_regular;
+    font-variant-caps: all-small-caps;
     text-align: left;
     color: black;
 }
-.EspecialityLabelPrinc{
+.CategoryLabelPrinc{
     
     position: relative;
     margin-top: -17%;
     margin-bottom: 20%;
     margin-left: 7%;
     width: 14.5%;
-    padding: 0.3% 2%;
+    padding: 0.4% 2%;
+    padding-top: 0%;
     background-color: white;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: mohol_regular;
+    font-variant-caps: all-small-caps;
     text-align: left;
     color: black;
 }
 .TittleLabelPrinc{
-    font-variant-caps: small-caps;
     position: relative;
     margin-top: -18.5%;
     margin-bottom: 8%;
@@ -1098,10 +1162,10 @@ ol{
     background-color: white;
     color: black;
     font-size: 30px;
+    font-family: mohol_bold;
     text-align: left;
 }
 .TittleLabel{
-    font-variant-caps: small-caps;
     position: relative;
     margin-top: 2%;
     margin-left: 14.1%;
@@ -1110,7 +1174,17 @@ ol{
     background-color: white;
     color: black;
     font-size: 24px;
+    font-family: mohol_regular;
     text-align: left;
+}
+.Tittle h1{
+    font-family: mohol_bold;
+}
+.tittle h1{
+    font-family: mohol_ultra;
+}
+.tittle h4{
+    font-family: mohol_ultra;
 }
 .ButtonsDownload button{
     width: 80%;
@@ -1155,6 +1229,17 @@ ol{
 }
 /* end of Graphic Design***************************/
 
+/*Privacy Police*/
+.Parraf h2{
+    margin: 2% 0;
+    margin-top: 7%;
+}
+.Parraf p:last-of-type{
+    margin-bottom: 5%;
+}
+/*end of Privacy Police*/
+
+
 @media (min-width: 1400px){
     :root{
         --to-anim: 25%;
@@ -1164,12 +1249,22 @@ ol{
     .PicByPrinc{
         top: 5%;
     }
+    
+}
+
+@media (min-width: 1100px){
+    .TittleLabel{
+        font-size: 20px;
+    }
 }
 @media (width: 1200px){
     :root{
         --to-anim: 25%;
         --height-pic:37vh;
         --height-PrincPic:80vh;
+    }
+    .PicBy{
+        margin-bottom: -14%;
     }
 }
 @media (max-width: 1125px){
@@ -1180,7 +1275,7 @@ ol{
         --height-PrincPic:77vh;
     }
     h1{
-        font-size: 24px;
+        font-size: 21px;
     }
     .contenedor_art h1{
         font-size: 36px;
@@ -1218,23 +1313,26 @@ ol{
         padding-right: 15%;
         line-height: 20px;
     }
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 16px;
     }
     .TittleLabel{
-        font-size: 20px;
+        font-size: 19px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 16px;
     }
     .TittleLabelPrinc{
-        font-size: 27px;
+        font-size: 24px;
     }
     
 
     .infofooter a{        
         font-size: 15px;
         
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -1313,7 +1411,7 @@ ol{
         --height-PrincPic:70vh;
     }
     h1{
-        font-size: 22px;
+        font-size: 20px;
     }
     .contenedor_art h1{
         font-size: 31px;
@@ -1333,7 +1431,7 @@ ol{
     }
 
     .PicByPrinc{
-        top: 6%;
+        top: 9%;
     }
 
     .nav_bar h2{
@@ -1345,7 +1443,9 @@ ol{
         margin-top: 10%;
         font-size: 10px;
     }
-
+    .RectPeq{
+        width: 60.9%;
+    }
     .DownButt{
         font-size: 12px;
     }
@@ -1357,22 +1457,25 @@ ol{
         padding-right: 15%;
         line-height: 17px;
     }
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 14px;
     }
     .TittleLabel{
-        font-size: 18px;
+        font-size: 17px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 16px;
     }
     .TittleLabelPrinc{
-        font-size: 25px;
+        font-size: 21px;
     }
 
     .infofooter a{        
         font-size: 15px;
         
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -1480,7 +1583,9 @@ ol{
         font-size: 7px;
     }
 
-
+    .RectPeq{
+        width: 60.7%;
+    }
     .nav_bar h2{
         font-size:13px;
     }
@@ -1503,21 +1608,24 @@ ol{
         line-height: 13px;
     }
     
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 12px;
     }
     .TittleLabel{
         font-size: 14px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 15px;
     }
     .TittleLabelPrinc{
-        font-size: 23px;
+        font-size: 19.5px;
     }
     .infofooter a{        
         font-size: 15px;
         
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -1620,7 +1728,10 @@ ol{
     }
 
     
-
+    .RectPeq{
+        margin-top: 3%;
+        width: 60.9%;
+    }
     .input-search{
         font-size: 10px;
     }
@@ -1647,20 +1758,23 @@ ol{
         line-height: 13px;
     }
     
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 10px;
     }
     .TittleLabel{
         font-size: 12px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 13px;
     }
     .TittleLabelPrinc{
-        font-size: 20px;
+        font-size: 16.5px;
     }
     .infofooter a{   
         font-size: 15px;    
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -1774,7 +1888,9 @@ ol{
         font-size:8px;
     }
    
-
+    .RectPeq{
+        width: 60.9%;
+    }
     .Downloadbutton{
         cursor: pointer;
         margin-top: 5%;
@@ -1795,21 +1911,24 @@ ol{
         line-height: 11px;
     }
     
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 8px;
     }
     .TittleLabel{
         font-size: 10px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 13px;
     }
     .TittleLabelPrinc{
-        font-size: 17px;
+        font-size: 14px;
     }
     .infofooter a{       
         font-size: 15px;
         
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -1920,7 +2039,7 @@ ol{
         font-size: 4px;
     }
 
-
+    
     .nav_bar h2{
         font-size:7px;
     }
@@ -1948,6 +2067,9 @@ ol{
         font-size: 15px;
         
     }
+    .span{
+        font-size: 15px;
+    }
     .infofooter span{
         font-size: 15px;
     }
@@ -1968,30 +2090,28 @@ ol{
     }
 
 
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 6px;
     }
     .TittleLabel{
         font-size: 8px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 10px;
     }
     .TittleLabelPrinc{
-        font-size: 15px;
+        font-size: 13px;
     }
     .titular_derch p{
         font-size: 9px;
         line-height: 13px;
     }
     li{
-           font-size: 9px;;
-
+        font-size: 9px;;
         line-height: 13px;
-           
     }
     .titular_izq h1{
-        font-size: 21px;
+        font-size: 17px;
     }
     .columna h2{
         font-size: 15px;
@@ -2084,21 +2204,24 @@ ol{
         line-height: 10px;
     }
     
-    .EspecialityLabel{
+    .CategoryLabel{
         font-size: 6px;
     }
     .TittleLabel{
         font-size: 8px;
     }
-    .EspecialityLabelPrinc{
+    .CategoryLabelPrinc{
         font-size: 8px;
     }
     .TittleLabelPrinc{
-        font-size: 13px;
+        font-size: 11px;
     }
     .infofooter a{
         font-size: 15px;
         
+    }
+    .span{
+        font-size: 15px;
     }
     .infofooter span{
         font-size: 15px;
@@ -2117,7 +2240,9 @@ ol{
 
 
 
-    
+    .RectPeq{
+        width: 61%;
+    }
     .titular_derch p{
         font-size: 8.5px;
         line-height: 13px;
@@ -2127,7 +2252,7 @@ ol{
         line-height: 13px;
     }
     .titular_izq h1{
-        font-size: 19px;
+        font-size: 14px;
     }
     .columna h2{
         font-size: 13px;
@@ -2194,7 +2319,9 @@ ol{
     }
 
 
-
+    .RectPeq{
+        width: 60.9%;
+    }
     .nav_bar h2{
         font-size:6.2px;
     }
@@ -2224,6 +2351,9 @@ ol{
         font-size: 12px;
         
     }
+    .span{
+        font-size: 12px;
+    }
     .infofooter span{
         font-size: 12px;
     }
@@ -2238,7 +2368,10 @@ ol{
         font-size: 18px;
     }
 
-
+    .RectPeq{
+        margin-top: 2%;
+        margin-left: 4%;
+    }
     
     .titular_derch p{
         font-size: 8px;
@@ -2249,7 +2382,7 @@ ol{
         line-height: 12px;
     }
     .titular_izq h1{
-        font-size: 18px;
+        font-size: 14px;
     }
     .columna h2{
         font-size: 12px;
@@ -2258,7 +2391,9 @@ ol{
         font-size: 8px;
         line-height: 12px;
     }
-
+    .TittleLabelPrinc{
+        font-size: 10px;
+    }
     input::placeholder{
         font-size: 5px;
     }
@@ -2327,6 +2462,9 @@ ol{
         display: none;
     }
     .Architecture{
+        display: none;
+    }
+    .Privacy_Police{
         display: none;
     }
     header{

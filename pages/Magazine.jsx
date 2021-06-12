@@ -24,13 +24,13 @@ function Magazine(){
                         
                     <div className="rectspeqs">
                         <div className="RectPeq">
-                            <Image src="/interior_1.2.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_1.2.jpg" width="350%" height="300%" className="small_rect"/>
                         </div>
                         <div className="RectPeq">
-                            <Image src="/interior_2.2.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_2.2.jpg" width="350%" height="300%" className="small_rect"/>
                         </div>
                        <div className="RectPeq">
-                            <Image src="/interior_3.2.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_3.2.jpg" width="350%" height="300%" className="small_rect"/>
                        </div>
                     </div>
                         
@@ -73,13 +73,13 @@ function Magazine(){
                         
                     <div className="rectspeqs">
                         <div className="RectPeq">
-                            <Image src="/interior_1.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_1.jpg" width="350%" height="300%" className="small_rect"/>
                         </div>
                         <div className="RectPeq">
-                            <Image src="/interior_2.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_2.jpg" width="350%" height="300%" className="small_rect"/>
                         </div>
                        <div className="RectPeq">
-                            <Image src="/interior_3.jpg" width="300%" height="300%" className="small_rect"/>
+                            <Image src="/interior_3.jpg" width="350%" height="300%" className="small_rect"/>
                        </div>
                     </div>
                         

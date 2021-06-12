@@ -55,26 +55,28 @@ export default function Presentation(){
                     <Image src="/White_Stick.svg" width="50%" height="80%" className="whiteStick"/>
                 </div>
                 
-
+                
                 <Link href="/Graphic_Design" >
-                    <p className="Link1">diseño gráfico </p>
+                    <p className="Link1 LinkSect">diseño gráfico </p>
                 </Link>
 
                 <Link href="/Industrial_Design" >
-                    <p className="Link2">diseño industrial</p>
+                    <p className="Link2 LinkSect">diseño industrial</p>
                 </Link>
 
                 <Link href="/Architecture">
-                    <p className="Link3">arquitectura</p>
+                    <p className="Link3 LinkSect">arquitectura</p>
                 </Link>
 
                 <Link href="/Creators">
-                    <p className="Link4">creadores</p>
+                    <p className="Link4 LinkSect">creadores</p>
                 </Link>
                 
                 <Link href="/Magazine">
-                    <p className="Link5">revista</p>
+                    <p className="Link5 LinkSect">revista</p>
                 </Link>
+                
+                
             </div>
             
         </div>

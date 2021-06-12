@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Search_Bar from '../components/DeskVersion/Search_Bar';
+
 
 
 

@@ -83,14 +83,19 @@ export default function Layout(props){
             
             
                         <div className="networksft">
-                            <a href="https://www.instagram.com/enfasismag">INSTAGRAM</a>
+                            <a href="https://www.instagram.com/enfasismag" className="Insta">INSTAGRAM</a>
                             <a href="https://www.facebook.com/enfasismag">FACEBOOK</a>
                             <a href="https://www.twitter.com/enfasismag">TWITTER</a>
                         </div>
             
-                        <a href="">POLÍTICA <br/> DE PRIVACIDAD</a>
+                        <Link href="/Privacy_Police">
+                            <div className="span">
+                                POLÍTICA <br/> DE PRIVACIDAD
+                            </div>
+                        </Link>
+
                         
-                    <p>  &copy; Énfasis <br/> 2020</p> 
+                        <p>  &copy; énfasis <br/> 2020</p> 
             
                     </div>
 

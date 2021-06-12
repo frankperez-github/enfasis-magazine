@@ -19,11 +19,11 @@ export default function Industrial_Design(){
                         <div className="PrincipalArt">
                             <h2 className="PicByPrinc">Por Frank Perez</h2>
                         </div>
-                        <div className="EspecialityLabelPrinc">
+                        <div className="CategoryLabelPrinc">
                             Fotografía
                         </div>
                         <div className="TittleLabelPrinc">
-                            Mario Elias Jaroud: fotografia, <br/>historia, 
+                            Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                         </div>
                     </div>
                 </Link>   
@@ -297,11 +297,11 @@ export default function Industrial_Design(){
                             <div className="invited">
                                 
                             </div>
-                            <div className="EspecialityLabel">
+                            <div className="CategoryLabel">
                                 Fotografía
                             </div>
                             <div className="TittleLabel">
-                                Mario Elias Jaroud: fotografia, <br/>historia, 
+                                Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                             </div>
                         </div>
                     </Link>
@@ -314,11 +314,11 @@ export default function Industrial_Design(){
                             <div className="invited">
                                 
                             </div>
-                            <div className="EspecialityLabel">
+                            <div className="CategoryLabel">
                                 Fotografía
                             </div>
                             <div className="TittleLabel">
-                                Mario Elias Jaroud: fotografia, <br/>historia, 
+                                Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                             </div>
                         </div>
                     </Link>
@@ -474,11 +474,11 @@ export default function Industrial_Design(){
                             <div className="invited">
                                 
                             </div>
-                            <div className="EspecialityLabel">
+                            <div className="CategoryLabel">
                                 Fotografía
                             </div>
                             <div className="TittleLabel">
-                                Mario Elias Jaroud: fotografia, <br/>historia, 
+                                Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                             </div>
                         </div>
                     </Link>
@@ -491,11 +491,11 @@ export default function Industrial_Design(){
                             <div className="invited">
                                 
                             </div>
-                            <div className="EspecialityLabel">
+                            <div className="CategoryLabel">
                                 Fotografía
                             </div>
                             <div className="TittleLabel">
-                                Mario Elias Jaroud: fotografia, <br/>historia, 
+                                Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                             </div>
                         </div>
                     </Link>

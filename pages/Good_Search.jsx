@@ -21,13 +21,17 @@ function Good_Search(){
                 <div class="tarjetas">
                     
                     <div class="tarjeta">
-                        <Image src="/invitado.jpg" className="invit_tarjeta" width="700%" height="500%" />
+                        <div className="PicSearch">
+
+                        </div>
         
                         <p>JoeFerro y el Arte del metal.</p>
                     </div>
                         
                     <div class="tarjeta">
-                       <Image src="/invitado.jpg" className="invit_tarjeta" width="700%" height="500%" />
+                       <div className="PicSearch">
+
+                       </div>
                         
                         <p>Alejandra Picart: Sí, Soy Artesana</p>
                     </div>
@@ -37,13 +41,17 @@ function Good_Search(){
                 <div class="tarjetas">
                     
                     <div class="tarjeta">
-                       <Image src="/invitado.jpg" className="invit_tarjeta" width="700%" height="500%" />
+                       <div className="PicSearch">
+
+                       </div>
         
                         <p>Hardy; El Fotógrafo de las emociones.</p>
                     </div>
                         
                     <div class="tarjeta">
-                       <Image src="/invitado.jpg" className="invit_tarjeta" width="700%" height="500%" />
+                       <div className="PicSearch">
+
+                       </div>
                         
                         <p>Linospottery</p>
                     </div>
