@@ -45,7 +45,7 @@ function Article(){
                                             </div>    
                                         </a>
 
-                                        <a href=""  className="share" target="_blank">
+                                        <a href="http://www.facebook.com/sharer.php?u=<?php echo URL( get_permalink() ); ?>"  className="share" target="_blank">
                                             <div >
                                                 <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                             </div>    
@@ -175,19 +175,19 @@ function Article(){
 
                         <div className="public_pagada">
                             <div className="PromoImg">
-                                <Image src="/Invited.jpg" width="1000%" height="1000%"></Image>
+                                <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
                             </div>
                             
                             <div className="PromoImg">
-                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                                <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
                             </div>
 
                             <div className="PromoImg">
-                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                                <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
                             </div>
 
                             <div className="PromoImg">
-                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                                <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
                             </div>
                             
                         </div>
