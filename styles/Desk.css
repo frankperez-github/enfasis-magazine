@@ -149,7 +149,7 @@ a{
     padding-top: 2% !important;
 }
 .Link{
-    width: 15%;
+    width: 45%;
     margin-bottom: 3%;
 }
 .Link:last-of-type{
@@ -180,23 +180,23 @@ a{
     margin-top: 8%;
 }
 .Link1{
-    width: 33%;
+    width: 34%;
     margin-left: 49%;
 }
 .Link2{
-    width: 39%;
+    width: 40%;
     margin-left: 42.8%;
 }
 .Link3{
-    width: 30%;
+    width: 32%;
     margin-left: 51.5%;
 }
 .Link4{
-    width: 23%;
+    width: 25%;
     margin-left: 58%;
 }
 .Link5{
-    width: 17%;
+    width: 19%;
     margin-left: 64.2%;
 }
 #ed1{
@@ -259,7 +259,7 @@ a{
 
 .logorevista{
     cursor: pointer;
-    margin-bottom: 0.5%;
+    
 }
 header{
     padding: 1% 7%;
@@ -274,12 +274,11 @@ header{
 .header-div{
     display: flex;
     justify-content: space-around;
-    margin-top: -1%;
+    margin-top: -1.5%;
 }
 .logorevista{
-    width: 23%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    width: 20%;
+    padding-top: 1.5%;
 }
 .nav_bar{
     display: flex;
@@ -295,6 +294,9 @@ header{
     margin-left: 2%;
     height: 10%;
 }
+.Link{
+    cursor: pointer;
+}
 .nav_bar h2:hover{
     text-decoration: underline ;
     font-family: mohol_bold;
@@ -303,7 +305,7 @@ header{
     margin-left: 0;
 }
 .nav_bar h2{
-    margin-bottom: 2.5%;
+    margin-bottom: 2%;
     cursor: pointer;
     font-weight: 300;
     font-size: 20px;
@@ -882,8 +884,10 @@ ol{
     margin-left: 10.2%;
 }
 .fecha_public{
+    font-family: mohol_light;
     font-weight: 400;
     margin-right: 2%;
+    font-size: 13px;
 }
 .publicacion_art{
     display: flex;
@@ -901,6 +905,7 @@ ol{
     padding-right: 3% !important;
 }
 .keywords{
+    font-family: mohol_thin;
     margin-top: 1%;
     margin-bottom: 5%;
 }
@@ -909,6 +914,9 @@ ol{
 }
 .contenedor_tit{
     width: 80%;
+}
+.contenedor_tit p{
+    font-family: cooper_black;
 }
 .contenedor_tit h1{
     font-weight: 450;
@@ -935,8 +943,9 @@ ol{
     margin-right: 50%;
 }
 .pic_art{
+    width: 95%;
     margin-right: -2%;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: -5%;
     margin-bottom: 7%;
 }
@@ -960,10 +969,11 @@ ol{
     margin-top: 7%;
     margin-bottom: 15%;
 }
-.siguenos_img{
-    max-width: 20%;
-    margin: 3% 0;
-    margin-right: 2.5%;
+.LinkArt{
+    margin-left: 4%;
+}
+.LinkArt:first-of-type{
+    margin-left: 0%;
 }
 .reciente{
     margin-top: 2%;
@@ -985,6 +995,9 @@ ol{
 .reciente a{
     text-decoration: none;
 }
+.reciente{
+    margin-bottom: -20%;
+}
 .coment{
     display: flex;
     margin-left: 18%;
@@ -1002,20 +1015,24 @@ ol{
 .Home_art {
     position: sticky;
     top: 80%;
-    z-index: 3;
+    z-index: 7;
     margin-left: 50%;
     margin-bottom: 5%;
 }
 .Home_art_img{
     width: 25%;
 }
-.public_pagada{
-    height: 40%;
-}
 .pie_foto{
+    margin-top: -7%;
     font-size: 13px;
 }
-
+.lineaPromo{
+    width: 70%;
+}
+.PromoImg{
+    width: 62%;
+    margin: 5% 0;
+}
 /*----------------------------------end of Articulo-----------------*/
 
 
@@ -1061,7 +1078,7 @@ ol{
     margin-top: -10%;
     margin-left: 7%;
     margin-bottom: 5%;
-    width: 38%;
+    width: 30%;
     padding: 0.2%;
     padding-top: 0;
     background-color: white;
@@ -1069,6 +1086,8 @@ ol{
 }
 .NameLabel p{
     font-family: mohol_regular;
+    text-align: left;
+    padding-left: 5%;
 }
 .Inviteds_line{
     display: flex;
@@ -1088,6 +1107,7 @@ button:hover{
 }
 .invited{
     width: 50vw;
+    
     height: var(--height-pic);
     margin-bottom: 3%;
     background-image: url('/Invited.jpg');
@@ -1256,6 +1276,9 @@ button:hover{
     .TittleLabel{
         font-size: 20px;
     }
+    .TittleLabelPrinc{
+        font-size: 19px;
+    }
 }
 @media (width: 1200px){
     :root{
@@ -1265,6 +1288,9 @@ button:hover{
     }
     .PicBy{
         margin-bottom: -14%;
+    }
+    .fecha_public{
+        font-size: 11px;
     }
 }
 @media (max-width: 1125px){
@@ -1296,7 +1322,9 @@ button:hover{
     .nav_bar h2{
         font-size:17px;
     }
-
+    .fecha_public{
+        font-size: 9px;
+    }
     .Downloadbutton{
         cursor: pointer;
         margin-top: 17%;
@@ -1308,7 +1336,26 @@ button:hover{
     .Suscribir{
         font-size: 11px
     }
-
+    .infofooter{
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 7%;
+        background-color: #e1e1e1;
+    }
+    
+    .infofooter p{
+        font-size: 19px;
+    }
+    
+    .infofooter a{
+        font-size: 19px;
+    }
+    .infofooter span{
+        font-size: 19px;
+    }
+    .span{
+        font-size: 19px;
+    }
     .inforev{
         padding-right: 15%;
         line-height: 20px;
@@ -1331,9 +1378,7 @@ button:hover{
         font-size: 15px;
         
     }
-    .span{
-        font-size: 15px;
-    }
+    
     .infofooter span{
         font-size: 15px;
     }
@@ -1341,7 +1386,9 @@ button:hover{
     .infofooter p{
         font-size: 15px;
     }
-
+    .span{
+        font-size: 15px;
+    }
     .failed-div{
         margin: 7% 0;
     }
@@ -1429,11 +1476,21 @@ button:hover{
     .pie_foto{
         font-size: 8px;
     }
-
+    .infofooter p{
+        font-size: 17px;
+    }
+    .infofooter a{
+        font-size: 17px;
+    }
+    .infofooter span{
+        font-size: 17px;
+    }
     .PicByPrinc{
         top: 9%;
     }
-
+    .fecha_public{
+        font-size: 8px;
+    }
     .nav_bar h2{
         font-size:15px;
     }
@@ -1471,17 +1528,17 @@ button:hover{
     }
 
     .infofooter a{        
-        font-size: 15px;
+        font-size: 14px;
         
     }
     .span{
-        font-size: 15px;
+        font-size: 14px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 14px;
     }
     .infofooter p{
-        font-size: 15px;
+        font-size: 14px;
     }
     .failed-div p{
         font-size: 19px;
@@ -1582,7 +1639,9 @@ button:hover{
     .pie_foto{
         font-size: 7px;
     }
-
+    .fecha_public{
+        font-size: 6.5px;
+    }
     .RectPeq{
         width: 60.7%;
     }
@@ -1618,20 +1677,20 @@ button:hover{
         font-size: 15px;
     }
     .TittleLabelPrinc{
-        font-size: 19.5px;
+        font-size: 19px;
     }
     .infofooter a{        
-        font-size: 15px;
+        font-size: 12px;
         
     }
     .span{
-        font-size: 15px;
+        font-size: 12px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 12px;
     }
     .infofooter p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .failed-div p{
         font-size: 20px;
@@ -1727,7 +1786,9 @@ button:hover{
         font-size: 5px;
     }
 
-    
+    .fecha_public{
+        font-size: 5px;
+    }
     .RectPeq{
         margin-top: 3%;
         width: 60.9%;
@@ -1771,16 +1832,16 @@ button:hover{
         font-size: 16.5px;
     }
     .infofooter a{   
-        font-size: 15px;    
+        font-size: 11px;    
     }
     .span{
-        font-size: 15px;
+        font-size: 11px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 11px;
     }
     .infofooter p{
-        font-size: 15px;
+        font-size: 11px;
     }
     .failed-div p{
         font-size: 18px;
@@ -1887,7 +1948,9 @@ button:hover{
     .nav_bar h2{
         font-size:8px;
     }
-   
+    .fecha_public{
+        font-size: 4px;
+    }
     .RectPeq{
         width: 60.9%;
     }
@@ -1924,17 +1987,17 @@ button:hover{
         font-size: 14px;
     }
     .infofooter a{       
-        font-size: 15px;
+        font-size: 9px;
         
     }
     .span{
-        font-size: 15px;
+        font-size: 9px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 9px;
     }
     .infofooter p{
-        font-size: 15px;
+        font-size: 9px;
     }
     .failed-div p{
         font-size: 16px;
@@ -2049,7 +2112,9 @@ button:hover{
         margin-top: 10%;
         font-size: 8px;
     }
-
+    .fecha_public{
+        font-size: 3px;
+    }
     .DownButt{
         font-size: 8px;
     }
@@ -2064,18 +2129,18 @@ button:hover{
     
 
     .infofooter a{
-        font-size: 15px;
+        font-size: 8px;
         
     }
     .span{
-        font-size: 15px;
+        font-size: 8px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 8px;
     }
     .infofooter p{
 
-        font-size: 15px;
+        font-size: 8px;
     }
     .failed-div p{
         font-size: 16px;
@@ -2181,7 +2246,9 @@ button:hover{
     }
 
 
-
+    .fecha_public{
+        font-size: 3px;
+    }
     .nav_bar h2{
         font-size:6px;
     }
@@ -2217,19 +2284,19 @@ button:hover{
         font-size: 11px;
     }
     .infofooter a{
-        font-size: 15px;
+        font-size: 7px;
         
     }
     .span{
-        font-size: 15px;
+        font-size: 7px;
     }
     .infofooter span{
-        font-size: 15px;
+        font-size: 7px;
     }
 
     .infofooter p{
 
-        font-size: 15px;
+        font-size: 7px;
     }
     .failed-div{
         margin: 25.5% 0;
@@ -2318,7 +2385,9 @@ button:hover{
         font-size: 3px;
     }
 
-
+    .fecha_public{
+        font-size: 3px;
+    }
     .RectPeq{
         width: 60.9%;
     }
@@ -2348,18 +2417,18 @@ button:hover{
     
 
     .infofooter a{
-        font-size: 12px;
+        font-size: 6px;
         
     }
     .span{
-        font-size: 12px;
+        font-size: 6px;
     }
     .infofooter span{
-        font-size: 12px;
+        font-size: 6px;
     }
     .infofooter p{
 
-        font-size: 12px;
+        font-size: 6px;
     }
     .failed-div{
         margin: 29% 0;

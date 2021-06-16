@@ -13,17 +13,17 @@ export default function Search_Bar(){
     
                 <div className="links_redes">
     
-                    <a href="https://www.instagram.com/enfasismag">
+                    <a href="https://www.instagram.com/enfasismag" target="_blank">
                         <div className="links2follow">
                             <Image src="/instagram.svg" width="100%" height="100%"/>
                         </div>
                     </a>
-                    <a href="https://www.facebook.com/enfasismag">
+                    <a href="https://www.facebook.com/enfasismag" target="_blank">
                         <div className="links2follow">
                             <Image src="/facebook.svg" width="100%" height="100%"/>
                         </div>
                     </a>
-                    <a href="https://www.twitter.com/enfasismag">
+                    <a href="https://www.twitter.com/enfasismag" target="_blank">
                         <div className="links2follow">
                             <Image src="/twitter.svg" width="100%" height="100%"/>
                         </div> 

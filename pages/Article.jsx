@@ -1,20 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import {useRouter} from 'next/router'
 
 
 
 function Article(){
-
-    const hide = () => {
-        form.classList.remove("form_enabled");
-        fondo.classList.remove("form_enabled");
-    }
-
+    const router = useRouter()
+    var URL = router.pathname;
 
     return(
     
-           
         <div className="Article">
 
             <div className="Article" id="article">
@@ -24,7 +19,7 @@ function Article(){
                         <div className="cont">
                             <div className="publicacion_art">
                                 <div className="fecha">
-                                    <h5 className="fecha_public pie_foto">Publicado el 3 de noviembre de 2020</h5> 
+                                    <h5 className="fecha_public">Publicado el 3 de noviembre de 2020</h5> 
                                 </div>
                                 <div>
                                     <Image src="/linea_fecha.svg"
@@ -44,19 +39,19 @@ function Article(){
                                     <p>por Chrystian López</p>
 
                                     <div className="share-div">
-                                        <a href="" className="share">
+                                        <a href="" className="share" target="_blank">
                                             <div >
                                                 <Image src="/Twitter_share.svg" width="50%" height="50%" />
                                             </div>    
                                         </a>
 
-                                        <a href="" className="share">
+                                        <a href=""  className="share" target="_blank">
                                             <div >
                                                 <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                             </div>    
                                         </a>
 
-                                        <a href="" className="share" >
+                                        <a href="" className="share" target="_blank">
                                             <div >
                                                 <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
                                             </div>    
@@ -71,7 +66,7 @@ function Article(){
                                 <p>A <b>Miguel</b> lo conocí, hace poco más de un año, en una de sus conferencias de tipografía. En ese momento no tenía idea de la persona que tenía de frente. El tiempo hizo lo suyo; hoy puedo decir, con certeza, que tuve la oportunidad de conversar con uno de los diseñadores de carteles e ilustraciones más importantes del país.<br/><br/>A pesar de su apretada agenda y los momentos inciertos que se vive en el mundo, me sorprendió saber que había aceptado mi invitación. Aceptar la entrevista para Énfasis, quizás es la forma en la que el...</p>
                                         
                                 <div className="pic_art">
-                                    <Image src="/pic_art.svg" width="1000%" height="1060%" className="pic_art_img"/>
+                                    <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
 
                                     <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
                                 </div>
@@ -124,8 +119,9 @@ function Article(){
                     
                     <div className="promo_colum">
 
-                        <div >
-                            <Image src="/promo_column_img.svg" width="200%" height="50%" className="linea_promo"/>
+                        <div className="lineaPromo">
+                            <Image src="/promo_column_img.svg" width="200%" height="50%" 
+                            className="linea_promo"/>
 
                         </div>
 
@@ -133,21 +129,21 @@ function Article(){
                             <h2>Síguenos</h2>
 
                             <div className="LinkFollow">
-                                <Link href="https://www.instagram.com/enfasismag" > 
+                                <a href="https://www.instagram.com/enfasismag" target="_blank" className="LinkArt"> 
                                     <Image src="/instagram.svg" width="60%" height="50%" className="siguenos_img"/>
-                                </Link>
+                                </a>
                                 
-                                <Link href="https://www.facebook.com/enfasismag" >
+                                <a href="https://www.facebook.com/enfasismag" target="_blank" className="LinkArt">
                                     <Image src="/facebook.svg" width="60%" height="50%" className="siguenos_img"/>
-                                </Link>
+                                </a>
 
-                                <Link href="https://www.twitter.com/enfasismag" > 
+                                <a href="https://www.twitter.com/enfasismag" target="_blank" className="LinkArt"> 
                                     <Image src="/twitter.svg" width="60%" height="50%" className="siguenos_img"/> 
-                                </Link>
+                                </a>
                             </div>
                         </div>
 
-                        <div >
+                        <div className="lineaPromo">
                             <Image src="/promo_column_img.svg" width="200%" height="50%" className="linea_promo linea_promo2 "/>
                         </div>
 
@@ -169,17 +165,32 @@ function Article(){
                     
                         </div>
 
-                        <div className="home-button Home_art">
-                            <a href="#article" >
-                                <Image src="/Boton_Art.svg" width="60%" height="60%" className="Home_art_img"/>
-                            </a>
-                        </div>
+                        
 
+                        <div className="home-button Home_art">
+                            <Link href="#article" >
+                                <Image src="/Boton_Art.svg" width="60%" height="60%" className="Home_art_img"/>
+                            </Link>
+                        </div>
 
                         <div className="public_pagada">
+                            <div className="PromoImg">
+                                <Image src="/Invited.jpg" width="1000%" height="1000%"></Image>
+                            </div>
+                            
+                            <div className="PromoImg">
+                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                            </div>
+
+                            <div className="PromoImg">
+                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                            </div>
+
+                            <div className="PromoImg">
+                                <Image src="/hey" width="1000%" height="1000%"></Image>
+                            </div>
                             
                         </div>
-
                     </div>
 
                     

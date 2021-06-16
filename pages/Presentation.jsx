@@ -12,20 +12,26 @@ export default function Presentation(){
             
             <div className="Networks">
                 <div className="network-div">
-                    <Link href="https://www.instagram.com/enfasismag" > 
-                        <div className="Link">
-                            <Image src="/instagram_home.svg" width="100%" height="100%" />
-                        </div>
+                    <Link href="https://www.instagram.com/enfasismag"> 
+                       <a href="" target="_blank">
+                            <div className="Link">
+                                <Image src="/instagram_home.svg" width="100%" height="100%" />
+                            </div>
+                        </a>
                     </Link>
-                    <Link href="https://www.facebook.com/enfasismag" >
-                        <div className="Link">
-                            <Image src="/facebook_home.svg" width="100%" height="100%" />
-                        </div>
+                    <Link href="https://www.facebook.com/enfasismag">
+                       <a href="" target="_blank">
+                            <div className="Link">
+                                <Image src="/facebook_home.svg" width="100%" height="100%" />
+                            </div>
+                        </a>
                     </Link>
-                    <Link href="https://www.twitter.com/enfasismag" > 
-                        <div className="Link">
-                            <Image src="/twitter_home.svg" width="100%" height="100%" />
-                        </div>
+                    <Link href="https://www.twitter.com/enfasismag"> 
+                       <a href="" target="_blank">
+                            <div className="Link">
+                                <Image src="/twitter_home.svg" width="100%" height="100%" />
+                            </div>
+                        </a>
                     </Link>
                 </div>
             </div>
