@@ -1,5 +1,5 @@
 import Layout from '../components/DeskVersion/Layout'
-import '../styles/Desk.css'
+import '../styles/Styles.css'
 
 
 function MyApp({ Component, pageProps }) {

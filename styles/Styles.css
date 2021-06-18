@@ -1406,6 +1406,107 @@ button:hover{
 
 
 
+/*Layout Phone*/
+.PhoneHeader{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.logoPh{
+    width: 50%;
+    margin-left: -3%;
+}
+.MenuPh{
+    width: 18%;
+    margin-bottom: -1%;
+    margin-top: 2%;
+    margin-right: -7%;
+}
+.PhoneFooter{
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8% 0;
+}
+.Line1Foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+.Line2Foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% -4%;
+}
+#TextFooterID{
+    margin-left: -17.5%;
+}
+.TextFooter{
+    line-height: 160%;
+    font-size: 15px;
+    font-family: mohol_thin;
+}
+/*end of Layout Phone*/
+
+
+/*General Menu*/
+.searchMob{
+    width: 90%;
+    padding-top: 15%;
+    margin-left: 8%;
+}
+.Letter-divMob{
+    width: 13.2%;
+    margin-top: 48.5%;
+    margin-left: 80%;
+}
+/*end of General Menu*/
+
+
+
+/*MagazineMob*/
+.MagazineMob{
+    margin: 0 5%;
+}
+.big_rectMob{
+    margin: 10% 0;
+    margin-bottom: 2%;
+}
+.rectspeqsMob{
+    display: flex;
+    justify-content: space-between;
+}
+.RectPeqMob{
+    width: 31%;
+}
+.lineasubtMob{
+    width: 50%;
+    margin-bottom: 5%;
+}
+.princ_derchMob{
+    margin-top: 5%;
+}
+.DownloadbuttonMob{
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 10% 0;
+    width: 42%;
+    padding: 3.7%;
+}
+.linea_edicMob{
+    margin: 2% 0;
+}
+/* end of MagazineMob*/
+
+
+
 @media (min-width: 1400px){
     :root{
         --to-anim: 25%;
@@ -2640,16 +2741,35 @@ button:hover{
     }
 }
 
-
-.Working{
+.footerPh{
     display: none;
 }
-
+.headerPh{
+    display: none;
+}
 .PresentationComp{
+    display: none;
+}
+.LayoutPhone{
+    display: none;
+}
+.MagazineMob{
     display: none;
 }
 
 @media (max-width: 500px){
+
+    h1{
+        font-size: 23px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 150%;
+    }
+
     .Magazine{
         display: none;
     }
@@ -2683,13 +2803,31 @@ button:hover{
     .Privacy_Police{
         display: none;
     }
-    header{
+    .header-div{
         display: none !important;
     }
-    footer{
+    .infofooter{
         display: none !important;
+    }
+
+
+    .footerPh{
+        display: block;
+    }
+    .headerPh{
+        display: block;
     }
     .PresentationComp{
         display: block;
     }
+    .LayoutPhone{
+        display: block;
+    }
+    .MagazineMob{
+        display: block;
+    }
+    .input-search::placeholder{
+        font-size: 15px;
+    }
+    
 }
