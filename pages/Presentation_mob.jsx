@@ -6,8 +6,11 @@ import Menu from "../components/MobileVersion/PresentationMenu";
     
 export default function Presentation_mob(){
     
+    function ShowMenu(){
+        document.getElementById('PresentationMenu').style.display="block";
+    }
 
-    return(
+return(
 
         
     <div className="PresentationComp" >
@@ -18,7 +21,7 @@ export default function Presentation_mob(){
                 <div className="WhiteLogoMob">
                     <Image src="/White_Logo.svg" width="200%" height="65%"/>
                 </div>
-                <div className="Burger_menu">
+                <div className="Burger_menu" onClick={ShowMenu}>
                     <Image src="/Burger_Menu.svg" width="100%" height="100%" />
                 </div>
             </div>
@@ -44,27 +47,27 @@ export default function Presentation_mob(){
            
             <div className="NetworksMob">
                 <div className="network_div">
-                    <Link href="https://www.instagram.com/enfasismag"> 
-                       <a href="" target="_blank">
-                            <div className="LinkMob">
-                                <Image src="/instagram_home.svg" width="100%" height="100%" />
-                            </div>
-                        </a>
-                    </Link>
-                    <Link href="https://www.facebook.com/enfasismag">
-                       <a href="" target="_blank">
-                            <div className="LinkMob">
-                                <Image src="/facebook_home.svg" width="100%" height="100%" />
-                            </div>
-                        </a>
-                    </Link>
-                    <Link href="https://www.twitter.com/enfasismag"> 
-                       <a href="" target="_blank">
-                            <div className="LinkMob">
-                                <Image src="/twitter_home.svg" width="100%" height="100%" />
-                            </div>
-                        </a>
-                    </Link>
+                    
+                    <a href="https://www.instagram.com/enfasismag" target="_blank">
+                        <div className="LinkMob">
+                            <Image src="/instagram_home.svg" width="100%" height="100%" />
+                        </div>
+                    </a>
+                
+                
+                    <a href="https://www.facebook.com/enfasismag" target="_blank">
+                        <div className="LinkMob">
+                            <Image src="/facebook_home.svg" width="100%" height="100%" />
+                        </div>
+                    </a>
+                
+                
+                    <a href="https://www.twitter.com/enfasismag" target="_blank">
+                        <div className="LinkMob">
+                            <Image src="/twitter_home.svg" width="100%" height="100%" />
+                        </div>
+                    </a>
+                                    
                 </div>
             </div>
         </div>

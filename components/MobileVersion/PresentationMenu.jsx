@@ -2,10 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Menu(){
+
+    function HideMenu(){
+        document.getElementById('PresentationMenu').style.display="none";
+    }
+
     return(
-        <div className="PresentationMenu">
+        <div id="PresentationMenu">
             <div className="CloseMenu">
-                <div className="CloseIcon">
+                <div className="CloseIcon" onClick={HideMenu}>
                     <Image src="/failed.svg" width="100%" height="100%" />
                 </div>
             </div>

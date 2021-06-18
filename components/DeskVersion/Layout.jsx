@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import {useRouter} from 'next/router';
-import Head from 'next/head'
 import Link from 'next/link'
 
 
@@ -15,11 +14,12 @@ export default function Layout(props){
     const industrial = router.pathname === "/Industrial_Design" ? "pestana_actual" : "";
     const arquitectura = router.pathname === "/Architecture" ? "pestana_actual" : "";
     const creadores = router.pathname === "/Creators" ? "pestana_actual" : "";
-    
+
 
     return(
         
-        <div className="Layout">
+  
+  <div className="Layout">
             <div >
                 <header style={{display: display}}>
                     
@@ -91,7 +91,6 @@ export default function Layout(props){
                     </div>
 
                 </footer>
-            
             </div>
         </div>
     );

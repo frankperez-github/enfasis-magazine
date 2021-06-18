@@ -11,15 +11,7 @@
     --height-pic: 60vh;
     --height-PrincPic: 80vh;
 }
-.Working h1{
-    text-align: center;
-    margin-top: 25%;
-    font-size: 50px;
-}
-.faviconWork{
-    text-align: center;
-    margin-top: 20%;
-}
+
 @font-face {
     font-family: mohol_light;
     src: url('../fonts/Mohol-Light.ttf');
@@ -101,7 +93,9 @@ a{
 
 
 
-            /*MADE BY: FRANK PÉREZ +5353103058  ++++++++++++++++++++++++++++++++++++++++++++++++++ DAVID LI    +5353093529    */
+            /*MADE BY: FRANK PÉREZ +5353103058  +++++++++++++++++++++++++++++++++++++++++++
+            ***********Adrian Valdes****************************************************
+            ++++++++++ DAVID LI    +5353093529    */
 
 
 
@@ -109,7 +103,7 @@ a{
 
 .Presentation{
     background-color: #cecece;
-    height: 100vh;
+    height: 100vh !important;
     display: flex;
     justify-content: space-between;
     z-index: -1;
@@ -119,7 +113,7 @@ a{
 }
 .Promo_Pic{
     z-index: 2;
-    width: 53%;
+    width: 33%;
 }
 .pic-div{
     position: fixed;
@@ -204,7 +198,7 @@ a{
     position: fixed;
     width: 30%;
     top: -90%;
-    animation-name: Ed1;
+    animation-name: ED1;
     animation-duration: 51s;
     z-index: 3;
     animation-iteration-count: infinite;
@@ -213,7 +207,7 @@ a{
     position: fixed;
     width: 30%;
     top: -90%;
-    animation-name: Ed2;
+    animation-name: ED2;
     animation-duration: 51s;   
     z-index: 2;
     animation-iteration-count: infinite;
@@ -221,7 +215,7 @@ a{
 #ed3{
     position: fixed;
     width: 30%;
-    animation-name: Ed3;
+    animation-name: ED3;
     animation-duration: 51s;   
     z-index: 1;
     animation-iteration-count: infinite;
@@ -229,20 +223,20 @@ a{
 
 
 
-@keyframes Ed2 {
+@keyframes ED2 {
     0%{}
     29%{top: -90%;}/*sec 15*/
     33%{top: var(--to-anim);} /*sec 17*/
     90%{visibility: hidden;}
     100%{top: var(--to-anim);visibility: hidden;}
 }
-@keyframes Ed1 {
+@keyframes ED1 {
     0%{}
     63%{top: -90%;} /*sec 32*/
     67%{top: var(--to-anim);} /*sec 34*/
     100%{top: var(--to-anim);}
 }
-@keyframes Ed3 {
+@keyframes ED3 {
     0%{top: var(--to-anim);z-index: 1;}
     32.5%{z-index: 1;}
     33%{top: var(--to-anim); visibility: hidden;}
@@ -1261,11 +1255,17 @@ button:hover{
 
 
 /*Presentation Mob*/
+.PresentationComp{
+    background-color: #cecece;
+    height: 100vh;
+}
 .network_div{
+    position: absolute;
+    bottom: 2%;
     display: flex;
     justify-content: space-around;
     width: 50%;
-    margin: 72% 28.5%;
+    margin: 0 28%;
 }
 .LinkMob{
     width: 60%;
@@ -1339,16 +1339,24 @@ button:hover{
     96%{top: -90%;z-index: 4;}/*sec 49*/
     100%{top: var(--to-animMob);z-index: 4;}/*sec 51*/
 }
-.PresentationMenu{
+#PresentationMenu{
     display: flex;
     display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    z-index: 7;
 }
 
 .CloseMenu{
-    width: 20%;
-    backdrop-filter: blur(3px);
-    background-color: rgba(92, 89, 89, 0.445);
-    z-index: 6;
+    position: fixed;
+    top: 0%;
+    width: 18%;
+    height: 100vh;
+    backdrop-filter: blur(2.5px);
+    background-color: rgba(39, 38, 38, 0.356);
+    z-index: 8;
 }
 .CloseIcon{
     position: absolute;
@@ -1359,17 +1367,18 @@ button:hover{
 .Menu-div{
     background-color: white;
     position: sticky;
+    height: 100vh;
     z-index: 7;
     left: 18%;
     width: 82vw;
 }
 .Stick{
     width: 30%;
-    margin-top: 33%;
+    padding-top: 35%;
     margin-left: 70%;
 }
 .menuNav{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .menuNav p{
     text-align: right;
@@ -1381,7 +1390,8 @@ button:hover{
 }
 .Link2Follow{
     display: flex;
-    margin-top: 145.5%;
+    position: absolute;
+    bottom: 2%;
 }
 .LinksMenu{
     width: 60%;
@@ -2635,7 +2645,7 @@ button:hover{
     display: none;
 }
 
-.Presentation_mob{
+.PresentationComp{
     display: none;
 }
 
@@ -2679,7 +2689,7 @@ button:hover{
     footer{
         display: none !important;
     }
-    .Presentation_mob{
+    .PresentationComp{
         display: block;
     }
 }
