@@ -40,19 +40,19 @@ function Article(){
 
                                     <div className="share-div">
                                         <a href="" className="share" target="_blank">
-                                            <div >
+                                            <div className="shareArt">
                                                 <Image src="/Twitter_share.svg" width="50%" height="50%" />
                                             </div>    
                                         </a>
 
                                         <a href="http://www.facebook.com/sharer.php?u=<?php echo URL( get_permalink() ); ?>"  className="share" target="_blank">
-                                            <div >
+                                            <div className="shareArt">
                                                 <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                             </div>    
                                         </a>
 
                                         <a href="" className="share" target="_blank">
-                                            <div >
+                                            <div className="shareArt">
                                                 <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
                                             </div>    
                                         </a>

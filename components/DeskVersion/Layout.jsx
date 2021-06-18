@@ -2,14 +2,13 @@ import Image from 'next/image';
 import {useRouter} from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link'
-import Working from '../../pages/Working...';
 
 
 export default function Layout(props){
 
     const router = useRouter()
 
-    
+   
     const display = router.pathname === "/" ? "none" : "block";
     const revista = router.pathname === "/Magazine" ? "pestana_actual" : "";
     const grafico = router.pathname === "/Graphic_Design" ? "pestana_actual" : "";
@@ -21,15 +20,7 @@ export default function Layout(props){
     return(
         
         <div className="Layout">
-            
-            <Head>
-                <title>Énfasis Magazine</title>
-                <meta name="description" content="Generated with create next app by Frank Pérez,Adrian Valdés y David Li" />
-                <link rel="icon" href="/favicon_1.ico" />
-            </Head>
-        
-            <Working />
-            <div>
+            <div >
                 <header style={{display: display}}>
                     
                     <div className="header-div">
@@ -83,9 +74,9 @@ export default function Layout(props){
             
             
                         <div className="networksft">
-                            <a href="https://www.instagram.com/enfasismag" className="Insta">INSTAGRAM</a>
-                            <a href="https://www.facebook.com/enfasismag">FACEBOOK</a>
-                            <a href="https://www.twitter.com/enfasismag">TWITTER</a>
+                            <a target="_blank" href="https://www.instagram.com/enfasismag" className="Insta">INSTAGRAM</a>
+                            <a target="_blank" href="https://www.facebook.com/enfasismag">FACEBOOK</a>
+                            <a target="_blank" href="https://www.twitter.com/enfasismag">TWITTER</a>
                         </div>
             
                         <Link href="/Privacy_Police">

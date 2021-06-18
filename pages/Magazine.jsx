@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import FormDesk from '../components/FormDesk'
 import Search_Bar from '../components/DeskVersion/Search_Bar';
 
@@ -104,10 +105,9 @@ function Magazine(){
                     </a>    
 
                 </div>
+                
             </div>
-
-
-           
+            
         </div>
         
     );

@@ -7,7 +7,7 @@ function ShowForm(){
 export default function Search_Bar(){
     return(
 
-        <div className="Search_Bar">
+        <div className="Search_Bar" id="beggining">
 
             <div className="barra_izq">
     
