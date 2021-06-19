@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Newsletter from './NewsLetter';
 
 export default function GeneralMenu(){
 
     function HideMenu(){
         document.getElementById('PresentationMenu').style.display="none";
     }
-    
+    function ShowForm(){
+        document.getElementById('Newsletter').style.display="block";
+        document.getElementById('PresentationMenu').style.display="none";
+    }
 
     return(
         <div className="Generalmenu">
+            <Newsletter />
             <div id="PresentationMenu">
                 <div className="CloseMenu">
                     <div className="CloseIcon" onClick={HideMenu}>
@@ -23,10 +28,10 @@ export default function GeneralMenu(){
 
                         <div className="findicon">
 
-                            <input type="search" placeholder="buscar" className="input-search"/>
+                            <input type="search" placeholder="buscar" className="input-searchMob"/>
                                 
-                            <div className="to-search">
-                                <Image src="/Buscar.svg" width="50%" height="25%" />
+                            <div className="to-searchMob">
+                                <Image src="/Buscar.svg" width="70%" height="45%" />
                             </div>
                         
 
@@ -60,7 +65,7 @@ export default function GeneralMenu(){
                         </Link>
                     </div>
                     <div className="Letter-divMob" >
-                        <Image src="/Newsletter.svg" width="100%" height="100%" className="letterimg" />
+                        <Image src="/Newsletter.svg" width="100%" height="100%" className="letterimg"  onClick={ShowForm}/>
                     </div>
                     <div className="LinksMenu">
                         <div className="Link2Follow">

@@ -4,6 +4,7 @@ import Image from 'next/image';
 export default function MagazineMob(){
     return(
         <div className="magazineMobBody">
+            <GeneralMenu />
             <div className="MagazineMob">
 
                 <div className="principal_divMob">
@@ -97,7 +98,7 @@ export default function MagazineMob(){
                 </div> 
             </div>
 
-            <GeneralMenu />
+            
         </div>
     );
 }

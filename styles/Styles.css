@@ -1412,10 +1412,6 @@ button:hover{
     justify-content: space-between;
     
 }
-header{
-    position: sticky;
-    top: 0;
-}
 .logoPh{
     width: 50%;
     margin-left: -3%;
@@ -1465,6 +1461,19 @@ header{
     margin-top: 48.5%;
     margin-left: 80%;
 }
+.input-searchMob::placeholder{
+    font-size: 15px;
+    width: 100%;
+}
+.input-searchMob{
+    margin-left: 5%;
+    width: 100%;
+    border: none;
+}
+.to-searchMob{
+    width: 20%;
+    margin-top: 2%;
+}
 /*end of General Menu*/
 
 
@@ -1504,6 +1513,120 @@ header{
     margin: 2% 0;
 }
 /* end of MagazineMob*/
+
+
+
+
+
+
+/*Good Search Mob*/
+
+.Good_SearchMob{
+    margin: 0 5%;
+}
+.PicSearchMob{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 30vh;
+    background-image: url('/Invited.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.resultsMob{
+    margin-bottom: 10%;
+}
+.resultsMob h1{
+    font-size: 18px;
+    margin-top: 5%;
+}
+.tarjetaMob{
+    width: 100%;
+}
+.tarjetaMob p{
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+/*end of Good Search Mob*/
+
+
+
+/*Failed Search Mob*/
+.failed_svgMob{
+    width: 30%;
+    margin: 23% 35%;
+}
+.FailedDivP{
+    width: 60%;
+    margin: 6% 20%;
+}
+.FailedDivP p{
+    font-size: 20px;
+}
+.failedbuttonMob{
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 3% 5%;
+    margin-top: 15%;
+    width: 80%;
+}
+/*end of Failed Search Mob*/
+
+
+
+/*Newsletter*/
+#Newsletter{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 8;
+}
+.form_letterMob{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 6;
+    width: 60%;
+    background-color: white;
+}
+.placeholderMob{
+    font-size: 12px;
+}
+.cont_formMob{
+    text-align: center;
+}
+.cont_formMob input{
+    width: 75%;
+    margin: 3% 2%;
+    padding: 2% 3%;
+}
+.cont_formMob input::placeholder{
+    font-size: 10px;
+}
+.SuscribirMob{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: solid;
+    border-color: black;
+    margin: 5% 0;
+    margin-bottom: 7%;
+    width: 50%;
+    padding: 1.5% 0;
+}
+.live_mailMob{
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom: 7.5%;
+}
+.live_mailMob p{
+    font-size: 13px;
+}
+/*end of Newsletter*/
+
 
 
 
@@ -2032,7 +2155,9 @@ header{
     .pie_foto{
         font-size: 5px;
     }
-
+    .live_mail p{
+        font-size: 13px;
+    }
     .fecha_public{
         font-size: 5px;
     }
@@ -2349,7 +2474,9 @@ header{
         font-size: 4px;
     }
 
-    
+    .live_mail p{
+        font-size: 10px;
+    }
     .nav_bar h2{
         font-size:7px;
     }
@@ -2756,6 +2883,12 @@ header{
 .MagazineMob{
     display: none;
 }
+.Good_SearchMob{
+    display: none;
+}
+.Failed_SearchMob{
+    display: none;
+}
 
 @media (max-width: 500px){
 
@@ -2826,8 +2959,11 @@ header{
     .MagazineMob{
         display: block;
     }
-    .input-search::placeholder{
-        font-size: 15px;
+    .Good_SearchMob{
+        display: block;
+    }
+    .Failed_SearchMob{
+        display: block;
     }
     
 }
