@@ -2,10 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
+import CreatorsMob from '../components/MobileVersion/CreatorsMob'
+
 
 export default function Creators(){
     return(
-        <div className="Creators">
+        <div className="Comp">
+
+            <CreatorsMob />
+
+            <div className="Creators">
             
 
             <FormDesk />
@@ -616,6 +622,7 @@ export default function Creators(){
             
             </div>
        
+        </div>
         </div>
     );
 }

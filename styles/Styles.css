@@ -1039,7 +1039,6 @@ ol{
     width: 100%;
     height: var(--height-PrincPic);
     margin-top: 2%;
-    
 }
 .PrincLink{
     cursor: pointer;
@@ -1593,6 +1592,7 @@ button:hover{
     background-color: white;
 }
 .placeholderMob{
+    margin-top: 5% !important;
     font-size: 12px;
 }
 .cont_formMob{
@@ -1630,10 +1630,12 @@ button:hover{
 
 
 /*Graphic Design*/
-.Invitation_cardMob{
-    margin-top: -2%;
+
+.Invitation_cardMobFirst{
+    margin-top: 23%;
     width: 100%;
 }
+
 .invitedMob{
     width: 100%;
     height: 32vh;
@@ -1644,6 +1646,7 @@ button:hover{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .contenedorMob{
     margin: 0 5%;
 }
@@ -1752,9 +1755,7 @@ button:hover{
     margin-bottom: 0%;
     margin-right: -4%;
 }
-.Invitation_cardMob{
-    margin-top: 10%;
-}
+
 .CreatorTittleMob{
     margin-bottom: -7%;
     margin-top: -3%;
@@ -1800,6 +1801,11 @@ button:hover{
     font-size: 8px;
     font-family: mohol_regular;
     text-align: left;
+}
+.TittleLabelMobSpecial{
+    width: 90%;
+    margin: -3% 5%;
+    font-size: 23px;
 }
 /*end of Graphic Design*/
 

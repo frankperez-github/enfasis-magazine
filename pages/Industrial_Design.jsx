@@ -2,10 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
+import IndustrialDesignMob from '../components/MobileVersion/IndustrialDesignMob'
 
 export default function Industrial_Design(){
     return(
-        <div className="Industrial_Design">
+
+        <div className="Comp">
+
+            <IndustrialDesignMob />
+
+            <div className="Industrial_Design">
             
 
             <FormDesk />
@@ -457,7 +463,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Tittle CreatorTittle">
-                    <h1>Diseño Gráfico</h1>
+                    <h1>Arquitectura</h1>
                     
                     <div className="LineDownload">
                         <Image src="/linea.svg" width="3000%" height="20%" />
@@ -503,6 +509,7 @@ export default function Industrial_Design(){
             
             </div>
         
+        </div>
         </div>
     );
 }

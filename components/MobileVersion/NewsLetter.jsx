@@ -29,7 +29,7 @@ export default function Newsletter(){
                             <p>Déjanos tu correo para que no te pierdas ninguna de nuestras ediciones.</p>
                         </div>
                         
-                        <form action="Submit">
+                        <form action="Submit" >
     
                             <input type="text" name="email" placeholder="escribe tu correo" className="placeholderMob" required/><br/>
     

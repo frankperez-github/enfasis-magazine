@@ -428,5 +428,6 @@ export default function GraphicDesignMob(){
                 
             </div>
         </div>
+    
     );
 }
