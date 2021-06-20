@@ -2,12 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
-
+import GraphicDesignMob from '../components/MobileVersion/GraphicDesignMob'
 
 
 export default function Graphic_Design(){
     return(
-        <div className="Graphic_Design ">
+        <div className="Comp">
+            
+            <GraphicDesignMob />
+
+            <div className="Graphic_Design">
 
             <FormDesk />
             
@@ -568,6 +572,8 @@ export default function Graphic_Design(){
                 </div>
             
             </div>
+        </div>
+       
         </div>
     );
 }

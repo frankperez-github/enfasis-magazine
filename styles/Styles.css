@@ -1150,7 +1150,6 @@ button:hover{
     color: black;
 }
 .CategoryLabelPrinc{
-    
     position: relative;
     margin-top: -17%;
     margin-bottom: 20%;
@@ -1579,6 +1578,7 @@ button:hover{
 
 /*Newsletter*/
 #Newsletter{
+    display: none;
     position: fixed;
     width: 100%;
     top: 0%;
@@ -1627,6 +1627,181 @@ button:hover{
 }
 /*end of Newsletter*/
 
+
+
+/*Graphic Design*/
+.Invitation_cardMob{
+    margin-top: -2%;
+    width: 100%;
+}
+.invitedMob{
+    width: 100%;
+    height: 32vh;
+    margin-bottom: 3%;
+    margin-top: 15%;
+    background-image: url('/Invited.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.contenedorMob{
+    margin: 0 5%;
+}
+.CategoryLabelPrincMob{
+    position: relative;
+    margin: -17% 0 20% 7.7%;
+    width: 17%;
+    padding: 0.5% 2%;
+    background-color: white;
+    font-size: 6.5px;
+    font-family: mohol_regular;
+    font-variant-caps: all-small-caps;
+    text-align: left;
+    color: black;
+}
+.TittleLabelPrincMob{
+    position: relative;
+    margin-top: -17.5%;
+    margin-bottom: 8%;
+    margin-left: 7.4%;
+    width: 42%;
+    padding: 1% 2%;
+    background-color: white;
+    color: black;
+    font-size: 7.5px;
+    font-family: mohol_bold;
+    text-align: left;
+}
+.PrincLinkMob{
+    margin-top: 5%;
+    height: 37vh;
+}
+.NameLabelMob p{
+    position: relative;
+    font-size: 10px;
+    padding: 0% 1.7% !important;
+    padding-right: 0;
+    margin-top: -13%;
+    margin-left: 7%;
+    margin-bottom: 7%;
+    width: 25%;
+    padding: 0%;
+    background-color: white;
+    color: black;
+}
+.PicByPrincMob{
+    position: relative;
+    font-family: cooper_black;
+    transform: rotate(-90deg);
+    margin-left: 75%;
+    margin-right: -10%;
+    top: 6.5%;
+}
+.DownloadCardImgMob{
+    width: 60%;
+}
+.Download_CardMob{
+    display: flex;
+    width: 100%;
+}
+.Download_CardMob h1{
+    font-size: 14px;
+    margin-top: 10%;
+}
+.Download_CardMob h4{
+    font-size: 8px;
+}
+.tittle_imageMob{
+    margin-top: -1.5%;
+    width: 92%;
+    margin-left: -2.5%;
+    margin-bottom: 5%;
+}
+.ButtonsDownloadMob button{
+    width: 85%;
+    padding: 9% 0;
+    margin-top: 5%;
+    font-size: 10px;
+}
+.ButtonsDownloadMob{
+    margin-bottom: 5.5%;
+}
+.BlackButtonMob{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.BlackButtonMob:hover{
+    padding: 9% 0;
+    border-width: 0.05rem;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.TittleMob{
+    display: flex;
+}
+.TittleMob h1{
+    font-size: 23px;
+    margin-top: 8%;
+}
+.LineDownloadMob{
+    width: 33%;
+    margin-left: 9%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    margin-right: -4%;
+}
+.Invitation_cardMob{
+    margin-top: 10%;
+}
+.CreatorTittleMob{
+    margin-bottom: -7%;
+    margin-top: -3%;
+}
+.CreatorTittleMob h1{
+    font-size: 23px;
+}
+.LineDownloadMob2{
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 14%;
+    margin-bottom: 0%;
+    margin-right: -3.5%;
+}
+.LineDownMob2{
+    margin: 15% 0% -3% 0%;
+}
+.InvitationLineMob{
+    margin-bottom: 15%;
+}
+.CategoryLabelMob{
+    position: relative;
+    margin-top: -25%;
+    margin-left: 14.1%;
+    width: 23%;
+    padding: 0.7% 2%;
+    padding-top: 0%;
+    background-color: white;
+    font-size: 7px;
+    font-family: mohol_regular;
+    font-variant-caps: all-small-caps;
+    text-align: left;
+    color: black;
+}
+.TittleLabelMob{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 14.1%;
+    width: 50%;
+    padding: 2% 3%;
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    font-family: mohol_regular;
+    text-align: left;
+}
+/*end of Graphic Design*/
 
 
 
@@ -2889,6 +3064,9 @@ button:hover{
 .Failed_SearchMob{
     display: none;
 }
+.GraphicDesignMob{
+    display: none;
+}
 
 @media (max-width: 500px){
 
@@ -2963,6 +3141,9 @@ button:hover{
         display: block;
     }
     .Failed_SearchMob{
+        display: block;
+    }
+    .GraphicDesignMob{
         display: block;
     }
     
