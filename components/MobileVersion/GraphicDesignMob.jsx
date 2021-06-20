@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
+import GeneralMenu from './GeneralMenu';
 
 export default function GraphicDesignMob(){
     return(
 
         <div className="GraphicDesignMob">
-
+            <GeneralMenu />
             <Link href="#">
                 <div className="PrincLinkMob">
                     <div className="PrincipalArt">

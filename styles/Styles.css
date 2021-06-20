@@ -3148,3 +3148,39 @@ button:hover{
     }
     
 }
+@media(height:640px){
+    .Letter-divMob{
+        margin-top: 45% !important;
+    }
+}
+
+@media(height:667px){
+    .Letter-divMob{
+        margin-top: 47% !important;
+    }
+}
+@media(min-height:731px){
+    .Letter-divMob{
+        margin-top: 53% !important;
+    }
+}
+@media(max-height:480px){
+    .Letter-divMob{
+        margin-top: 5%;
+    }
+}
+@media(min-height:568px){
+    .Letter-divMob{
+        margin-top: 35%;
+    }
+}
+@media(min-height:800px){
+    .Letter-divMob{
+        margin-top: 90% !important;
+    }
+}
+@media(min-height:820px){
+    .Letter-divMob{
+        margin-top: 80% !important;
+    }
+}
