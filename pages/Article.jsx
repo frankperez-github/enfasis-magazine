@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {useRouter} from 'next/router'
-
+import ArticleMob from '../components/MobileVersion/ArticleMob';
 
 
 function Article(){
@@ -10,7 +10,9 @@ function Article(){
 
     return(
     
-        <div className="Article">
+        <div className="Comp">
+
+            <ArticleMob />
 
             <div className="Article" id="article">
                 

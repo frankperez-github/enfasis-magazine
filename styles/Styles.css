@@ -1804,8 +1804,8 @@ button:hover{
     text-align: left;
 }
 .TittleLabelMobSpecial{
-    width: 70%;
-    margin: -6% 5%;
+    width: 80%;
+    margin: -4% 5%;
     font-size: 20px;
 }
 /*end of Graphic Design*/
@@ -1892,6 +1892,112 @@ button:hover{
     width: 55%;
 }
 /*end of About Us Mob*/
+
+
+
+
+/*Article*/
+.publication h5{
+    font-size: 8px;
+    margin-right: 0;
+}
+.publication{
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.lineaFecha{
+    width: 40%;
+    margin-right: -2%;
+}
+.keywordsMob{
+    font-size: 11.5px !important;
+}
+.contenedor_titMob{
+    width: 85%;
+}
+.contenedor_titMob h1{
+    font-weight: 100;
+}
+.contenedor_titMob h2{
+    font-weight: 100;
+    font-size: 17px;
+    margin: 5% 0;
+}
+.shareMob{
+    margin-top: 5%;
+}
+.pic_artMob{
+    width: 87%;
+    margin-left: 13%;
+    margin-top: -5%;
+    margin-bottom: 7%;
+}
+.pic_artMob h5{
+    font-size: 9px;
+}
+.contenedorMob h3{
+    margin-top: 11%;
+    margin-bottom: -2%;
+}
+.text_comMob{
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: -6%;
+}
+.text_comMob p{
+    margin-top: 10%;
+    margin-bottom: -2%;
+    font-size: 13px;
+    line-height: 20px;
+}
+.vert_lineMob{
+    position: relative;
+    margin-top: 45%;
+    margin-bottom: -47.5%;
+    margin-left: -22%;
+    transform: rotate(-90deg);
+    width: 70%;
+}
+.lineaPromoMob{
+    margin-top: 10%;
+    width: 100%;
+}
+.siguenosMob h2{
+    font-size: 22px;
+    margin-left: 5%;
+}
+.recienteMob h2{
+    font-size: 15px;
+    margin: 7% 0 5% 0;
+}
+.recienteMob p{
+    font-size: 17px;
+    line-height: 25px;
+    width: 80%;
+    margin-top: 5%;
+    color: #747272;
+}
+.recienteMob p:first-of-type{
+    margin-top: 7%;
+}
+.recienteMob p:last-of-type{
+    margin-bottom: 10%;
+}
+.PromoImgMob{
+    margin-top: 15%;
+}
+.PromoImgMob:first-of-type{
+    margin-top: 0%;
+}
+.home-buttonMob{
+    position: fixed;
+    top: 80%;
+    z-index: 7;
+    left: 80%;
+    margin-bottom: 5%;
+}
+/*end of Article*/
 
 
 
@@ -3167,6 +3273,9 @@ button:hover{
 .AboutUsMob{
     display: none;
 }
+.ArticleMob{
+    display: none;
+}
 
 @media (max-width: 500px){
 
@@ -3249,11 +3358,22 @@ button:hover{
     .AboutUsMob{
         display: block;
     }
+    .ArticleMob{
+        display: block;
+    }
     
 }
 @media(height:640px){
     .Letter-divMob{
         margin-top: 45% !important;
+    }
+    .vert_lineMob{
+        position: relative;
+        margin-top: 40%;
+        margin-bottom: -41%;
+        margin-left: -17%;
+        transform: rotate(-90deg);
+        width: 60%;
     }
 }
 
@@ -3261,10 +3381,26 @@ button:hover{
     .Letter-divMob{
         margin-top: 47% !important;
     }
+    .vert_lineMob{
+        position: relative;
+        margin-top: 30%;
+        margin-bottom: -37%;
+        margin-left: -13%;
+        transform: rotate(-90deg);
+        width: 50%;
+    }
 }
 @media(min-height:731px){
     .Letter-divMob{
         margin-top: 53% !important;
+    }
+    .vert_lineMob{
+        position: relative;
+        margin-top: 30%;
+        margin-bottom: -35%;
+        margin-left: -13%;
+        transform: rotate(-90deg);
+        width: 50%;
     }
 }
 @media(max-height:480px){
@@ -3280,6 +3416,26 @@ button:hover{
 @media(min-height:800px){
     .Letter-divMob{
         margin-top: 90% !important;
+    }
+}
+@media (height:812px) {
+    .vert_lineMob{
+        position: relative;
+        margin-top: 33%;
+        margin-bottom: -39%;
+        margin-left: -15%;
+        transform: rotate(-90deg);
+        width: 57%;
+    }
+}
+@media (height:667px) {
+    .vert_lineMob{
+        position: relative;
+        margin-top: 33%;
+        margin-bottom: -38.7%;
+        margin-left: -16%;
+        transform: rotate(-90deg);
+        width: 56%;
     }
 }
 @media(min-height:820px){
