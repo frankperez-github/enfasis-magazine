@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import {useRouter} from 'next/router';
 import Link from 'next/link'
+import GeneralMenu from '../MobileVersion/GeneralMenu';
 
 
 export default function Layout(props){
@@ -25,6 +26,7 @@ export default function Layout(props){
   
     <div className="Layout">
         <div >
+            <GeneralMenu />
             <header style={{display: display}}>
 
                 <div className="headerPh">

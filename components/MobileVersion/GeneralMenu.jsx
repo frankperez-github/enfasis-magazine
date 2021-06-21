@@ -14,7 +14,9 @@ export default function GeneralMenu(){
 
     return(
         <div className="Generalmenu">
+
             <Newsletter />
+
             <div id="PresentationMenu">
                 <div className="CloseMenu">
                     <div className="CloseIcon" onClick={HideMenu}>
@@ -44,25 +46,33 @@ export default function GeneralMenu(){
                     </div>
                     
                     <div className="menuNav">
-                        <Link href="/Graphic_Design" >
-                            <p className="LinkMobile">diseño gráfico </p>
-                        </Link>
+                        <div className=""onClick={HideMenu}>
+                            <Link href="/Graphic_Design" >
+                                <p className="LinkMobile">diseño gráfico </p>
+                            </Link>
+                        </div>
+                        <div className=""onClick={HideMenu}>
+                            <Link href="/Industrial_Design" >
+                                <p className="LinkMobile">diseño industrial</p>
+                            </Link>
+                        </div>
+                        <div className=""onClick={HideMenu}>
+                            <Link href="/Architecture">
+                                <p className="LinkMobile">arquitectura</p>
+                            </Link>
+                        </div>
 
-                        <Link href="/Industrial_Design" >
-                            <p className="LinkMobile">diseño industrial</p>
-                        </Link>
+                        <div className=""onClick={HideMenu}>
+                            <Link href="/Creators">
+                                <p className="LinkMobile">creadores</p>
+                            </Link>
+                        </div>
 
-                        <Link href="/Architecture">
-                            <p className="LinkMobile">arquitectura</p>
-                        </Link>
-
-                        <Link href="/Creators">
-                            <p className="LinkMobile">creadores</p>
-                        </Link>
-                        
-                        <Link href="/Magazine">
-                            <p className="LinkMobile">revista</p>
-                        </Link>
+                        <div className=""onClick={HideMenu}>
+                            <Link href="/Magazine">
+                                <p className="LinkMobile">revista</p>
+                            </Link>
+                        </div>
                     </div>
                     <div className="Letter-divMob" >
                         <Image src="/Newsletter.svg" width="100%" height="100%" className="letterimg"  onClick={ShowForm}/>

@@ -713,7 +713,7 @@ ol{
     width: 20%;
 }
 .sendbutton:hover{
-    padding: 0.8% 0;
+    padding: 0.7% 0;
     border-width: 2px;
     
 }
@@ -1048,7 +1048,7 @@ ol{
     font-family: cooper_black;
     margin-left: 75%;
     margin-right: -10%;
-    margin-bottom: -12.5%;
+    margin-bottom: -11.5%;
     margin-top: 8%;
 }
 .PicByPrinc{
@@ -1654,9 +1654,10 @@ button:hover{
     position: relative;
     margin: -17% 0 20% 7.7%;
     width: 17%;
-    padding: 0.5% 2%;
+    padding: 0.3% 2%;
+    padding-bottom: 1%;
     background-color: white;
-    font-size: 6.5px;
+    font-size: 9px;
     font-family: mohol_regular;
     font-variant-caps: all-small-caps;
     text-align: left;
@@ -1684,7 +1685,7 @@ button:hover{
     font-size: 10px;
     padding: 0% 1.7% !important;
     padding-right: 0;
-    margin-top: -13%;
+    margin-top: -15%;
     margin-left: 7%;
     margin-bottom: 7%;
     width: 25%;
@@ -1781,10 +1782,10 @@ button:hover{
     margin-top: -25%;
     margin-left: 14.1%;
     width: 23%;
-    padding: 0.7% 2%;
-    padding-top: 0%;
+    padding: 0.1% 2%;
+    padding-bottom: 1%;
     background-color: white;
-    font-size: 7px;
+    font-size: 10px;
     font-family: mohol_regular;
     font-variant-caps: all-small-caps;
     text-align: left;
@@ -1803,11 +1804,96 @@ button:hover{
     text-align: left;
 }
 .TittleLabelMobSpecial{
-    width: 90%;
-    margin: -3% 5%;
-    font-size: 23px;
+    width: 70%;
+    margin: -6% 5%;
+    font-size: 20px;
 }
 /*end of Graphic Design*/
+
+
+
+/*PrivacyPoliceMob*/
+
+.titular_izqMob h1{
+    font-size: 30px;
+    margin: 10% 0;
+    margin-bottom: 4%;
+}
+.lineamenorMob{
+    width: 50%;
+    margin-bottom: 2%;
+}
+.ParrafMob h2{
+    margin: 4% 0;
+    margin-top: 10%;
+    font-size: 16px;
+}
+.contenedorMob p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.contenedorMob li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.contact_contMob h1{
+    margin-bottom: 5%;
+}
+/*end of PrivacyPoliceMob*/
+
+
+
+/*About Us Mob*/
+.TitularMob{
+    display: block;
+}
+.titular_izqMob h1{
+    font-size: 28px !important;
+}
+.titular_derchMob{
+    padding: 0%;
+    margin-top: 0.5%;
+    width: 100%;
+}
+.lineaUs{
+    margin-bottom: 1%;
+}
+.columnaMob{
+    width: 100%;
+}
+.columnaMob h2{
+    margin-bottom: 3%;
+    font-size: 18px;
+    margin-top: 8%;
+}
+    
+.columnaMob a{
+    color: black;
+    text-decoration: underline;
+}
+.columnaMob p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.contact_contMob{
+    margin-left: 2%;
+}
+.contact_contMob form{
+    margin-top: 4%;
+    margin-left: 1%;
+}
+.contact_contMob textarea{
+    margin-top: 2%;
+}
+.info_gralMob h1{
+    margin: 5% 0;
+}
+.lineamenor_bodyMob{
+    width: 55%;
+}
+/*end of About Us Mob*/
+
+
 
 
 
@@ -2916,6 +3002,7 @@ button:hover{
 }
 
 @media (max-width:520px){
+    
     :root{
         --to-anim: 35%;
         --height-pic:20vh;
@@ -2998,8 +3085,8 @@ button:hover{
     }
     
     .titular_derch p{
-        font-size: 8px;
-        line-height: 12px;
+        font-size: 13px;
+        line-height: 20px;
     }
     li{
         font-size: 8px;
@@ -3047,6 +3134,7 @@ button:hover{
     .results h1{
         font-size: 12px;
     }
+    
 }
 
 .footerPh{
@@ -3073,6 +3161,12 @@ button:hover{
 .GraphicDesignMob{
     display: none;
 }
+.PrivacyPoliceMob{
+    display: none;
+}
+.AboutUsMob{
+    display: none;
+}
 
 @media (max-width: 500px){
 
@@ -3082,10 +3176,7 @@ button:hover{
     h3{
         font-size: 18px;
     }
-    p{
-        font-size: 14px;
-        line-height: 150%;
-    }
+    
 
     .Magazine{
         display: none;
@@ -3102,7 +3193,7 @@ button:hover{
     .Graphic_Design{
         display: none;
     }
-    .About_Us{
+    .Nosotros{
         display: none;
     }
     .Article{
@@ -3150,6 +3241,12 @@ button:hover{
         display: block;
     }
     .GraphicDesignMob{
+        display: block;
+    }
+    .PrivacyPoliceMob{
+        display: block;
+    }
+    .AboutUsMob{
         display: block;
     }
     

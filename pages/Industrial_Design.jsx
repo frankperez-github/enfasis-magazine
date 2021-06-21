@@ -20,7 +20,7 @@ export default function Industrial_Design(){
 
             <div className="contenedor">
 
-               <Link href="#">
+               <Link href="/Article">
                     <div className="PrincLink">
                         <div className="PrincipalArt">
                             <h2 className="PicByPrinc">Por Frank Perez</h2>
@@ -35,7 +35,7 @@ export default function Industrial_Design(){
                 </Link>   
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -49,7 +49,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
 
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -65,7 +65,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -79,7 +79,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -158,7 +158,7 @@ export default function Industrial_Design(){
                 </div>
                 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -172,7 +172,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -190,7 +190,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -204,7 +204,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -222,7 +222,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -236,7 +236,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -254,7 +254,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -268,7 +268,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -295,7 +295,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="InvitationLine">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -312,7 +312,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -335,7 +335,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -349,7 +349,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -367,7 +367,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -381,7 +381,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -399,7 +399,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -413,7 +413,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -431,7 +431,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Inviteds_line">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -445,7 +445,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -472,7 +472,7 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="InvitationLine">
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez
@@ -489,7 +489,7 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
-                    <Link href="#">
+                    <Link href="/Article">
                         <div className="Invitation_card">
                             <h2 className="PicBy">
                                 por Frank Perez

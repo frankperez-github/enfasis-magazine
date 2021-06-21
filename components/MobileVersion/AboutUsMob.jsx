@@ -1,56 +1,51 @@
-import Image from 'next/image'
-import AboutUsMob from '../components/MobileVersion/AboutUsMob';
+import GeneralMenu from "./GeneralMenu";
+import Image from "next/image";
 
 
-function Us(){
-
-
+export default function AboutUsMob(){
     return(
-           
-    <div className="About_Us">
+        <div className="AboutUsMob">
+            <GeneralMenu />
 
-        <AboutUsMob />
+            <div className="contenedorMob">
 
-        <div className="Nosotros">
-    
-            <div className="container_about_us">
-    
-                <div className="titular">
-                    <div className="titular_izq">
+                <div className="titular TitularMob">
+                    <div className="titular_izq titular_izqMob">
                         <h1>ARTE<br/>DISEÑO & <br/>ARQUITECTURA</h1>
                     </div>
             
-                    <div className="titular_derch">
+                    <div className="titular_derch titular_derchMob">
 
-                        <div className="lineamenor">
+                        <div className="lineamenorMob">
                             <Image src="/lineamenor.svg" width="400%" height="20%" />
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at ipsum illo dicta alias eius modi odio quos eligendi. Voluptas aspernatur hic saepe eveniet quidem explicabo id aliquam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate adipisci, in natus eos commodi minus exercitationem minima architecto ipsum repudiandae veniam odio ratione sapiente pariatur deserunt vitae fuga nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, recusandae optio. Libero, quas? Delectus aspernatur id quae fuga.</p>
                     </div>
                 </div>
+        
+                <div className="columnasMob">
     
-                <div className="columnas">
-    
-                    <div className="column1 columna">
+                    <div className="column1 columnaMob">
                         <h2>Contacta</h2>
                         <p>Hola! Nos encantaria saber de ti, pero recuerda revisar la Pagina de Preguntas Frecuentes y Terminos de Privacidad antes.</p>
                     </div>
     
-                    <div className="colum2 columna">
+                    <div className="colum2 columnaMob">
                         <h2>Colabora</h2>
                         <p>No podemos llegar lejos sin tu apoyo. Si quieres unirte al grupo de colaboradores que comparten sus ideas cada edicion, revisa los requerimientos y envianos tu propuesta a <a href="mailto:renfasis@gmail.com ">renfasis@gmail.com</a></p>
                     </div>
     
-                    <div className="column3 columna">
+                    <div className="column3 columnaMob">
                         <h2>Promociona</h2>
                         <p>Si eres una empresa o negocio y quieres promocionar tus productos o servicios, por favor pide nuestro media kit en <a href="mailto:renfasis@gmail.com ">renfasis@gmail.com</a> para obtener informacion sobre nuestra revista y sus lectores.</p>
                     </div>
                 
                 </div>
-    
+            </div>
+
                 <div className="formulario_contacto">
     
-                    <div className="contact_cont">
+                    <div className="contact_cont contact_contMob">
                         <h1>Contacto</h1>
                         <p>Si quieres saber mas sobre Énfasis, o colaborar con nosotros mándanos un mensaje a través de este formulario y nos pondremos en contacto contigo. Los campos con (*) son obligatorios.</p>
     
@@ -84,26 +79,28 @@ function Us(){
     
                 </div>
     
-                <div className="info_gral">
+            <div className="contenedorMob">
+
+                <div className="info_gralMob">
                         
                     <h1 className="the_next">Próximo<br/>Número</h1>
     
-                    <div className="container_peq">
-                        <p>Énfasis 03<br/><br/>
-                        Temática: <b>El diseño UX en una sociedad digital.</b><br/><br/>
+                    <div className="container_peqMob">
+                        <p>Énfasis 03<br/>
+                        Temática: <b>El diseño UX en una sociedad digital.</b><br/>
                         Publicación: <b>mayo 2021</b><br/></p>
 
-                        <div className="lineamenor_body">
+                        <div className="lineamenor_bodyMob">
                             <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img"/><br/>
                         </div>
 
-                        <p>Vamos camino a ser una sociedad digitalizada, vivimos en tiempos de teletrabajo y estudio a distancia. Éste es el momento perfecto para hablar sobre los productos digitales en Cuba, específicamente del diseño de experiencias de usuario o UX.</p>
+                        <p>Vamos camino a ser una sociedad digitalizada, vivimos en tiempos de teletrabajo y estudio a distancia. Éste es el momento perfecto para hablar sobre los productos digitales en Cuba, específicamente del diseño de experiencias de usuario o UX.</p><br/>
     
-                        <p>Ese medio que el usuario usa para comunicarse con una máquina, un equipo o una computadora; que abarca todos los puntos de contacto entre el usuario y el equipo. Normalmente suelen ser fáciles de entender y fáciles de accionar.</p>
-                        <p>Siempre funciona así?</p>
+                        <p>Ese medio que el usuario usa para comunicarse con una máquina, un equipo o una computadora; que abarca todos los puntos de contacto entre el usuario y el equipo. Normalmente suelen ser fáciles de entender y fáciles de accionar.</p><br/>
+                        <p>Siempre funciona así?</p><br/>
                         <p>Alguna vez te has sentido perdido mientras navegas por una web o una aplicación?<br/><br/>Éste es tu momento para compartir tus experiencias.</p>
                         
-                        <div className="lineamenor_body">
+                        <div className="lineamenor_bodyMob">
                             <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img"/>
                         </div>
 
@@ -111,11 +108,11 @@ function Us(){
                         <p>Entrega final(Propuestas seleccionadas): <b>10 de ABRIL 2021</b></p>
                         
 
-                        <div className="lineamenor_body">
-                            <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img"/>
-                        </div>
+                        <div className="lineamenor_bodyMob">
+                            <Image src="/lineamenor.svg" width="500%" height="15%" className="lineamenor_img"/>
+                        </div><br/>
 
-                        <p><b>Condiciones de Colaboración</b></p>
+                        <p><b>Condiciones de Colaboración</b></p><br/>
                         <p className="colab"><b>Si quieres colaborar en Énfasis debes saber que:</b></p> 
                         <ol>
                             <li>La edición gira en torno al tema presentado. A partir del mismo, cuentas con total libertad para tu propuesta.</li>
@@ -124,12 +121,12 @@ function Us(){
                             <li>Una vez aceptadas tus propuestas por la dirección editorial de Énfasis, debes cumplir los plazos pautados.</li>
                         </ol><br/>
 
-                        <div className="lineamenor_body">
+                        <div className="lineamenor_bodyMob">
                             <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img"/>
-                        </div>
+                        </div><br/>
 
                         <p><b>Formas de Participación</b></p>
-                        <p>Textos: Ensayos, Crónicas, Relatos y Análisis.</p>
+                        <p>Textos: Ensayos, Crónicas, Relatos y Análisis.</p><br/>
     
                         <p><b>Temas Sugeridos</b></p>
     
@@ -138,9 +135,9 @@ function Us(){
                             <li>Fotografía: Arte, Moda, Paisaje, Arquitectura y Fotorreportaje.</li>
                             <li>Arte: Creadores contemporáneos de todos los ámbitos.</li>
                             <li>Arquitectura: Investigación, Teoría, Proyectos e Interiorismo.</li>
-                        </ol>
+                        </ol><br/>
                         
-                        <div className="lineamenor_body">
+                        <div className="lineamenor_bodyMob">
                             <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img"/>
                         </div>
 
@@ -148,25 +145,18 @@ function Us(){
                         <ol>
                             <li>Todos los textos enviados deben estar en español.</li>
                             <li>La entrega de las primeras ideas y así como la del artículo final consiste en un archivo Word (.doc) que debe ser nombrado "nombre de tu propuesta_nombre_apellido."</li>
-                        </ol>
+                        </ol><br/>
     
                         <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img linea_larga"/>
     
                         <p>PRIMERAS IDEAS & ENVIO DE ORIGINALES: <a href="mailto:renfasis@gmail.com">renfasis@gmail.com</a><br/>Asunto: "Colaboración_nombre de tu propuesta".</p>
     
-                        <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img linea_larga"/>
+                        <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img linea_larga"/><br/><br/><br/>
     
                     </div>
                 </div>
     
             </div>
-                
-                
-    
         </div>
-    
-    </div>
-            
-    );    
-   
-}export default Us
+    );
+}
