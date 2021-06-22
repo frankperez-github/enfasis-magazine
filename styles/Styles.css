@@ -981,7 +981,7 @@ ol{
 }
 .reciente p{
     font-weight: 800;
-    margin-right: 50%;
+    width: 70%;
     color: #7f7d7d;
 }
 .reciente h2{
@@ -1846,6 +1846,15 @@ button:hover{
 .contact_contMob h1{
     margin-bottom: 5%;
 }
+.contact_contMob p{
+    padding-right: 4%;
+}
+.contact_contMob input {
+    width: 95%;
+}
+.contact_contMob textarea {
+    width: 95%;
+}
 /*end of PrivacyPoliceMob*/
 
 
@@ -1934,6 +1943,9 @@ button:hover{
 .shareMob{
     margin-top: 5%;
 }
+.shareMob a{
+    margin-right: 3%;
+}
 .pic_artMob{
     width: 87%;
     margin-left: 13%;
@@ -1981,7 +1993,7 @@ button:hover{
 .recienteMob p{
     font-size: 17px;
     line-height: 25px;
-    width: 80%;
+    width: 95% !important;
     margin-top: 5%;
     color: #747272;
 }
