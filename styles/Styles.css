@@ -1363,6 +1363,11 @@ button:hover{
 }
 #GeneralMenu{
     display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    z-index: 7;
 }
 .CloseMenu{
     position: fixed;
@@ -1997,23 +2002,23 @@ button:hover{
     margin-bottom: -2%;
 }
 .text_comMob{
+    width: 80%;
     margin-left: 15%;
     margin-right: 5%;
     margin-bottom: -6%;
 }
 .text_comMob p{
     margin-top: 10%;
+    margin-left: -16%;
     margin-bottom: -2%;
     font-size: 14px;
     line-height: 22px;
 }
 .vert_lineMob{
-    position: relative;
-    margin-top: 45%;
-    margin-bottom: -47.5%;
-    margin-left: -22%;
-    transform: rotate(-90deg);
-    width: 70%;
+    width: 85%;
+    margin-top: 5%;
+    margin-left: -56%;
+    transform: rotate(90deg);
 }
 .lineaPromoMob{
     margin-top: 10%;
@@ -2052,6 +2057,10 @@ button:hover{
     z-index: 6;
     left: 80%;
     margin-bottom: 5%;
+}
+.comentMob{
+    display: flex;
+    justify-content: space-between;
 }
 /*end of Article*/
 
@@ -3442,61 +3451,9 @@ button:hover{
     
     
 }
-@media(height:640px){
-   
-    .vert_lineMob{
-        position: relative;
-        margin-top: 40%;
-        margin-bottom: -41%;
-        margin-left: -17%;
-        transform: rotate(-90deg);
-        width: 60%;
-    }
-}
 
-@media(min-height:620px){
-   
-    .vert_lineMob{
-        position: relative;
-        margin-top: 30%;
-        margin-bottom: -40%;
-        margin-left: -15%;
-        transform: rotate(-90deg);
-        width: 55%;
-    }
-}
-@media(min-height:731px){
-   
-    .vert_lineMob{
-        position: relative;
-        margin-top: 30%;
-        margin-bottom: -35%;
-        margin-left: -13%;
-        transform: rotate(-90deg);
-        width: 50%;
-    }
-}
-@media (height:812px) {
-    .vert_lineMob{
-        position: relative;
-        margin-top: 33%;
-        margin-bottom: -39%;
-        margin-left: -15%;
-        transform: rotate(-90deg);
-        width: 57%;
-    }
-}
-@media (height:667px) {
-    .vert_lineMob{
-        position: relative;
-        margin-top: 33%;
-        margin-bottom: -38.7%;
-        margin-left: -16%;
-        transform: rotate(-90deg);
-        width: 56%;
-    }
-    
-}
+
+
 @media (min-width:320px){
     .TittleLabelMobSpecial{
         font-size: 17px;
@@ -3504,5 +3461,25 @@ button:hover{
     .Invited-description{
         font-size: 15px !important;
         line-height: 18px !important;
+    }
+    .vert_lineMob{
+        width: 116%;
+        margin-left: -85%;
+        transform: rotate(90deg);
+    }
+}
+
+@media (min-width:355px) {
+    .vert_lineMob{
+        width: 82%;
+        margin-left: -60%;
+        transform: rotate(90deg);
+    }
+}
+@media (min-width:400px) {
+    .vert_lineMob{
+        width: 68%;
+        margin-left: -48%;
+        transform: rotate(90deg);
     }
 }
