@@ -17,7 +17,7 @@ export default function GraphicDesignMob(){
                     <div className="CategoryLabelPrincMob">
                         Fotografía
                     </div>
-                    <div className="TittleLabelPrincMob">
+                    <div className="TittleLabelMobSpecial">
                         Mario Elias Jaroud: fotografia, <br/>historia, arte. 
                     </div>
                 </div>
@@ -28,7 +28,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -47,7 +47,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -66,7 +66,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -85,7 +85,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -180,7 +180,7 @@ export default function GraphicDesignMob(){
 
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -198,7 +198,7 @@ export default function GraphicDesignMob(){
                     
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -226,7 +226,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -245,7 +245,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -264,7 +264,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -283,7 +283,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -302,7 +302,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -321,7 +321,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -340,7 +340,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -359,7 +359,7 @@ export default function GraphicDesignMob(){
                 <div className="Inviteds_lineMob">
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -389,7 +389,7 @@ export default function GraphicDesignMob(){
 
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">
@@ -407,7 +407,7 @@ export default function GraphicDesignMob(){
                     
                     <Link href="/Article">
                         <div className="Invitation_cardMob">
-                            <h2 className="PicBy">
+                            <h2 className="PicByMob">
                                 por Frank Perez
                             </h2>
                             <div className="invitedMob">

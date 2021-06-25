@@ -9,7 +9,7 @@ export default function Layout(props){
     const router = useRouter()
 
     function ShowMenu(){
-        document.getElementById('PresentationMenu').style.display="block";
+        document.getElementById('GeneralMenu').style.display="block";
     }
 
    
@@ -29,7 +29,7 @@ export default function Layout(props){
             <GeneralMenu />
             <header style={{display: display}}>
 
-                <div className="headerPh">
+                <div className="headerPh" id="top">
                     <div className="PhoneHeader">
                         <div className="logoPh">
                             <a href="/">

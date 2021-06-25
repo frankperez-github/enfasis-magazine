@@ -27,7 +27,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMobFirst">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -46,7 +46,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -65,7 +65,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -84,7 +84,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -179,7 +179,7 @@ export default function IndustrialDesignmob(){
 
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -197,7 +197,7 @@ export default function IndustrialDesignmob(){
                 
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -225,7 +225,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -244,7 +244,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -263,7 +263,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -282,7 +282,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -301,7 +301,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -320,7 +320,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -339,7 +339,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -358,7 +358,7 @@ export default function IndustrialDesignmob(){
             <div className="Inviteds_lineMob">
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -388,7 +388,7 @@ export default function IndustrialDesignmob(){
 
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">
@@ -406,7 +406,7 @@ export default function IndustrialDesignmob(){
                 
                 <Link href="/Article">
                     <div className="Invitation_cardMob">
-                        <h2 className="PicBy">
+                        <h2 className="PicByMob">
                             por Frank Perez
                         </h2>
                         <div className="invitedMob">

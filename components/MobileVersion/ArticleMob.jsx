@@ -9,7 +9,7 @@ export default function ArticleMob(){
 
             <GeneralMenu />
 
-            <div className="article">
+            <div className="article" id="top">
                 <div className="info_artMob" >
 
                     <div className="contenedorMob">
@@ -163,8 +163,8 @@ export default function ArticleMob(){
                     </div>
 
                     <div className="home-button Home_art home-buttonMob">
-                        <Link href="#article" >
-                            <Image src="/Boton_Art.svg" width="60%" height="60%" />
+                        <Link href="#top" >
+                            <Image src="/Boton_Art.svg" width="47%" height="47%" />
                         </Link>
                     </div>
 

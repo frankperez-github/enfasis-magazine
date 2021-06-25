@@ -41,6 +41,10 @@
     src: url('../fonts/Alegreya-Regular.ttf');
 }
 @font-face {
+    font-family: alegreya_italic;
+    src: url('../fonts/Alegreya-Italic.ttf');
+}
+@font-face {
     font-family: mohol_thin;
     src: url('../fonts/Mohol-Thin.ttf');
 }
@@ -736,6 +740,9 @@ ol{
     z-index: 8;
     display: none;
 }
+.input-search::placeholder{
+    font-family: input-search;
+}
 .form_letter{
     position: absolute;
     top: 26.5%;
@@ -1048,8 +1055,9 @@ ol{
     font-family: cooper_black;
     margin-left: 75%;
     margin-right: -10%;
-    margin-bottom: -11.5%;
+    margin-bottom: -5.5%;
     margin-top: 8%;
+    font-size: 5.7px !important;
 }
 .PicByPrinc{
     position: relative;
@@ -1106,11 +1114,15 @@ button:hover{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    
 }
 .Invited-description{
-    width: 70%;
+    margin: 0 -1.3%;
+    width: 100%;
     text-align: left;
     padding-left: 2%;
+    font-size: 20px;
+    font-family: mohol_regular;
 }
 .Tittle{
     display: flex;
@@ -1252,6 +1264,9 @@ button:hover{
 
 
 
+
+/**************************************************************Mobile Version***************************************************************************/
+
 /*Presentation Mob*/
 .PresentationComp{
     background-color: #cecece;
@@ -1346,7 +1361,9 @@ button:hover{
     width: 100%;
     z-index: 7;
 }
-
+#GeneralMenu{
+    display: none;
+}
 .CloseMenu{
     position: fixed;
     top: 0%;
@@ -1384,7 +1401,11 @@ button:hover{
 .LinkMobile{
     margin-right: 15%;
     margin-top: 5%;
-    font-size: 25px;
+    font-family: mohol_regular;
+    font-size: 20px;
+}
+.lastLinkMobile{
+    margin-bottom: 25%;
 }
 .Link2Follow{
     display: flex;
@@ -1394,12 +1415,13 @@ button:hover{
 .LinksMenu{
     width: 60%;
     margin-left: 37%;
-    margin-top: 15%;
+    margin-top: 0%;
 }
 .LinkArtMob{
     margin-right: 10%;
     margin-bottom: 10%;
 }
+
 /*end of Presentation Mob*/
 
 
@@ -1408,17 +1430,16 @@ button:hover{
 .PhoneHeader{
     display: flex;
     justify-content: space-between;
-    
 }
 .logoPh{
-    width: 50%;
+    width: 40%;
     margin-left: -3%;
 }
 .MenuPh{
-    width: 18%;
-    margin-bottom: -1%;
-    margin-top: 2%;
-    margin-right: -7%;
+    width: 15%;
+    margin-bottom: -2%;
+    margin-top: 1%;
+    margin-right: -8%;
 }
 .PhoneFooter{
     background-color: #e1e1e1;
@@ -1454,19 +1475,34 @@ button:hover{
     padding-top: 15%;
     margin-left: 8%;
 }
+.input-searchMob::placeholder{
+    width: 100%; 
+    font-family: alegreya_italic;
+    font-size: 16px;
+}
 .Letter-divMob{
     width: 13.2%;
-    margin-top: 48.5%;
-    margin-left: 80%;
+    margin-left: 77.5%;
+    margin-bottom: 5%;
 }
-.input-searchMob::placeholder{
-    font-size: 15px;
+.linksNets{
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Link2FollowMob{
+    display: flex;
     width: 100%;
 }
 .input-searchMob{
     margin-left: 5%;
     width: 100%;
     border: none;
+    font-family: alegreya_italic;
+    font-size: 16px;
 }
 .to-searchMob{
     width: 20%;
@@ -1478,8 +1514,8 @@ button:hover{
 
 /*MagazineMob*/
 .principal_divMob p{
-    font-size: 13px !important;
-    line-height: 20px !important;
+    font-size: 19px !important;
+    line-height: 27px !important;
 }
 .MagazineMob{
     margin: 0 5%;
@@ -1627,7 +1663,7 @@ button:hover{
     margin-bottom: 7.5%;
 }
 .live_mailMob p{
-    font-size: 13px;
+    font-size: 19px;
 }
 /*end of Newsletter*/
 
@@ -1644,7 +1680,7 @@ button:hover{
     width: 100%;
     height: 32vh;
     margin-bottom: 3%;
-    margin-top: 15%;
+    margin-top: 20%;
     background-image: url('/Invited.jpg');
     background-size: cover;
     background-position: center center;
@@ -1654,9 +1690,7 @@ button:hover{
 .contenedorMob{
     margin: 0 5%;
 }
-.contenedorMob h1{
-    font-size: 21px !important;
-}
+
 .CategoryLabelPrincMob{
     position: relative;
     margin: -17% 0 20% 7.7%;
@@ -1689,14 +1723,14 @@ button:hover{
 }
 .NameLabelMob p{
     position: relative;
-    font-size: 10px;
-    padding: 0% 1.7% !important;
+    font-family: mohol_regular;
+    font-size: 9px !important;
+    padding: 0% 2% !important;
     padding-right: 0;
-    margin-top: -15%;
-    margin-left: 7%;
-    margin-bottom: 7%;
-    width: 25%;
-    padding: 0%;
+    margin: -13% 0 7% 7%;
+    line-height: 16px !important;
+    width: 22%;
+    height: 2.5vh;
     background-color: white;
     color: black;
 }
@@ -1811,9 +1845,19 @@ button:hover{
     text-align: left;
 }
 .TittleLabelMobSpecial{
-    width: 80%;
-    margin: -4% 5%;
+    font-family: mohol_bold;
+    width: 90%;
+    margin: -6% 5%;
     font-size: 20px;
+}
+.PicByMob{
+    transform: rotate(-90deg);
+    font-family: cooper_black;
+    margin-left: 75%;
+    margin-right: -10%;
+    font-size: 5.7px !important;
+    margin-top: 20%;
+    margin-bottom: -17%;
 }
 /*end of Graphic Design*/
 
@@ -1835,14 +1879,7 @@ button:hover{
     margin-top: 10%;
     font-size: 16px;
 }
-.contenedorMob p{
-    font-size: 13px !important;
-    line-height: 20px !important;
-}
-.contenedorMob li{
-    font-size: 13px;
-    line-height: 20px;
-}
+
 .contact_contMob h1{
     margin-bottom: 5%;
 }
@@ -1888,8 +1925,8 @@ button:hover{
     text-decoration: underline;
 }
 .columnaMob p{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 27px;
 }
 .contact_contMob{
     margin-left: 2%;
@@ -1967,8 +2004,8 @@ button:hover{
 .text_comMob p{
     margin-top: 10%;
     margin-bottom: -2%;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
 }
 .vert_lineMob{
     position: relative;
@@ -2011,16 +2048,31 @@ button:hover{
 }
 .home-buttonMob{
     position: fixed;
-    top: 80%;
-    z-index: 7;
+    top: 87%;
+    z-index: 6;
     left: 80%;
     margin-bottom: 5%;
 }
 /*end of Article*/
 
 
-
-
+.contenedorMob h2{
+    font-size: 14px;
+}
+.contenedorMob h5{
+    font-size: 10px;
+}
+.contenedorMob h1{
+    font-size: 22px;
+}
+.contenedorMob p{
+    font-size: 19px;
+    line-height: 27px;
+}
+.contenedorMob li{
+    font-size: 13px;
+    line-height: 27px;
+}
 
 @media (min-width: 1400px){
     :root{
@@ -2106,21 +2158,21 @@ button:hover{
     }
     
     .infofooter p{
-        font-size: 18px;
+        font-size: 17px;
     }
     
     .infofooter a{
-        font-size: 18px;
+        font-size: 17px;
     }
     .infofooter span{
-        font-size: 18px;
+        font-size: 17px;
     }
     .span{
-        font-size: 18px;
+        font-size: 17px;
     }
     .inforev{
         padding-right: 15%;
-        line-height: 20px;
+        line-height: 27px;
     }
     .CategoryLabel{
         font-size: 16px;
@@ -2137,19 +2189,19 @@ button:hover{
     
 
     .infofooter a{        
-        font-size: 14px;
+        font-size: 12.3px;
         
     }
     
     .infofooter span{
-        font-size: 14px;
+        font-size: 12.3px;
     }
 
     .infofooter p{
-        font-size: 14px;
+        font-size: 12.3px;
     }
     .span{
-        font-size: 14px;
+        font-size: 12.3px;
     }
     .failed-div{
         margin: 7% 0;
@@ -2239,13 +2291,13 @@ button:hover{
         font-size: 8px;
     }
     .infofooter p{
-        font-size: 17px;
+        font-size: 16px;
     }
     .infofooter a{
-        font-size: 17px;
+        font-size: 16px;
     }
     .infofooter span{
-        font-size: 17px;
+        font-size: 16px;
     }
     .PicByPrinc{
         top: 9%;
@@ -2290,17 +2342,17 @@ button:hover{
     }
 
     .infofooter a{        
-        font-size: 13px;
+        font-size: 12px;
         
     }
     .span{
-        font-size: 13px;
+        font-size: 12px;
     }
     .infofooter span{
-        font-size: 13px;
+        font-size: 12px;
     }
     .infofooter p{
-        font-size: 13px;
+        font-size: 12px;
     }
     .failed-div p{
         font-size: 19px;
@@ -2321,12 +2373,12 @@ button:hover{
 
     .titular_derch p{
         font-size: 13px;
-        line-height: 20px;
+        line-height: 27px;
     }
     li{
            font-size: 13px;
 
-        line-height: 20px;
+        line-height: 27px;
            
     }
     .titular_izq h1{
@@ -2337,7 +2389,7 @@ button:hover{
     }
     .columna p{
         font-size: 13px;
-        line-height: 20px;
+        line-height: 27px;
     }
 
     .placeholder::placeholder{
@@ -2351,7 +2403,7 @@ button:hover{
     }
     .contact_cont p{
         font-size: 13px;
-        line-height: 20px;
+        line-height: 27px;
     }
     .contact_cont h1{
         font-size: 28px;
@@ -2442,17 +2494,17 @@ button:hover{
         font-size: 19px;
     }
     .infofooter a{        
-        font-size: 11px;
+        font-size: 10px;
         
     }
     .span{
-        font-size: 11px;
+        font-size: 10px;
     }
     .infofooter span{
-        font-size: 11px;
+        font-size: 10px;
     }
     .infofooter p{
-        font-size: 11px;
+        font-size: 10px;
     }
     .failed-div p{
         font-size: 20px;
@@ -2557,7 +2609,8 @@ button:hover{
         margin-top: 3%;
         width: 60.9%;
     }
-    .input-search{
+    .alegreya_italic{
+        
         font-size: 10px;
     }
 
@@ -2751,17 +2804,17 @@ button:hover{
         font-size: 14px;
     }
     .infofooter a{       
-        font-size: 8px;
+        font-size: 7px;
         
     }
     .span{
-        font-size: 8px;
+        font-size: 7px;
     }
     .infofooter span{
-        font-size: 8px;
+        font-size: 7px;
     }
     .infofooter p{
-        font-size: 8px;
+        font-size: 7px;
     }
     .failed-div p{
         font-size: 16px;
@@ -2895,18 +2948,18 @@ button:hover{
     
 
     .infofooter a{
-        font-size: 7px;
+        font-size: 6px;
         
     }
     .span{
-        font-size: 7px;
+        font-size: 6px;
     }
     .infofooter span{
-        font-size: 7px;
+        font-size: 6px;
     }
     .infofooter p{
 
-        font-size: 7px;
+        font-size: 6px;
     }
     .failed-div p{
         font-size: 16px;
@@ -3050,19 +3103,19 @@ button:hover{
         font-size: 11px;
     }
     .infofooter a{
-        font-size: 6px;
+        font-size: 5px;
         
     }
     .span{
-        font-size: 6px;
+        font-size: 5px;
     }
     .infofooter span{
-        font-size: 6px;
+        font-size: 5px;
     }
 
     .infofooter p{
 
-        font-size: 6px;
+        font-size: 5px;
     }
     .failed-div{
         margin: 25.5% 0;
@@ -3184,18 +3237,18 @@ button:hover{
     
 
     .infofooter a{
-        font-size: 5px;
+        font-size: 4.3px;
         
     }
     .span{
-        font-size: 5px;
+        font-size: 4.3px;
     }
     .infofooter span{
-        font-size: 5px;
+        font-size: 4.3px;
     }
     .infofooter p{
 
-        font-size: 5px;
+        font-size: 4.3px;
     }
     .failed-div{
         margin: 29% 0;
@@ -3211,7 +3264,7 @@ button:hover{
     
     .titular_derch p{
         font-size: 13px;
-        line-height: 20px;
+        line-height: 27px;
     }
     li{
         font-size: 8px;
@@ -3293,6 +3346,9 @@ button:hover{
     display: none;
 }
 .ArticleMob{
+    display: none;
+}
+.Generalmenu{
     display: none;
 }
 
@@ -3380,12 +3436,14 @@ button:hover{
     .ArticleMob{
         display: block;
     }
+    .Generalmenu{
+        display: block;
+    }
+    
     
 }
 @media(height:640px){
-    .Letter-divMob{
-        margin-top: 45% !important;
-    }
+   
     .vert_lineMob{
         position: relative;
         margin-top: 40%;
@@ -3396,23 +3454,19 @@ button:hover{
     }
 }
 
-@media(height:667px){
-    .Letter-divMob{
-        margin-top: 47% !important;
-    }
+@media(min-height:620px){
+   
     .vert_lineMob{
         position: relative;
         margin-top: 30%;
-        margin-bottom: -37%;
-        margin-left: -13%;
+        margin-bottom: -40%;
+        margin-left: -15%;
         transform: rotate(-90deg);
-        width: 50%;
+        width: 55%;
     }
 }
 @media(min-height:731px){
-    .Letter-divMob{
-        margin-top: 53% !important;
-    }
+   
     .vert_lineMob{
         position: relative;
         margin-top: 30%;
@@ -3420,21 +3474,6 @@ button:hover{
         margin-left: -13%;
         transform: rotate(-90deg);
         width: 50%;
-    }
-}
-@media(max-height:480px){
-    .Letter-divMob{
-        margin-top: 5%;
-    }
-}
-@media(min-height:568px){
-    .Letter-divMob{
-        margin-top: 35%;
-    }
-}
-@media(min-height:800px){
-    .Letter-divMob{
-        margin-top: 90% !important;
     }
 }
 @media (height:812px) {
@@ -3458,8 +3497,12 @@ button:hover{
     }
     
 }
-@media(min-height:820px){
-    .Letter-divMob{
-        margin-top: 80% !important;
+@media (min-width:320px){
+    .TittleLabelMobSpecial{
+        font-size: 17px;
+    }
+    .Invited-description{
+        font-size: 15px !important;
+        line-height: 18px !important;
     }
 }

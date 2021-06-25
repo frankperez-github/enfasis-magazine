@@ -33,7 +33,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -50,7 +50,7 @@ export default function Architecture(){
 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -69,7 +69,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -86,7 +86,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -168,7 +168,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -185,7 +185,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -206,7 +206,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -223,7 +223,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -244,7 +244,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -261,7 +261,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -282,7 +282,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -299,7 +299,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -329,7 +329,7 @@ export default function Architecture(){
                             <div className="InvitationLine">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -348,7 +348,7 @@ export default function Architecture(){
 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -373,7 +373,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -390,7 +390,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -411,7 +411,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -428,7 +428,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -449,7 +449,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -466,7 +466,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -487,7 +487,7 @@ export default function Architecture(){
                             <div className="Inviteds_line">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -504,7 +504,7 @@ export default function Architecture(){
                                 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -534,7 +534,7 @@ export default function Architecture(){
                             <div className="InvitationLine">
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
@@ -553,7 +553,7 @@ export default function Architecture(){
 
                                 <Link href="/Article">
                                     <div className="Invitation_card">
-                                        <h2 className="PicBy">
+                                        <h2 className="PicByMob">
                                             por Frank Perez
                                         </h2>
                                         <div className="invited">
