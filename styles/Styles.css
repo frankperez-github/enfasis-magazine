@@ -1913,6 +1913,10 @@ button:hover{
     margin-top: 0.5%;
     width: 100%;
 }
+.titular_derchMob p{
+    font-size: 19px !important;
+    line-height: 30px !important;
+}
 .lineaUs{
     margin-bottom: 1%;
 }
