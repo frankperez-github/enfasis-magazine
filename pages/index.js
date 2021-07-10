@@ -4,24 +4,22 @@ import Head from 'next/head'
 
 
 export default function Home() {
-    
-  
 
   return (
-    <div>
+      <div>
 
-      <Head>
-        <title>Énfasis Magazine</title>
-        <meta name="description" content="Generated with create next app by Frank Pérez,Adrian Valdés y David Li" />
-        <link rel="icon" href="/favicon_1.ico"/>
-      </Head>
-      
+        <Head>
+          <title>Énfasis Magazine</title>
+          <meta name="description" content="Generated with create next app by Frank Pérez,Adrian Valdés and David Li" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        
 
-      <main >
-        <Presentation />
+        <main >
+          <Presentation />
 
-        <Presentation_mob />
-      </main>
-    </div>
+          <Presentation_mob />
+        </main>
+      </div>
   )
 }

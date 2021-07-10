@@ -201,7 +201,7 @@ a{
 #ed1{
     position: fixed;
     width: 30%;
-    top: -90%;
+    top: -150%;
     animation-name: ED1;
     animation-duration: 51s;
     z-index: 3;
@@ -210,7 +210,7 @@ a{
 #ed2{
     position: fixed;
     width: 30%;
-    top: -90%;
+    top: -150%;
     animation-name: ED2;
     animation-duration: 51s;   
     z-index: 2;
@@ -229,14 +229,14 @@ a{
 
 @keyframes ED2 {
     0%{}
-    29%{top: -90%;}/*sec 15*/
+    29%{top: -150%;}/*sec 15*/
     33%{top: var(--to-anim);} /*sec 17*/
     90%{visibility: hidden;}
     100%{top: var(--to-anim);visibility: hidden;}
 }
 @keyframes ED1 {
     0%{}
-    63%{top: -90%;} /*sec 32*/
+    63%{top: -150%;} /*sec 32*/
     67%{top: var(--to-anim);} /*sec 34*/
     100%{top: var(--to-anim);}
 }
@@ -244,8 +244,8 @@ a{
     0%{top: var(--to-anim);z-index: 1;}
     32.5%{z-index: 1;}
     33%{top: var(--to-anim); visibility: hidden;}
-    34%{top: -90%; visibility: hidden;}
-    96%{top: -90%;z-index: 4;}/*sec 49*/
+    34%{top: -150%; visibility: hidden;}
+    96%{top: -150%;z-index: 4;}/*sec 49*/
     100%{top: var(--to-anim);z-index: 4;}/*sec 51*/
 }
 /*end of presentation***********/
@@ -939,7 +939,7 @@ ol{
     max-width: 13%;
 }
 .home-button{
-    width: 30%;
+    width: 40%;
 }
 .share:last-of-type{
     margin-right: 50%;
@@ -1015,6 +1015,7 @@ ol{
     margin: 1% 2% 0 2%;
 }
 .Home_art{
+    cursor: pointer;
     position: sticky;
     top: 80%;
     z-index: 7;
