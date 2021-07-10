@@ -58,18 +58,6 @@ export default function ArticleMob(){
 
                         </div>
                             
-
-                        <p>A <b>Miguel</b> lo conocí, hace poco más de un año, en una de sus conferencias de tipografía. En ese momento no tenía idea de la persona que tenía de frente. El tiempo hizo lo suyo; hoy puedo decir, con certeza, que tuve la oportunidad de conversar con uno de los diseñadores de carteles e ilustraciones más importantes del país.<br/><br/>A pesar de su apretada agenda y los momentos inciertos que se vive en el mundo, me sorprendió saber que había aceptado mi invitación. Aceptar la entrevista para Énfasis, quizás es la forma en la que el...</p>
-                                
-                        <div className="pic_artMob">
-                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
-
-                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
-                        </div>
-
-                        
-                                
-
                         <h3>Por que usas Monkc como seudónimo?</h3><br/>
                         <p>
                             Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
@@ -80,8 +68,6 @@ export default function ArticleMob(){
                             De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
                         </p>
                    
-                        
-                
                     </div>
 
                     <div className="comentMob">
@@ -97,6 +83,59 @@ export default function ArticleMob(){
 
                     </div>
                     
+                    <div className="contenedorMob">    
+
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                    </div>
+                    
+                    <div className="contenedorMob">
+                       
+                            
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+                   
+                    </div>
+
+                    <div className="comentMob">
+
+                        <div className="vert_lineMob">
+                            <Image src="/lineamenor.svg" width="1000%" height="100%"/>
+                        </div>
+
+                        <div className="text_comMob">
+                            <p>Ni pensarlo. Me considero no apto para tan compleja tarea. Creo que colaborar con un guionista puede ser. En el máster de ilustración, que recién terminé, tuve la oportunidad de hacer guiones y bocetos de historietas. Es muy complejo y termino con dolor de cabeza. No hay que equivocarse. No todos somos buenos para todo. Aunque he ilustrado varias hostorietas, no es algo que ando buscando para hacer.</p>
+                            <p className="author"><b>Miguel Monkc</b></p><br/><br/>
+                        </div>
+
+                    </div>
                     
                     <div className="contenedorMob">    
 
@@ -110,8 +149,158 @@ export default function ArticleMob(){
                             De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
                         </p>
 
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                    </div>
+                    
+                    <div className="contenedorMob">
+                       
+                            
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+                   
                     </div>
 
+                    <div className="comentMob">
+
+                        <div className="vert_lineMob">
+                            <Image src="/lineamenor.svg" width="1000%" height="100%"/>
+                        </div>
+
+                        <div className="text_comMob">
+                            <p>Ni pensarlo. Me considero no apto para tan compleja tarea. Creo que colaborar con un guionista puede ser. En el máster de ilustración, que recién terminé, tuve la oportunidad de hacer guiones y bocetos de historietas. Es muy complejo y termino con dolor de cabeza. No hay que equivocarse. No todos somos buenos para todo. Aunque he ilustrado varias hostorietas, no es algo que ando buscando para hacer.</p>
+                            <p className="author"><b>Miguel Monkc</b></p><br/><br/>
+                        </div>
+
+                    </div>
+                    
+                    <div className="contenedorMob">    
+
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                    </div>
+                    
+                    <div className="contenedorMob">
+                       
+                            
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+                   
+                    </div>
+
+                    <div className="comentMob">
+
+                        <div className="vert_lineMob">
+                            <Image src="/lineamenor.svg" width="1000%" height="100%"/>
+                        </div>
+
+                        <div className="text_comMob">
+                            <p>Ni pensarlo. Me considero no apto para tan compleja tarea. Creo que colaborar con un guionista puede ser. En el máster de ilustración, que recién terminé, tuve la oportunidad de hacer guiones y bocetos de historietas. Es muy complejo y termino con dolor de cabeza. No hay que equivocarse. No todos somos buenos para todo. Aunque he ilustrado varias hostorietas, no es algo que ando buscando para hacer.</p>
+                            <p className="author"><b>Miguel Monkc</b></p><br/><br/>
+                        </div>
+
+                    </div>
+                    
+                    <div className="contenedorMob">    
+
+                        <h3>Por que usas Monkc como seudónimo?</h3><br/>
+                        <p>
+                            Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
+                        </p>
+
+                        <h3>Te defines como ilustrador y diseñador de carteles.¿Qué te hizo inclinarte por estas dos ramas del diseño?</h3><br/>
+                        <p>
+                            De estudiante me gustaba el cartel antes de diseñar el primero. Todo surgió por una cuestión de gustos. Soy ilustrador porque la vida y la calle me han llevado a ello. Nunca lo preví. Una vez que haces algo que te gusta te lleva a otro encargo nuevo, y así sucesivamente. Sin darte cuenta, comienzas a dejar un hilo detrás de ti que sirve a los clientes para...
+                        </p>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                        <div className="pic_artMob">
+                            <Image src="/pic_art.svg" width="2000%" height="2000%" className="pic_art_img"/>
+
+                            <h5 className="pie_foto">Miguel Monkc, 2020.</h5>
+                        </div>
+
+                    </div>
+                    
                 </div>
 
                 
