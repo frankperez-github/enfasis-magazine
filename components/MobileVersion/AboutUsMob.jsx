@@ -19,7 +19,13 @@ export default function AboutUsMob(){
                         <div className="lineamenorMob">
                             <Image src="/lineamenor.svg" width="400%" height="20%" />
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at ipsum illo dicta alias eius modi odio quos eligendi. Voluptas aspernatur hic saepe eveniet quidem explicabo id aliquam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate adipisci, in natus eos commodi minus exercitationem minima architecto ipsum repudiandae veniam odio ratione sapiente pariatur deserunt vitae fuga nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, recusandae optio. Libero, quas? Delectus aspernatur id quae fuga.</p>
+                        <p>Énfasis: es una revista cubana que se especializa en Diseño,  
+Arquitectura y Arte. Se presenta como una publicación digital,  
+en formato PDF con su respectivo sitio web y presencia activa en  
+las redes sociales más populares.
+
+Somos un equipo de diseñadores gráficos e industriales, fotógrafos, periodistas y comunicadores; trabajando juntos para  
+dar a conocer, al público cubano y extranjero, y a su vez a ejercer un criterio sinexclusión ni politización, sobre el trabajo de nuestros diseñadores, arquitectos y artistas.</p>
                     </div>
                 </div>
         
@@ -51,23 +57,23 @@ export default function AboutUsMob(){
     
                         <form action="Submit">
     
-                            <label for="name">Nombre(*):</label><br/>
+                            <label htmlFor="name">Nombre(*):</label><br/>
                             <input type="text" name="name" required /><br/>
     
-                            <label for="email">Correo(*):</label><br/>
+                            <label htmlFor="email">Correo(*):</label><br/>
                             <input type="text" name="email" required/>
                             <br/>
     
-                            <label for="topic">Asunto(*):</label><br/>
+                            <label htmlFor="topic">Asunto(*):</label><br/>
                             <input type="text" name="topic" required/>
                             <br/>
     
-                            <label for="arch">Agregar archivo:</label>
+                            <label htmlFor="arch">Agregar archivo:</label>
                             <br/>
                             <input type="file" placeholder="agrega aqui" name="arch" id="" className="add"/>
                             <br/>
 
-                            <label for="message">Mensaje(*):</label><br/>
+                            <label htmlFor="message">Mensaje(*):</label><br/>
 
                             <textarea name="message" type="message" required></textarea><br/>
     
