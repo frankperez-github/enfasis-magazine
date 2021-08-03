@@ -2,25 +2,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
-import IndustrialDesignMob from '../components/MobileVersion/IndustrialDesignMob'
 
 export default function Industrial_Design(){
     return(
 
         <div className="Comp">
-
-            <IndustrialDesignMob />
-
-            <div className="Industrial_Design">
             
 
-            <FormDesk />
+            <div className="Graphic_Design">
+
+            <div className="SuperiorPart">
+                <FormDesk />
+                
+                <Search_Bar />
+            </div>
             
-            <Search_Bar />
-
-            <div className="contenedor">
-
-               <Link href="/Article">
+            <div className="PrincArt">
+                <Link href="/Article">
                     <div className="PrincLink">
                         <div className="PrincipalArt">
                             <h2 className="PicByPrinc">Por Frank Perez</h2>
@@ -33,15 +31,22 @@ export default function Industrial_Design(){
                         </div>
                     </div>
                 </Link>   
+            </div>
+            <div className="contenedor">
 
+               
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
+                            
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Francesc Freixes: "Defiendo la idea de que el diseño está en las calles de una ciudad".
@@ -51,11 +56,14 @@ export default function Industrial_Design(){
 
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
-                                
+                               
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Más allá del muro, la identidad visual del proyecto dedelmu.
@@ -67,11 +75,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -81,11 +92,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 La tarde de las artes. Un cartel hecho por Claudio Sotolongo.
@@ -102,7 +116,7 @@ export default function Industrial_Design(){
                         <h1>Descarga Énfasis</h1>
                         
                         <div className="LineDownload">
-                            <Image src="/linea.svg" width="3000%" height="20%" />
+                            <Image src="/linea.svg" width="3000%" height="50%" />
                         </div>
                         
                     </div>
@@ -110,7 +124,7 @@ export default function Industrial_Design(){
                     <div className="Download">
                         <div className="Download_Card">
                             <div className="DownloadCardImg">
-                                <Image src="/smallrect.svg" width="700%" height="700%" />
+                                <Image src="/smallrect.svg" width="2700%" height="2700%" />
                             </div>
                             <div className="Info-to-Download">
                                 <div className="tittle">
@@ -152,7 +166,7 @@ export default function Industrial_Design(){
                     </div>    
 
                     <div className="LineDown">
-                        <Image src="/linea.svg" width="7000%" height="15%" />
+                        <Image src="/linea.svg" width="7000%" height="50%" />
                     </div>
 
                 </div>
@@ -160,11 +174,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -174,11 +191,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -192,11 +212,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Crematorium
@@ -206,11 +229,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
@@ -224,11 +250,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Patrizia Stalder, ilustrando Cuba desde la distancia.
@@ -238,11 +267,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Reconocemos la labor de Raupa, por su trabajo en ilustración.
@@ -256,11 +288,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -270,11 +305,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -286,10 +324,10 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Tittle CreatorTittle">
-                    <h1>Diseño Gráfico</h1>
+                    <h1>Diseño Industrial</h1>
                     
                     <div className="LineDownload">
-                        <Image src="/linea.svg" width="3000%" height="20%" />
+                        <Image src="/linea.svg" width="3000%" height="50%" />
                     </div>
                     
                 </div>
@@ -297,7 +335,7 @@ export default function Industrial_Design(){
                 <div className="InvitationLine">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
@@ -312,9 +350,10 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
+                    
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
@@ -328,6 +367,7 @@ export default function Industrial_Design(){
                             </div>
                         </div>
                     </Link>
+                    
                 </div>
             
                 <div className="LineDown">
@@ -337,11 +377,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -351,11 +394,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -369,11 +415,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Crematorium
@@ -383,11 +432,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
@@ -401,11 +453,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Patrizia Stalder, ilustrando Cuba desde la distancia.
@@ -415,11 +470,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Reconocemos la labor de Raupa, por su trabajo en ilustración.
@@ -433,11 +491,14 @@ export default function Industrial_Design(){
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Valerio: ilustraciones para el libro Cuentos y Colores
@@ -447,11 +508,14 @@ export default function Industrial_Design(){
                     
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
                                 
+                            </div>
+                            <div className="NameLabel">
+                                <p>Invitado</p>
                             </div>
                             <p className="Invited-description">
                                 Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
@@ -463,10 +527,10 @@ export default function Industrial_Design(){
                 </div>
 
                 <div className="Tittle CreatorTittle">
-                    <h1>Arquitectura</h1>
+                    <h1>Creadores</h1>
                     
                     <div className="LineDownload">
-                        <Image src="/linea.svg" width="3000%" height="20%" />
+                        <Image src="/linea.svg" width="3000%" height="50%" />
                     </div>
                     
                 </div>
@@ -474,7 +538,7 @@ export default function Industrial_Design(){
                 <div className="InvitationLine">
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
@@ -489,9 +553,10 @@ export default function Industrial_Design(){
                         </div>
                     </Link>
                     
+                    
                     <Link href="/Article">
                         <div className="Invitation_card">
-                            <h2 className="PicByMob">
+                            <h2 className="PicBy">
                                 por Frank Perez
                             </h2>
                             <div className="invited">
@@ -505,11 +570,12 @@ export default function Industrial_Design(){
                             </div>
                         </div>
                     </Link>
+                    
                 </div>
             
             </div>
-        
         </div>
+       
         </div>
-    );
+     );
 }

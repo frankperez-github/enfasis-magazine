@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {useRouter} from 'next/router'
-import ArticleMob from '../components/MobileVersion/ArticleMob';
 
 
 function Article(){
@@ -12,8 +11,6 @@ function Article(){
     
         <div className="Comp">
 
-            <ArticleMob />
-
             <div className="Article" id="article">
                 
                 <div className="main_article">
@@ -23,7 +20,7 @@ function Article(){
                                 <div className="fecha">
                                     <h5 className="fecha_public">Publicado el 3 de noviembre de 2020</h5> 
                                 </div>
-                                <div>
+                                <div className="lineafecha">
                                     <Image src="/linea_fecha.svg"
                                     width="800%" height="50%" className="linea_fecha_img"/>
                                 </div>
@@ -84,7 +81,11 @@ function Article(){
                         <div className="coment">
 
                             <div className="vert_line">
-                                <Image src="/vertical_line.svg" width="100%" height="1000%" className="vert_line_img"/>
+                                <Image src="/vertical_line.svg" width="100%" height="1000%" />
+                            </div>
+                            
+                            <div className="vert_lineMob">
+                                <Image src="/lineamenor.svg" width="1000%" height="100%"/>
                             </div>
 
                             <div className="text_com">

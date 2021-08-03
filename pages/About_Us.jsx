@@ -48,42 +48,6 @@ function Us(){
                 
                 </div>
     
-                <div className="formulario_contacto">
-    
-                    <div className="contact_cont">
-                        <h1>Contacto</h1>
-                        <p>Si quieres saber mas sobre Énfasis, o colaborar con nosotros mándanos un mensaje a través de este formulario y nos pondremos en contacto contigo. Los campos con (*) son obligatorios.</p>
-    
-                        <form action="Submit">
-    
-                            <label for="name">Nombre(*):</label><br/>
-                            <input type="text" name="name" required /><br/>
-    
-                            <label for="email">Correo(*):</label><br/>
-                            <input type="text" name="email" required/>
-                            <br/>
-    
-                            <label for="topic">Asunto(*):</label><br/>
-                            <input type="text" name="topic" required/>
-                            <br/>
-    
-                            <label for="arch">Agregar archivo:</label>
-                            <br/>
-                            <input type="file" placeholder="agrega aqui" name="arch" id="" className="add"/>
-                            <br/>
-
-                            <label for="message">Mensaje(*):</label><br/>
-
-                            <textarea name="message" type="message" required></textarea><br/>
-    
-                            <button className="sendbutton send" type="submit">Enviar</button >
-    
-                        </form>
-                        
-                    </div>
-    
-                </div>
-    
                 <div className="info_gral">
                         
                     <h1 className="the_next">Próximo<br/>Número</h1>

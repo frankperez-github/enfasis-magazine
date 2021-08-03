@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Failed_SearchMob from '../components/MobileVersion/Failed_SearchMob';
 
 
 function Failed_Search(){
@@ -9,7 +8,6 @@ function Failed_Search(){
     return(
         <div className="Comp">
 
-            <Failed_SearchMob />
 
             <div className="Failed_Search">
                 

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import MagazineMob from '../components/MobileVersion/MagazineMobile';
 import FormDesk from '../components/FormDesk'
 import Search_Bar from '../components/DeskVersion/Search_Bar';
 
@@ -11,10 +10,14 @@ function Magazine(){
     return(
         <div className="Component">
             <div className="Magazine">
-                <Search_Bar/>
+                <div className="SuperiorPart">
+                
+                    <Search_Bar/>
 
-                <FormDesk />
-                    
+                </div>
+                
+                <FormDesk />    
+                
                 <div className="principal_div">
 
                     <div className="princ_izq">
@@ -110,7 +113,6 @@ function Magazine(){
                 
             </div>
 
-            <MagazineMob />
         </div>
     );
 }export default Magazine;

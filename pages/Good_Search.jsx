@@ -1,8 +1,3 @@
-import Good_SearchMob from "../components/MobileVersion/Good_SearchMob";
-
-
-
-
 
 
 function Good_Search(){
@@ -11,7 +6,6 @@ function Good_Search(){
     return(
     
     <div className="Comp">
-        <Good_SearchMob />
        
         <div className="Good_Search">
             

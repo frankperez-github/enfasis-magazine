@@ -2,24 +2,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Search_Bar from '../components/DeskVersion/Search_Bar'
 import FormDesk from '../components/FormDesk'
-import GraphicDesignMob from '../components/MobileVersion/GraphicDesignMob'
 
 
 export default function Graphic_Design(){
     return(
         <div className="Comp">
             
-            <GraphicDesignMob />
 
             <div className="Graphic_Design">
 
-            <FormDesk />
+            <div className="SuperiorPart">
+                <FormDesk />
+                
+                <Search_Bar />
+            </div>
             
-            <Search_Bar />
-
-            <div className="contenedor">
-
-               <Link href="/Article">
+            <div className="PrincArt">
+                <Link href="/Article">
                     <div className="PrincLink">
                         <div className="PrincipalArt">
                             <h2 className="PicByPrinc">Por Frank Perez</h2>
@@ -32,7 +31,10 @@ export default function Graphic_Design(){
                         </div>
                     </div>
                 </Link>   
+            </div>
+            <div className="contenedor">
 
+               
                 <div className="Inviteds_line">
                     <Link href="/Article">
                         <div className="Invitation_card">
@@ -114,7 +116,7 @@ export default function Graphic_Design(){
                         <h1>Descarga Énfasis</h1>
                         
                         <div className="LineDownload">
-                            <Image src="/linea.svg" width="3000%" height="20%" />
+                            <Image src="/linea.svg" width="3000%" height="50%" />
                         </div>
                         
                     </div>
@@ -122,7 +124,7 @@ export default function Graphic_Design(){
                     <div className="Download">
                         <div className="Download_Card">
                             <div className="DownloadCardImg">
-                                <Image src="/smallrect.svg" width="700%" height="700%" />
+                                <Image src="/smallrect.svg" width="2700%" height="2700%" />
                             </div>
                             <div className="Info-to-Download">
                                 <div className="tittle">
@@ -164,7 +166,7 @@ export default function Graphic_Design(){
                     </div>    
 
                     <div className="LineDown">
-                        <Image src="/linea.svg" width="7000%" height="15%" />
+                        <Image src="/linea.svg" width="7000%" height="50%" />
                     </div>
 
                 </div>
@@ -325,7 +327,7 @@ export default function Graphic_Design(){
                     <h1>Diseño Industrial</h1>
                     
                     <div className="LineDownload">
-                        <Image src="/linea.svg" width="3000%" height="20%" />
+                        <Image src="/linea.svg" width="3000%" height="50%" />
                     </div>
                     
                 </div>
@@ -528,7 +530,7 @@ export default function Graphic_Design(){
                     <h1>Creadores</h1>
                     
                     <div className="LineDownload">
-                        <Image src="/linea.svg" width="3000%" height="20%" />
+                        <Image src="/linea.svg" width="3000%" height="50%" />
                     </div>
                     
                 </div>
