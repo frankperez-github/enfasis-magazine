@@ -123,12 +123,6 @@ function Article(){
                         <div className="contenedor_art">  
                            
                                 
-
-                            
-                                    
-                            
-                                    
-
                             <h3>Por que usas Monkc como seudónimo?</h3><br/>
                             <p>
                                 Me gustan las novelas ambientadas en el medioevo. Terminé identificándome con la palabra inglés monk, que traducida al español significa monje. La c al final la añadí por necesidad. En los sitios webs, los traductores automáticos de Google, convertían la palabra original al español, de ese modo aparecía: ilustraciones de Miguel Monje.
@@ -330,7 +324,7 @@ function Article(){
                     <div className="promo_colum">
 
                         <div className="lineaPromo">
-                            <Image src="/promo_column_img.svg" width="200%" height="50%" 
+                            <Image src="/promo_column_img.svg" width="350%" height="50%" 
                             className="linea_promo"/>
 
                         </div>
@@ -354,7 +348,7 @@ function Article(){
                         </div>
 
                         <div className="lineaPromo">
-                            <Image src="/promo_column_img.svg" width="200%" height="50%" className="linea_promo linea_promo2 "/>
+                            <Image src="/promo_column_img.svg" width="350%" height="50%" className="linea_promo linea_promo2 "/>
                         </div>
 
                         <div className="reciente">

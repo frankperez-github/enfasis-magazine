@@ -874,8 +874,8 @@ ol{
     width: 72%;
 }
 .promo_colum{
-    width: 27%;
-    margin-left: 2%;
+    width: 100%;
+    margin-left: 5%;
 }
 .contenedor_art{
     padding-left: 10%;
@@ -3513,6 +3513,26 @@ button:hover{
     .comentMob{
         display: flex;
         justify-content: space-between;
+    }
+    .promo_colum{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .linea_promo{
+        width: 100%;
+        padding-top: 10% !important;
+    }
+    .promo_colum h2{
+        font-size: 25px;
+        margin-left: 2%;
+    }
+    .promo_colum p{
+        width: 95%;
+        margin-bottom: 10%;
+        font-size: 20px;
+    }
+    .LinkArt{
+        margin-bottom: -10%;
     }
 }
 
