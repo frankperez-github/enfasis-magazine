@@ -874,7 +874,7 @@ ol{
     width: 72%;
 }
 .promo_colum{
-    width: 100%;
+    width: 25%;
     margin-left: 5%;
 }
 .contenedor_art{
@@ -956,7 +956,8 @@ ol{
     justify-content: space-around;
 }
 
-.linea_promo{
+.lineaPromo{
+    height: 2vh !important;
     width: 65%;
     padding-top: 20% !important;
 }
@@ -1026,9 +1027,7 @@ ol{
     margin-top: -7%;
     font-size: 13px;
 }
-.lineaPromo{
-    width: 70%;
-}
+
 .PromoImg{
     width: 62%;
     margin: 5% 0;
@@ -3473,8 +3472,9 @@ button:hover{
         max-height: 27vh;
     }
     .lineaPromo{
-        margin-top: 10%;
+        margin-bottom: -10%;
         width: 100%;
+        height: 15vh !important;
     }
     .siguenosMob h2{
         font-size: 22px;
@@ -3515,7 +3515,7 @@ button:hover{
         justify-content: space-between;
     }
     .promo_colum{
-        width: 100%;
+        width: 90%;
         margin-left: 5%;
     }
     .linea_promo{

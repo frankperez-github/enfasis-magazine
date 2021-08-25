@@ -22,7 +22,7 @@ function Article(){
                                 </div>
                                 <div className="lineafecha">
                                     <Image src="/linea_fecha.svg"
-                                    width="800%" height="50%" className="linea_fecha_img"/>
+                                    width="800%" height="60%" className="linea_fecha_img"/>
                                 </div>
                             </div>
                         </div>
