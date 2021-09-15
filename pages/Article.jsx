@@ -38,19 +38,19 @@ function Article(){
                                 <p>por Chrystian López</p>
 
                                 <div className="share-div">
-                                    <a href="" className="share" target="_blank">
+                                    <a /*  href= {`https://twitter.com/intent/tweet?url=${window.location}`}*/  className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/Twitter_share.svg" width="50%" height="50%" />
                                         </div>    
                                     </a>
 
-                                    <a href="http://www.facebook.com/sharer.php?u=<?php echo URL( get_permalink() ); ?>"  className="share" target="_blank">
+                                    <a /*  href={`http://www.facebook.com/sharer.php?u=${window.location}`} */  className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                         </div>    
                                     </a>
 
-                                    <a href="" className="share" target="_blank">
+                                    <a /*  href={`whatsapp://send?text=${window.location}`} */ className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
                                         </div>    
