@@ -22,11 +22,11 @@ function Magazine({magazines}){
                 
          
 
-                <div className="linea_edic">
-                    <Image src="/linea.svg" width="3000%" height="10%" />
-                </div>
+                
 
-            {magazines.map(magazine=>{return <MagazineCard magazine={magazine} key={magazine.id}/>})}
+            {magazines.map(magazine=>{return <div key={magazine.id} className=""><MagazineCard magazine={magazine} /> {magazine.id!=magazines[magazines.length-1].id && <div className="linea_edic">
+                    <Image src="/linea.svg" width="3000%" height="10%" />
+                </div> }</div>  })}
             
             </div>
 
