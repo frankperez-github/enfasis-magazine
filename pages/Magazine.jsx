@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import FormDesk from '../components/FormDesk'
 import Search_Bar from '../components/DeskVersion/Search_Bar';
+import MagazineCard from '../components/MagazineCard';
+import { useEffect } from 'react';
 
 
-function Magazine(){
+function Magazine({magazines}){
 
-  
+  useEffect(()=>console.log(magazines), [])
 
     return(
         <div className="Component">
@@ -18,101 +20,28 @@ function Magazine(){
                 
                 <FormDesk />    
                 
-                <div className="principal_div">
-
-                    <div className="princ_izq">
-
-                        <div className="big_rect">
-                            <Image src="/portada_2.jpg" width="6000%" height="8000%"/>
-                        </div>
-                            
-                        <div className="rectspeqs">
-                            <div className="RectPeq">
-                                <Image src="/interior_1.2.jpg" width="350%" height="300%" className="small_rect"/>
-                            </div>
-                            <div className="RectPeq">
-                                <Image src="/interior_2.2.jpg" width="350%" height="300%" className="small_rect"/>
-                            </div>
-                        <div className="RectPeq">
-                                <Image src="/interior_3.2.jpg" width="350%" height="300%" className="small_rect"/>
-                        </div>
-                        </div>
-                            
-                    </div>
-
-                    <div className="princ_derch">
-
-                    <h1>Numero 01</h1>
-
-                        <div className="lineasubt">
-                            <Image src="/lineamenor.svg" width="300%" height="15%" />
-                        </div>
-
-                        <div className="inforev">
-                            <h3>Miguel Monk</h3><br/>
-                            <p>Colaboradores:</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita alias ipsum quae totam dolor? Deserunt minus animi nihil quibusdam eligendi dolor asperiores atque. Sed voluptatum eveniet doloremque! Sapiente, porro.</p>
-                        </div>
-
-                        <a href="" className="downbutt">
-                            <button className="Downloadbutton">descargar</button>
-                        </a>    
-
-                    </div>
-                </div>   
+         
 
                 <div className="linea_edic">
                     <Image src="/linea.svg" width="3000%" height="10%" />
                 </div>
 
+            {magazines.map(magazine=>{return <MagazineCard magazine={magazine} key={magazine.id}/>})}
             
-            
-                <div className="principal_div">
-
-                    <div className="princ_izq">
-
-                        <div className="big_rect">
-                            <Image src="/portada_1.jpg"  width="6000%" height="8000%"/>
-                        </div>
-                            
-                        <div className="rectspeqs">
-                            <div className="RectPeq">
-                                <Image src="/interior_1.jpg" width="350%" height="300%" className="small_rect"/>
-                            </div>
-                            <div className="RectPeq">
-                                <Image src="/interior_2.jpg" width="350%" height="300%" className="small_rect"/>
-                            </div>
-                        <div className="RectPeq">
-                                <Image src="/interior_3.jpg" width="350%" height="300%" className="small_rect"/>
-                        </div>
-                        </div>
-                            
-                    </div>
-
-                    <div className="princ_derch">
-
-                    <h1>Numero 01</h1>
-
-                        <div className="lineasubt">
-                            <Image src="/lineamenor.svg" width="300%" height="15%" />
-                        </div>
-
-                        <div className="inforev">
-                            <h3>Miguel Monk</h3><br/>
-                            <p>Colaboradores:</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita alias ipsum quae totam dolor? Deserunt minus animi nihil quibusdam eligendi dolor asperiores atque. Sed voluptatum eveniet doloremque! Sapiente, porro.</p>
-                        </div>
-
-                        <a href="" className="downbutt">
-                            <button className="Downloadbutton">descargar</button>
-                        </a>    
-
-                    </div>
-                    
-                </div>
-                
             </div>
 
         </div>
     );
 }export default Magazine;
+
+
+export const getStaticProps = async() => {
+    const res = await fetch("http://django-env.eba-v37cvdpk.us-west-2.elasticbeanstalk.com/api/revistas/")
+    const magazines = await res.json()
+
+    return {
+        props: {
+            magazines
+        }
+    }
+}
