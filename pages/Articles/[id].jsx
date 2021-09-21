@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 import ArticleSection from '../../components/ArticleSection';
 
 
@@ -32,6 +34,11 @@ const Article = ({article}) => {
       ]
     const date = new Date(article.date_published)
     console.log(date)
+    const router = useRouter()
+
+    useEffect(()=>{
+        console.log(router.asPath)
+    },[])
 
  return (
     <div className="Comp">
@@ -56,7 +63,7 @@ const Article = ({article}) => {
             
                 <div className="contenedor_art">  
                         
-                    <p className="keywords">{article.category}</p>
+                    <p className="keywords">{article.category.name}</p>
                     
                     <div className="contenedor_tit">
                         <h1>{article.title}</h1><br/>
@@ -64,19 +71,19 @@ const Article = ({article}) => {
                         <p>por {article.author}</p>
 
                         <div className="share-div">
-                            <a href="" className="share" target="_blank">
+                            <a href={`https://twitter.com/intent/tweet?url=https://enfasismag.com${router.asPath}`} className="share" target="_blank">
                                 <div className="shareArt">
                                     <Image src="/Twitter_share.svg" width="50%" height="50%" />
                                 </div>    
                             </a>
 
-                            <a href="http://www.facebook.com/sharer.php?u=<?php echo URL( get_permalink() ); ?>"  className="share" target="_blank">
+                            <a href={`http://www.facebook.com/sharer.php?u=https://enfasismag.com${router.asPath}`}  className="share" target="_blank">
                                 <div className="shareArt">
                                     <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                 </div>    
                             </a>
 
-                            <a href="" className="share" target="_blank">
+                            <a href={`whatsapp://send?text=https://enfasismag.com${router.asPath}`} className="share" target="_blank">
                                 <div className="shareArt">
                                     <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
                                 </div>    

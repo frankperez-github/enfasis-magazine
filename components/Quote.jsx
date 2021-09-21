@@ -16,7 +16,7 @@ const Quote = ({quote}) => {
                 <p>{quote.quote}</p>
                 <p className="author"><b>{quote.author}</b></p><br/><br/>
         </div>
-
+<br />
     </div>
     )
 }

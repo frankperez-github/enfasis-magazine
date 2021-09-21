@@ -1,11 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {useRouter} from 'next/router'
+import { useEffect } from 'react';
 
 
 function Article(){
     const router = useRouter()
     var URL = router.pathname;
+
+    useEffect(()=>{
+        console.log(router.pathname)
+    },[])
 
     return(
     
@@ -38,7 +43,7 @@ function Article(){
                                 <p>por Chrystian López</p>
 
                                 <div className="share-div">
-                                    <a /*  href= {`https://twitter.com/intent/tweet?url=${window.location}`}*/  className="share" target="_blank">
+                                    <a   href= {`https://twitter.com/intent/tweet?url=${router.query}`}  className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/Twitter_share.svg" width="50%" height="50%" />
                                         </div>    
