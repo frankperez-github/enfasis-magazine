@@ -33,9 +33,9 @@ const MagazineCard = ({magazine})=> {
                 <p>{magazine.paragraph}</p>
             </div>
 
-            <a href="" className="downbutt">
+            <div className="downbutt">
                 <a href={magazine.file} download={true} className="Downloadbutton">descargar</a>
-            </a>    
+            </div>    
 
         </div>
     </div>   

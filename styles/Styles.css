@@ -359,7 +359,20 @@ footer{
 .inferior{
     display: flex;
 }
-
+.downbutt {
+    margin-top: 7%;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: 12.5%;
+    width: 25%;
+}
+.Downloadbutton{
+    color: white;
+    font-size: 15px;
+}
 .barra_izq{
     width: 25%;
     margin-right:50%;
@@ -457,15 +470,7 @@ input:focus{
     line-height: 26px;
 }
 
-.Downloadbutton{
-    border: none;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    margin-top: 5%;
-    width: 30%;
-    height: 7%;
-}
+
 
 .linea_edic {
     width: 90%;
@@ -1210,7 +1215,7 @@ button:hover{
 .tittle h4{
     font-family: mohol_ultra;
 }
-.ButtonsDownload button{
+.ButtonsDownload a{
     width: 80%;
     padding: 4.75% 0;
     margin-top: 7%;
@@ -1613,7 +1618,7 @@ button:hover{
     margin-left: -2.5%;
     margin-bottom: 5%;
 }
-.ButtonsDownloadMob button{
+.ButtonsDownloadMob a{
     width: 85%;
     padding: 9% 0;
     margin-top: 5%;
@@ -1863,7 +1868,7 @@ button:hover{
     .Downloadbutton{
         cursor: pointer;
         margin-top: 17%;
-        font-size: 11px;
+        font-size: 13px;
     }
     .DownButt{
         font-size: 13px;
@@ -2038,7 +2043,7 @@ button:hover{
     .Downloadbutton{
         cursor: pointer;
         margin-top: 10%;
-        font-size: 10px;
+        font-size: 11.5px;
     }
     .RectPeq{
         width: 60.9%;
@@ -2347,7 +2352,7 @@ button:hover{
     .Downloadbutton{
         cursor: pointer;
         margin-top: 5%;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .DownButt{
@@ -2660,9 +2665,6 @@ button:hover{
     .fecha_public{
         font-size: 3px;
     }
-    .DownButt{
-        font-size: 8px;
-    }
     .Suscribir{
         font-size: 8px;
     }
@@ -2770,6 +2772,10 @@ button:hover{
     h1{
         font-size: 11px;
     }
+    .downbutt {
+        padding-top: 0;
+        padding-left: 9%;
+    }
     .contenedor_art h1{
         font-size: 16px;
     }
@@ -2801,7 +2807,7 @@ button:hover{
     .Downloadbutton{
         cursor: pointer;
         margin-top: 5%;
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .DownButt{
@@ -3371,7 +3377,6 @@ button:hover{
         font-size: 16px;
         border: none;
         color: white;
-        background-color: black;
         cursor: pointer;
         margin: 10% 0;
         width: 42%;
@@ -3534,6 +3539,11 @@ button:hover{
     .LinkArt{
         margin-bottom: -10%;
     }
+    .downbutt{
+        padding: 1%;
+        padding-left: 15%;
+        width: 30%;
+    }
 }
 
 
@@ -3541,6 +3551,11 @@ button:hover{
 @media (max-width:320px){
     .TittleLabelMobSpecial{
         font-size: 17px;
+    }
+    .downbutt{
+        padding: 1%;
+        padding-left: 6%;
+        width: 30%;
     }
     .text_com{
         margin-right: -10%;
