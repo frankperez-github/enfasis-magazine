@@ -360,14 +360,14 @@ footer{
     display: flex;
 }
 .downbutt {
+    text-align: center;
     margin-top: 7%;
     border: none;
     background-color: black;
     cursor: pointer;
     padding-bottom: 1%;
     padding-top: 0.5%;
-    padding-left: 12.5%;
-    width: 25%;
+    width: 30%;
 }
 .Downloadbutton{
     color: white;
@@ -529,8 +529,9 @@ input:focus{
     width: 15%;
 }
 .span{
+    width: 1%;
     cursor: pointer;
-    margin-top: 2.5%;
+    margin-top: 1.5%;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -2774,7 +2775,6 @@ button:hover{
     }
     .downbutt {
         padding-top: 0;
-        padding-left: 9%;
     }
     .contenedor_art h1{
         font-size: 16px;
@@ -3541,8 +3541,7 @@ button:hover{
     }
     .downbutt{
         padding: 1%;
-        padding-left: 15%;
-        width: 30%;
+        width: 40%;
     }
 }
 
@@ -3554,7 +3553,6 @@ button:hover{
     }
     .downbutt{
         padding: 1%;
-        padding-left: 6%;
         width: 30%;
     }
     .text_com{
