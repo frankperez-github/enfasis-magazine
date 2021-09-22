@@ -529,9 +529,9 @@ input:focus{
     width: 15%;
 }
 .span{
-    width: 1%;
+    width: 15%;
     cursor: pointer;
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -1222,9 +1222,14 @@ button:hover{
     margin-top: 7%;
 }
 .BlackButton{
-    background-color: black;
-    color: white;
+    text-align: center;
+    margin-top: 7%;
     border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 4.65%;
+    width: 60%;
 }
 .BlackButton:hover{
     padding: 4.2% 0;

@@ -138,7 +138,7 @@ export default function Layout(props){
         
                     <Link href="/Privacy_Police">
                         <div className="span">
-                            POLÍTICA <br/> DE <br/>PRIVACIDAD
+                            POLÍTICA <br/> DE PRIVACIDAD
                         </div>
                     </Link>
 

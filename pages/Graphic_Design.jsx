@@ -158,7 +158,7 @@ export default function Graphic_Design(){
                                     <h4>Sandra Borges</h4>
                                 </div>
                                 <div className="ButtonsDownload">
-                                    <button className="BlackButton DownButt">ver más</button><br/>
+                                    <button className=" BlackButton DownButt">ver más</button><br/>
                                     <button className="BlackButton DownButt">descargar</button>
                                 </div>
                             </div>
