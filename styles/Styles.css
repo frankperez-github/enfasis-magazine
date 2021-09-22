@@ -3050,6 +3050,9 @@ button:hover{
 .headerPh{
     display: none;
 }
+.PrivacyPoliceMob{
+    display: none;
+}
 .PresentationComp{
     display: none;
 }
