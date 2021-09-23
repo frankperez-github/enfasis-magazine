@@ -1,14 +1,21 @@
-import Image from 'next/image';
+import { getURL, urlObjectKeys } from "next/dist/next-server/lib/utils"
+
 
 const ImageCard = ({image}) => {
 
     return(
         <div className="pic_art">
-                        <Image src={image.image} width="1000%" height="1000%" className="pic_art_img"/>
+            <br />
+            <br />
+            <br />
 
-                        <h5 className="pie_foto">{image.caption}</h5>
-                        <br />
-                    </div>
+            <div className="pic_art_img" style={{backgroundImage: `url(${image.image})`}}>
+            
+            </div>
+            
+            <h5 className="pie_foto">{image.caption}</h5>
+            
+        </div>
     )
 } 
 

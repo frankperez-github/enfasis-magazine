@@ -257,10 +257,6 @@ function Article(){
                             
                         <div className="coment">
 
-                            <div className="vert_line">
-                                <Image src="/vertical_line.svg" width="100%" height="1000%" className="vert_line_img"/>
-                            </div>
-
                             <div className="text_com">
                                     <p>Ni pensarlo. Me considero no apto para tan compleja tarea. Creo que colaborar con un guionista puede ser. En el máster de ilustración, que recién terminé, tuve la oportunidad de hacer guiones y bocetos de historietas. Es muy complejo y termino con dolor de cabeza. No hay que equivocarse. No todos somos buenos para todo. Aunque he ilustrado varias hostorietas, no es algo que ando buscando para hacer.</p>
                                     <p className="author"><b>Miguel Monkc</b></p><br/><br/>
