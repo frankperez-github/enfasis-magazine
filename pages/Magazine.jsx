@@ -24,7 +24,7 @@ function Magazine({magazines}){
 
                 
 
-            {magazines.map(magazine=>{return <div key={magazine.id} className=""><MagazineCard magazine={magazine} /> {magazine.id!=magazines[magazines.length-1].id && <div className="linea_edic">
+            {magazines.map(magazine=>{return <div  className=""><MagazineCard key={magazine.id} magazine={magazine} /> {magazine.id!=magazines[magazines.length-1].id && <div className="linea_edic">
                     <Image src="/linea.svg" width="3000%" height="10%" />
                 </div> }</div>  })}
             
