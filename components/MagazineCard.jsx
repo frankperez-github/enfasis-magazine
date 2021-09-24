@@ -7,7 +7,7 @@ const MagazineCard = ({magazine})=> {
         <div className="princ_izq">
 
             <div className="big_rect">
-                <Image src={magazine.cover} width="6000%" height="8000%"/>
+                <Image src={magazine.cover} alt="No cover" width="6000%" height="8000%"/>
             </div>
                 
             <div className="rectspeqs">
