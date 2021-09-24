@@ -7,12 +7,12 @@ const MagazineCard = ({magazine})=> {
         <div className="princ_izq">
 
             <div className="big_rect">
-                <Image src={magazine.images[0].image} width="6000%" height="8000%"/>
+                <Image src={magazine.cover} width="6000%" height="8000%"/>
             </div>
                 
             <div className="rectspeqs">
 
-            {magazine.images.slice(1).map(image=>{return <div className="RectPeq">
+            {magazine.images.map(image=>{return <div className="RectPeq">
                     <Image src={image.image} width="350%" height="300%" className="small_rect"/>
                 </div>})}
             </div>
