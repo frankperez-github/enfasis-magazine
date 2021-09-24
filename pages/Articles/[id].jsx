@@ -97,7 +97,7 @@ const Article = ({article}) => {
 
                     
                             
-                    {article.sections.map(section=><ArticleSection id={section.id} section={section}/>)}
+                    {article.sections.sort((a,b)=>a.order<b.order?-1:1).map(section=><ArticleSection id={section.id} section={section}/>)}
                             
 
            
