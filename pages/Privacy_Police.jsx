@@ -22,7 +22,7 @@ export default function Privacy_Police(){
                         <div className="lineamenor">
                             <Image src="/lineamenor.svg" width="400%" height="20%" />
                         </div>
-                        <p>Énfasis es un sitio al que accede gratuitamente y que proprciona información confiable sobre el acontecer en el diseño, la arquitectura y el arte, en Cuba u otras partes del mundo. Este sitio ha sido desarrollado y es actualizado por el equipo editorial de Revista Énfasis.
+                        <p>Énfasis es un sitio al que se accede gratuitamente y que proprciona información confiable sobre el acontecer en el diseño, la arquitectura y el arte, en Cuba u otras partes del mundo. Este sitio ha sido desarrollado y es actualizado por el equipo editorial de Revista Énfasis.
                             <br/>
                             <br/>      
                         Mediante la presente Política de Privacidad se establecen términos en que Énfasis usa y protege la información que es proporcionada por sus usuarios al momento de utilizar el sitio web. Estamos comprometidos con la seguridad de los datos de nuestros lectores.

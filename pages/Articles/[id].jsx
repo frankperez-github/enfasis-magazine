@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import ArticleSection from '../../components/ArticleSection';
-
+import Head from 'next/head'
 
 export const getServerSideProps = async(context) => {
 
@@ -41,7 +41,14 @@ const Article = ({article}) => {
     },[])
 
  return (
+     
     <div className="Comp">
+         <Head>
+          <title>{article.title}</title>
+          <meta name="description" content={article.keywords} />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        
 
     <div className="Article" id="article">
         
@@ -63,7 +70,7 @@ const Article = ({article}) => {
             
                 <div className="contenedor_art">  
                         
-                    <p className="keywords">{article.category.name}</p>
+                    <p className="keywords">{article.subcategory}</p>
                     
                     <div className="contenedor_tit">
                         <h1>{article.title}</h1><br/>
@@ -90,7 +97,7 @@ const Article = ({article}) => {
                             </a>
                         </div>
 
-                        <h2>{article.subtitle}</h2>
+                      
 
                     </div>
                     </div>     
