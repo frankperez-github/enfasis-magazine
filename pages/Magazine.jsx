@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import FormDesk from '../components/FormDesk'
-import Search_Bar from '../components/DeskVersion/Search_Bar';
+;
 import MagazineCard from '../components/MagazineCard';
 import { useEffect } from 'react';
 
@@ -12,16 +12,10 @@ function Magazine({magazines}){
     return(
         <div className="Component">
             <div className="Magazine">
-                <div className="SuperiorPart">
-                
-                    <Search_Bar/>
 
-                </div>
+                
                 
                 <FormDesk />    
-                
-         
-
                 
 
             {magazines.map(magazine=>{return <div  className=""><MagazineCard key={magazine.id} magazine={magazine} /> {magazine.id!=magazines[magazines.length-1].id && <div className="linea_edic">

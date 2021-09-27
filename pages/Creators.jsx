@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Search_Bar from '../components/DeskVersion/Search_Bar'
+
 import FormDesk from '../components/FormDesk'
 
 
@@ -14,7 +14,6 @@ export default function Creators(){
         <div className="SuperiorPart">
             <FormDesk />
             
-            <Search_Bar />
         </div>
         
         <div className="PrincArt">

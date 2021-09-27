@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Newsletter from './NewsLetter';
 import SearchBarComp from '../SearchBarComp';
+import EMailComp from '../EMailComp';
 
 export default function GeneralMenu(){
 
@@ -70,7 +71,7 @@ export default function GeneralMenu(){
                     <div className="linksNets">
 
                         <div className="Letter-divMob" >
-                            <Image src="/Newsletter.svg" width="100%" height="100%" className="letterimg"  onClick={ShowForm}/>
+                            <EMailComp />
                         </div>
                         <div className="LinksMenu">
                             <div className="Link2FollowMob">

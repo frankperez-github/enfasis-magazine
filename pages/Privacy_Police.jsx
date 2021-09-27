@@ -1,4 +1,4 @@
-import Search_Bar from '../components/DeskVersion/Search_Bar';
+;
 import FormDesk from '../components/FormDesk'
 import Image from 'next/image'
 import PrivacyPoliceMob from '../components/MobileVersion/PrivacyPoliceMob';
