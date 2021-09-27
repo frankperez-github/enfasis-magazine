@@ -115,7 +115,7 @@ export default function Layout(props){
         
         
                     <div className="search">
-
+                        
                         <SearchBarComp />
 
                         <div className="linea_search">

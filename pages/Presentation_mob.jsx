@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Menu from "../components/MobileVersion/PresentationMenu";
+import PresentationImages from '../components/PresentationImages';
 
 
     
@@ -29,17 +30,7 @@ export default function Presentation_mob(){
 
             <div className="Promo_Pic_Mob">
                 <div className="pic-div_mob">
-                    <div id="ed3Mob">
-                        <Image src="/ed03_portada.jpg" width="800%" height="1100%" />
-                    </div>
-                    
-                    <div id="ed2Mob">
-                        <Image src="/ed02_portada.jpg" width="800%" height="1100%" />
-                    </div>
-                    
-                    <div id="ed1Mob">
-                        <Image src="/ed01_portada.jpg" width="800%" height="1100%" />
-                    </div>
+                   <PresentationImages />
                 </div>
             </div>
 

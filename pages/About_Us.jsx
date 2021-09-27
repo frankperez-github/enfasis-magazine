@@ -25,7 +25,7 @@ function Us(){
                         <div className="lineamenor">
                             <Image src="/lineamenor.svg" width="400%" height="20%" />
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at ipsum illo dicta alias eius modi odio quos eligendi. Voluptas aspernatur hic saepe eveniet quidem explicabo id aliquam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate adipisci, in natus eos commodi minus exercitationem minima architecto ipsum repudiandae veniam odio ratione sapiente pariatur deserunt vitae fuga nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, recusandae optio. Libero, quas? Delectus aspernatur id quae fuga.</p>
+                        <p>La revista cubana <b>énfasis</b> es un productop comunicativo digital que se especializa en temas sobre diseño, arquitectura y arteñ además, cuneta con un equipo creativo que acoge a diseñadores gráficos e industriales, fotógrafos, periodistas y comunicadores sociales.Está concebida para ser una publicacion periódica en formato .pdf, disponible en su sitio web oficial y con presencia activa en las redes sociales más populares de Internet.Su contenido, sin exclusión ni politización, está destinado para un público nativo y foráneo que guste apreciar del trabajo de diseñadores, arquitectos y artistas cubanos. </p>
                     </div>
                 </div>
     

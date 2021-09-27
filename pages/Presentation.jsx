@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import PresentationImages from '../components/PresentationImages';
 
 
 
@@ -36,17 +37,7 @@ export default function Presentation(){
 
             <div className="Promo_Pic">
                 <div className="pic-div">
-                    <div id="ed3">
-                        <Image src="/ed03_portada.jpg" width="400%" height="500%" />
-                    </div>
-                    
-                    <div id="ed2">
-                        <Image src="/ed02_portada.jpg" width="400%" height="500%" />
-                    </div>
-                    
-                    <div id="ed1">
-                        <Image src="/ed01_portada.jpg" width="400%" height="500%" />
-                    </div>
+                    <PresentationImages />
                 </div>
             </div>
 

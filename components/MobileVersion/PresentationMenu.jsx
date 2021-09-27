@@ -19,6 +19,7 @@ export default function Menu(){
                 <div className="Stick">
                     <Image src="/stick.svg" width="100%" height="100%" />
                 </div>
+
                 <div className="menuNav">
                     <Link href="/Graphic_Design" >
                         <p className="LinkMobile">diseño gráfico </p>
@@ -40,6 +41,7 @@ export default function Menu(){
                         <p className="LinkMobile">revista</p>
                     </Link>
                 </div>
+
                 <div className="LinksMenu">
                     <div className="Link2Follow">
                         <a href="https://www.instagram.com/enfasismag" target="_blank" className="LinkArtMob"> 
@@ -55,6 +57,7 @@ export default function Menu(){
                         </a>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
