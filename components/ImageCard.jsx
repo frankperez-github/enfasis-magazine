@@ -5,9 +5,6 @@ const ImageCard = ({image}) => {
 
     return(
         <div className="pic_art">
-            <br />
-            <br />
-            <br />
 
             <div className="pic_art_img" style={{backgroundImage: `url(${image.image})`}}>
             

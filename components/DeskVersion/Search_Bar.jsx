@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import SearchBarComp from '../SearchBarComp';
 
 function ShowForm(){
     document.getElementById('FormDesk').style.display="block";
@@ -42,16 +43,7 @@ export default function Search_Bar(){
     
                 <div className="search">
 
-                    <div className="findicon">
-
-                        <input type="search" placeholder="buscar" className="input-search"/>
-                            
-                        <div className="to-search">
-                            <Image src="/Buscar.svg" width="50%" height="25%" />
-                        </div>
-                    
-
-                    </div>
+                    <SearchBarComp />
 
                     <div className="linea_search">
                         <Image src="/L_nea_44.svg" width="1000%" height="20%" />

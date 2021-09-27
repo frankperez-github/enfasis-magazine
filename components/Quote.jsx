@@ -7,7 +7,7 @@ const Quote = ({quote}) => {
 
         <div className="text_com">
                 <p>{quote.quote}</p>
-                <p className="author"><b>{quote.author}</b></p><br/>
+                <p className="author"><b>{quote.author}</b></p>
         </div>
 
     </div>

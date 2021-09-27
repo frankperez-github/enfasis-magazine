@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Newsletter from './NewsLetter';
+import SearchBarComp from '../SearchBarComp';
 
 export default function GeneralMenu(){
 
@@ -28,16 +29,7 @@ export default function GeneralMenu(){
                     
                     <div className="searchMob">
 
-                        <div className="findicon">
-
-                            <input type="search" placeholder="buscar" className="input-searchMob"/>
-                                
-                            <div className="to-searchMob">
-                                <Image src="/Buscar.svg" width="70%" height="45%" />
-                            </div>
-                        
-
-                        </div>
+                        <SearchBarComp />
 
                         <div className="linea_search">
                             <Image src="/L_nea_44.svg" width="1000%" height="20%" />
