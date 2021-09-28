@@ -7,7 +7,7 @@ import Head from 'next/head'
 
 export const getServerSideProps = async(context) => {
 
-    const res = await fetch(`http://django-env.eba-v37cvdpk.us-west-2.elasticbeanstalk.com/api/${context.params.id}`)
+    const res = await fetch(`https://enfasisapi.com/api/${context.params.id}`)
     const article = await res.json()
 
     return {
