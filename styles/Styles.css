@@ -3600,7 +3600,22 @@ button:hover{
         width: 60%;
         background-color: white;
     }
-    
+    .live_mail p{
+        font-size: 12px;
+    }
+    .Suscribir{
+        font-size: 13px;
+    }
+    .cont_form input::placeholder{
+        font-size: 12px;
+    }
+    .live_mail{
+        margin-bottom: 4%;
+        padding: 2%;
+    }
+    .cont_form input{  
+        margin-bottom: 2%;
+    }
 }
 
 
