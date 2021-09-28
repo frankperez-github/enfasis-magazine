@@ -25,7 +25,7 @@ function Us(){
                         <div className="lineamenor">
                             <Image src="/lineamenor.svg" width="400%" height="20%" />
                         </div>
-                        <p>La revista cubana <b>énfasis</b> es un productop comunicativo digital que se especializa en temas sobre diseño, arquitectura y arteñ además, cuneta con un equipo creativo que acoge a diseñadores gráficos e industriales, fotógrafos, periodistas y comunicadores sociales.Está concebida para ser una publicacion periódica en formato .pdf, disponible en su sitio web oficial y con presencia activa en las redes sociales más populares de Internet.Su contenido, sin exclusión ni politización, está destinado para un público nativo y foráneo que guste apreciar del trabajo de diseñadores, arquitectos y artistas cubanos. </p>
+                        <p>La revista cubana <b>énfasis</b> es un producto comunicativo digital que se especializa en temas sobre diseño, arquitectura y arteñ además, cuneta con un equipo creativo que acoge a diseñadores gráficos e industriales, fotógrafos, periodistas y comunicadores sociales.Está concebida para ser una publicacion periódica en formato .pdf, disponible en su sitio web oficial y con presencia activa en las redes sociales más populares de Internet. Su contenido, sin exclusión ni politización, está destinado para un público nativo y foráneo que guste apreciar del trabajo de diseñadores, arquitectos y artistas cubanos. </p>
                     </div>
                 </div>
     
@@ -33,12 +33,12 @@ function Us(){
     
                     <div className="column1 columna">
                         <h2>Contacta</h2>
-                        <p>Hola! Nos encantaria saber de ti, pero recuerda revisar la Pagina de Preguntas Frecuentes y Terminos de Privacidad antes.</p>
+                        <p>Hola! Nos encantaria saber de ti, pero recuerda revisar la Página de Preguntas Frecuentes y Términos de Privacidad antes.</p>
                     </div>
     
                     <div className="colum2 columna">
                         <h2>Colabora</h2>
-                        <p>No podemos llegar lejos sin tu apoyo. Si quieres unirte al grupo de colaboradores que comparten sus ideas cada edicion, revisa los requerimientos y envianos tu propuesta a <a href="mailto:renfasis@gmail.com ">renfasis@gmail.com</a></p>
+                        <p>No podemos llegar lejos sin tu apoyo. Si quieres unirte al grupo de colaboradores que comparten sus ideas cada edición, revisa los requerimientos y envíanos tu propuesta a <a href="mailto:renfasis@gmail.com ">renfasis@gmail.com</a></p>
                     </div>
     
                     <div className="column3 columna">
@@ -48,7 +48,7 @@ function Us(){
                 
                 </div>
     
-                <div className="info_gral">
+                {/* <div className="info_gral">
                         
                     <h1 className="the_next">Próximo<br/>Número</h1>
     
@@ -121,7 +121,7 @@ function Us(){
                         <Image src="/lineamenor.svg" width="500%" height="10%" className="lineamenor_img linea_larga"/>
     
                     </div>
-                </div>
+                </div> */}
     
             </div>
                 

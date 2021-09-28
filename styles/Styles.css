@@ -1745,6 +1745,9 @@ button:hover{
 .lineamenor_bodyMob{
     width: 55%;
 }
+.column3{
+    margin-bottom: 5%;
+}
 /*end of About Us Mob*/
 
 
@@ -1767,7 +1770,7 @@ button:hover{
     line-height: 27px;
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1700px){
     :root{
         --to-anim: 25%;
         --height-pic:60vh;
@@ -1775,6 +1778,10 @@ button:hover{
     }
     .PicByPrinc{
         top: 5%;
+    }
+    .Letter-div{
+        max-width: 20%;
+        margin-left: 6%;
     }
     
 }
