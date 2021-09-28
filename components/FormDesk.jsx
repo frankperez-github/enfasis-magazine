@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import { useState } from 'react';
 
-export default function FormDesk(){
+function FormDesk(){
 
     const [subscriber, setSubscriber] = useState("")
 
     function HideForm(){
-        document.getElementById('FormDesk').style.display="none";
+        document.getElementById('Form').style.display="none";
+        document.getElementById('GeneralMenu').style.display="none";
+        document.getElementById('Newsletter').style.display="none"
     }
     
     
@@ -20,10 +22,11 @@ export default function FormDesk(){
     
 
     return(
-        <div id="FormDesk">
+        <div id="Form">
+
             <div id="Newsletter">
-                
-                <div id="form_letter" className="form_letter" >
+            
+                <div id="form_letter" className="form_letter form_letterMob" >
 
                     <div className="cerrar_form">
                         <Image src="/failed.svg" width="100%" height="100%" onClick={HideForm}/>
@@ -58,11 +61,11 @@ export default function FormDesk(){
                 <div className="fondo_atenuado" id="tenue">
                 
                 </div>
-
+            
             </div>
 
         </div>
     );
-}
+}export default FormDesk;
 
 

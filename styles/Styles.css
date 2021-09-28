@@ -743,7 +743,7 @@ ol{
 
 
 /*--------------------------formulario*/
-#FormDesk{
+#Form{
     position: fixed;
     width: 100%;
     top: 0%;
@@ -1503,21 +1503,7 @@ button:hover{
 
 
 /*Newsletter MOb*/
-#Newsletter{
-    display: none;
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    z-index: 8;
-}
-.form_letterMob{
-    position: absolute;
-    top: 35%;
-    left: 20%;
-    z-index: 6;
-    width: 60%;
-    background-color: white;
-}
+
 .placeholderMob{
     margin-top: 5% !important;
     font-size: 12px;
@@ -1526,7 +1512,7 @@ button:hover{
     text-align: center;
 }
 .cont_formMob input{
-    width: 75%;
+    width: 72%;
     margin: 3% 2%;
     padding: 2% 3%;
 }
@@ -3606,6 +3592,15 @@ button:hover{
     :root{
         --to-anim: 27%;
     }
+    .form_letterMob{
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        z-index: 6;
+        width: 60%;
+        background-color: white;
+    }
+    
 }
 
 

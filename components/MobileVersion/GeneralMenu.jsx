@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import SearchBarComp from '../SearchBarComp';
 import EMailComp from '../EMailComp';
+import FormDesk from '../FormDesk'
 
 function GeneralMenu(){
 
@@ -11,8 +12,9 @@ function GeneralMenu(){
     
 
     return(
-        <div className="Generalmenu">
-
+        <div className="">
+            
+            <FormDesk />
 
             <div id="GeneralMenu">
                 <div className="CloseMenu">
@@ -86,6 +88,8 @@ function GeneralMenu(){
                     </div>
                 </div>
             </div>
+
+        
         </div>
     );
 }export default GeneralMenu;
