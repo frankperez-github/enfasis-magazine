@@ -30,7 +30,7 @@ function Magazine({magazines}){
 
 
 export const getServerSideProps = async() => {
-    const res = await fetch("http://django-env.eba-v37cvdpk.us-west-2.elasticbeanstalk.com/api/revistas/")
+    const res = await fetch("https://enfasisapi.com/api/revistas/")
     const magazines = await res.json()
 
     return {

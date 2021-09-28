@@ -1,11 +1,24 @@
 import Image from 'next/image'
-
-
-function HideForm(){
-    document.getElementById('FormDesk').style.display="none";
-}
+import { useState } from 'react';
 
 export default function FormDesk(){
+
+    const [subscriber, setSubscriber] = useState("")
+
+    function HideForm(){
+        document.getElementById('FormDesk').style.display="none";
+    }
+    
+    
+    const handleSubmit = async(e) => {
+        e.preventDefault()
+        const res = await fetch('https://enfasisapi.com/api/subscribers/', {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({"email":subscriber})})
+        const data = await res.json()
+        if (res.status==201){ alert("You have subscribed succesfully"); HideForm()}
+        else alert(data.email)
+    }
+    
+
     return(
         <div id="FormDesk">
                 
@@ -27,13 +40,14 @@ export default function FormDesk(){
                         <p>Déjanos tu correo para que no te pierdas ninguna de nuestras ediciones.</p>
                     </div>
                     
-                    <form action="Submit">
+                    <form  onSubmit={handleSubmit}>
 
-                        <input type="text" name="email" placeholder="escribe tu correo" className="placeholder" required/><br/>
+                        <input onChange={(e)=>{setSubscriber(e.target.value)}} value={subscriber} type="email" name="email" placeholder="escribe tu correo" className="placeholder" required/><br/>
+                        <button id="sendinfo" type="submit"  className="Suscribir">Suscribirme</button>          
 
                     </form>
                     
-                    <button id="sendinfo"  className="Suscribir" onClick={HideForm}>Suscribirme</button>            
+                      
 
                 </div> 
 
