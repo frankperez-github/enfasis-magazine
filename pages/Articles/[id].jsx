@@ -9,15 +9,22 @@ export const getServerSideProps = async(context) => {
 
     const res = await fetch(`https://enfasisapi.com/api/${context.params.id}`)
     const article = await res.json()
+    const res2 =  await fetch(`https://enfasisapi.com/api/promotions`)
+    const promotions = await res2.json()
+    const res3 =  await fetch(`https://enfasisapi.com/api/`)
+    const articles = await res3.json()
+
 
     return {
         props : {
-            article
+            article,
+            articles:articles.slice(0,3),
+            promotions
         }
     }
 }
 
-const Article = ({article}) => {
+const Article = ({article, promotions, articles}) => {
     const months = [
         'Enero',
         'Febrero',
@@ -148,16 +155,8 @@ const Article = ({article}) => {
 
                     <h2>LO MÁS RECIENTE</h2>
 
-                    <a href="">
-                        <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                    </a>
-                        
-                    <a href="">
-                        <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                    </a>
-                    <a href="">
-                        <p>Miguel Monkc: "No soy el ilustrador que todos creen que soy"</p>
-                    </a>
+               
+                    {articles.map(article=> { return  <Link href={'/Articles/'+ article.id}><a href=""><p>{article.title}</p></a></Link>})}
             
                 </div>
 
@@ -170,21 +169,11 @@ const Article = ({article}) => {
                 </div>
 
                 <div className="public_pagada">
-                    <div className="PromoImg">
-                        <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
-                    </div>
+                   
+                    {promotions.map(promo=><div className="PromoImg">
+                        <Image src={promo.image} width="1000%" height="1300%"/>
+                    </div>)}
                     
-                    <div className="PromoImg">
-                        <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
-                    </div>
-
-                    <div className="PromoImg">
-                        <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
-                    </div>
-
-                    <div className="PromoImg">
-                        <Image src="/promo_ejemplo.jpg" width="1000%" height="1300%"/>
-                    </div>
                     
                 </div>
             </div>

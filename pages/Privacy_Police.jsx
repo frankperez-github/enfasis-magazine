@@ -1,3 +1,4 @@
+;
 import FormDesk from '../components/FormDesk'
 import Image from 'next/image'
 import PrivacyPoliceMob from '../components/MobileVersion/PrivacyPoliceMob';
@@ -8,7 +9,6 @@ export default function Privacy_Police(){
             <PrivacyPoliceMob />
         
             <div className="Privacy_Police">
-                
                 <FormDesk />
                 <div className="contenedor">
                     <div className="titular">
