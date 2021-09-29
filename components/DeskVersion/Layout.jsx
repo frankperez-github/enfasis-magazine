@@ -6,7 +6,7 @@ import SearchBarComp from '../SearchBarComp';
 import EMailComp from '../EMailComp';
 
 
-export default function Layout(props){
+function Layout(props){
 
     const router = useRouter()
 
@@ -29,9 +29,14 @@ export default function Layout(props){
         
   
     <div className="Layout">
+
+        
         <div >
+            
             <GeneralMenu />
+
             <header style={{display: display}}>
+                
 
                 <div className="headerPh" id="top">
                     <div className="PhoneHeader">
@@ -135,13 +140,14 @@ export default function Layout(props){
                         
         
                     </div>
-        
+
                 </div>
             </div>
-        
+            
 
             <main>
                 {props.children}
+                
             </main>
             
             <footer style={{display: display}}>
@@ -215,4 +221,4 @@ export default function Layout(props){
     </div>
     );
 
-}
+}export default Layout;

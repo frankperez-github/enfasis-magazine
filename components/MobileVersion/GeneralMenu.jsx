@@ -1,23 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Newsletter from './NewsLetter';
 import SearchBarComp from '../SearchBarComp';
 import EMailComp from '../EMailComp';
+import FormDesk from '../FormDesk'
 
-export default function GeneralMenu(){
+function GeneralMenu(){
 
     function HideMenu(){
         document.getElementById('GeneralMenu').style.display="none";
     }
-    function ShowForm(){
-        document.getElementById('Newsletter').style.display="block";
-        document.getElementById('GeneralMenu').style.display="none";
-    }
+    
 
     return(
-        <div className="Generalmenu">
-
-            <Newsletter />
+        <div className="">
+            
+            <FormDesk />
 
             <div id="GeneralMenu">
                 <div className="CloseMenu">
@@ -91,6 +88,8 @@ export default function GeneralMenu(){
                     </div>
                 </div>
             </div>
+
+        
         </div>
     );
-}
+}export default GeneralMenu;
