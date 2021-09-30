@@ -1071,7 +1071,6 @@ ol{
 /*Graphic Design***********************************/
 .PrincipalArt{
     text-align: center;
-    background-image: url('/Invited.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1148,7 +1147,7 @@ button:hover{
     
     height: var(--height-pic);
     margin-bottom: 3%;
-    background-image: url('/Invited.jpg');
+ 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
