@@ -1070,13 +1070,7 @@ ol{
 
 /*Graphic Design***********************************/
 .PrincipalArt{
-    text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
     height: var(--height-PrincPic);
-    margin-top: 2%;
 }
 .PrincArt{
     margin: 0 5.5%;
