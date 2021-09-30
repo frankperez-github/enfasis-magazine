@@ -141,14 +141,13 @@ a{
     left: 7%;
     bottom: 5%;
     align-items: flex-start;
-    display: flex;
     flex-direction: column;
 }
 .Link_net{
     padding-top: 2% !important;
 }
 .Link{
-    width: 45%;
+    width: 20%;
     margin-bottom: 3%;
 }
 .Link:last-of-type{
@@ -1312,22 +1311,9 @@ button:hover{
 /**************************************************************Mobile Version***************************************************************************/
 
 /*Presentation Mob*/
-.PresentationComp{
-    background-color: #cecece;
-    height: 100vh;
-}
-.network_div{
-    position: absolute;
-    bottom: 2%;
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 28%;
-}
-.LinkMob{
-    width: 60%;
-    margin-bottom: 50%;
-}
+
+
+
 .WhiteLogoMob{
     z-index: 6;
     width: 45%;
@@ -1335,6 +1321,7 @@ button:hover{
     margin-left: 8%;
 }
 .Nav_menu_Mob{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -1348,7 +1335,6 @@ button:hover{
 }
 
 #PresentationMenu{
-    display: flex;
     display: none;
     position: fixed;
     height: 100vh;
@@ -3025,9 +3011,6 @@ button:hover{
 .PrivacyPoliceMob{
     display: none;
 }
-.PresentationComp{
-    display: none;
-}
 .LayoutPhone{
     display: none;
 }
@@ -3037,9 +3020,18 @@ button:hover{
 .AboutUsMob{
     display: none;
 }
+.Nav_menu_Mob{
+    display: none;
+}
 
 
 @media (max-width: 500px){
+    .Nav_menu_Mob{
+        display: flex;
+    }
+    .Nav_menu{
+        display: none;
+    }
 
     h1{
         font-size: 23px;
@@ -3053,9 +3045,7 @@ button:hover{
     }
     
 
-    .Presentation{
-        display: none;
-    }
+    
     .Nosotros{
         display: none;
     }
@@ -3076,9 +3066,7 @@ button:hover{
     .headerPh{
         display: block;
     }
-    .PresentationComp{
-        display: block;
-    }
+ 
     .LayoutPhone{
         display: block;
     }
@@ -3100,10 +3088,18 @@ button:hover{
     }
     
     
+    
 
 /************Adjusting Desk to Mobile Version*************************************************/
 
-
+    .NetworksMob{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .Presentation{
+        display: block;
+    }
     .SuperiorPart{
         display: none;
     }
@@ -3615,6 +3611,22 @@ button:hover{
         z-index: 6;
         width: 70%;
         background-color: white;
+    }
+    .network-div{
+        left: 0;
+        bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0 25%;
+        flex-direction: row;
+    }
+    .network-div a{
+        width: 23%;
+    }
+    .Link{
+        width: 100%;
+        margin: 0;
     }
 }
 
