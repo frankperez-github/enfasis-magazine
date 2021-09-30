@@ -1071,6 +1071,7 @@ ol{
 /*Graphic Design***********************************/
 .PrincipalArt{
     height: var(--height-PrincPic);
+    margin-top: 2%;
 }
 .PrincArt{
     margin: 0 5.5%;
@@ -1100,7 +1101,7 @@ h2{
     margin-left: 85%;
     margin-right: -10%;
     width: 15%;
-    top: 8%;
+    top: 4%;
 }
 .LinkArt{
     cursor: pointer;
@@ -1974,7 +1975,7 @@ button:hover{
     }
 
     h2{
-        font-size: 9px;
+        font-size: 9.7px;
     }
     h4{
         font-size: 13px;
@@ -2000,7 +2001,7 @@ button:hover{
         font-size: 16px;
     }
     .PicByPrinc{
-        top: 9%;
+        top: 7%;
     }
     .fecha_public{
         font-size: 8px;
@@ -2137,7 +2138,7 @@ button:hover{
     }
 
     h2{
-        font-size: 8px;
+        font-size: 9px;
     }
 
     h3{
@@ -2284,7 +2285,7 @@ button:hover{
     }
 
     h2{
-        font-size:7px;
+        font-size:8px;
     }
     
     h3{
@@ -2442,7 +2443,7 @@ button:hover{
         font-size: 21px;
     }
     h2{
-        font-size: 7px;
+        font-size: 7.5px;
     }
 
     h3{
@@ -2602,7 +2603,7 @@ button:hover{
         font-size: 20px;
     }
     h2{
-        font-size: 6px;
+        font-size: 6.5px;
     }
 
     h3{
@@ -2748,7 +2749,7 @@ button:hover{
         font-size: 16px;
     }
     h2{
-        font-size: 5px;
+        font-size: 5.5px;
     }
 
     h3{
@@ -2889,7 +2890,7 @@ button:hover{
         font-size: 8px;
     }
     h2{
-        font-size: 6px;
+        font-size: 5.5px;
     }
 
     h3{
@@ -3140,7 +3141,7 @@ button:hover{
         padding-bottom: 5%;
     }
     .PicByPrinc{
-        top: 8.5%;
+        top: 7.5%;
         font-size: 4.5px;
     }
     .PicBy{
