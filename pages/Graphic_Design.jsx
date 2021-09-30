@@ -38,7 +38,11 @@ export default function Graphic_Design({articles}){
             </div>
             <div className="contenedor">
 
-              {articles.filter((article, index)=>index%2!=0).map((article, index)=><div className="Inviteds_line"><ArticleCard article={article}/>{(article.ind<articles.length-1) && <ArticleCard article={articles[article.ind+1]}/>}</div>)}
+              {articles.filter((article, index)=>index%2!=0).map((article, index)=><div className="Inviteds_line">
+                  
+                  <ArticleCard article={article}/>{(article.ind<articles.length-1) && <ArticleCard article={articles[article.ind+1]}/>}
+                
+                </div>)}
                
     
             
