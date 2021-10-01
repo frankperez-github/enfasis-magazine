@@ -65,7 +65,7 @@ export default function Home({revistas}) {
 
             <div className="Promo_Pic_Mob">
                 <div className="pic-div">
-                 {revistas.map(revista=>{return <div id="ed3">
+                 {revistas.map(revista=>{return <div id="ed1">
                       <Image src={revista.cover} width="400%" height="500%" />
                   </div>})}
                 </div>

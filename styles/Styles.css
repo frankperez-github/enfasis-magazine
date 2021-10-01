@@ -6,8 +6,6 @@
 }
 
 :root{
-    --to-anim: 11%;
-    --to-animMob: 26%;
     --height-pic: 60vh;
     --height-PrincPic: 80vh;
 }
@@ -115,13 +113,9 @@ a{
 .Networks{
     width: 33%;   
 }
-.Promo_Pic{
-    z-index: 2;
-    width: 33%;
-}
 .pic-div{
     position: fixed;
-    text-align: center;
+    left: 32.2%;
     top: 10%;
     width: 100%;
 }
@@ -198,57 +192,21 @@ a{
     margin-left: 64.2%;
 }
 #ed1{
-    position: fixed;
-    width: 60%;
-    left: 20%;
-    top: -150%;
-    animation-name: ED1;
-    animation-duration: 51s;
+    width: 36.5%;
+    margin-bottom: 55%;
+    animation-duration: 60s;
     z-index: 3;
     animation-iteration-count: infinite;
 }
-#ed2{
-    position: fixed;
-    width: 60%;
-    left: 20%;
-    top: -150%;
-    animation-name: ED2;
-    animation-duration: 51s;   
-    z-index: 2;
-    animation-iteration-count: infinite;
-}
-#ed3{
-    position: fixed;
-    width: 60%;
-    left: 20%;
-    animation-name: ED3;
-    animation-duration: 51s;   
-    z-index: 1;
-    animation-iteration-count: infinite;
-}
-
-
-
-@keyframes ED2 {
-    0%{}
-    29%{top: -150%;}/*sec 15*/
-    33%{top: var(--to-anim);} /*sec 17*/
-    90%{visibility: hidden;}
-    100%{top: var(--to-anim);visibility: hidden;}
-}
 @keyframes ED1 {
-    0%{}
-    63%{top: -150%;} /*sec 32*/
-    67%{top: var(--to-anim);} /*sec 34*/
-    100%{top: var(--to-anim);}
-}
-@keyframes ED3 {
-    0%{top: var(--to-anim);z-index: 1;}
-    32.5%{z-index: 1;}
-    33%{top: var(--to-anim); visibility: hidden;}
-    34%{top: -150%; visibility: hidden;}
-    96%{top: -150%;z-index: 4;}/*sec 49*/
-    100%{top: var(--to-anim);z-index: 4;}/*sec 51*/
+    0%{margin-top: 0;}
+    25%{margin-top: 0%;}/*sec 15*/
+    28.3%{margin-top: -50%;}/*sec 17*/
+    50%{margin-top: -50%;} /*sec 30*/
+    53.3%{margin-top: -100%;} /*sec 32*/
+    75%{margin-top: -100%;} /*sec 45*/
+    76.3%{margin-top: -150%;} /*sec 58*/
+    100%{margin-top: -150%;} /*sec 60*/
 }
 /*end of presentation***********/
 
@@ -1331,7 +1289,7 @@ button:hover{
     margin-right: 7%;
 }
 .Promo_Pic_Mob{
-    margin-left: 37.5%;
+    text-align: center;
 }
 
 #PresentationMenu{
@@ -1714,10 +1672,10 @@ button:hover{
 
 @media (min-width: 1700px){
     :root{
-        --to-anim: 25%;
         --height-pic:60vh;
         --height-PrincPic:120vh;
     }
+    
     .PicByPrinc{
         top: 5%;
     }
@@ -1742,18 +1700,6 @@ button:hover{
         font-size: 22px;
     }
 }
-@media (height: 1024px){
-    :root{
-        --to-anim: 25%;
-    }
-    
-}
-@media (height: 1366px){
-    :root{
-        --to-anim: 30% !important;
-    }
-    
-}
 
 @media (min-width: 1100px){
     .TittleLabel{
@@ -1765,7 +1711,6 @@ button:hover{
 }
 @media (width: 1200px){
     :root{
-        --to-anim: 25%;
         --height-pic:37vh;
         --height-PrincPic:80vh;
     }
@@ -1780,7 +1725,6 @@ button:hover{
 @media (max-width: 1125px){
 
     :root{
-        --to-anim: 15%;
         --height-pic:50vh;
         --height-PrincPic:77vh;
     }
@@ -1949,7 +1893,6 @@ button:hover{
 
 @media (max-width: 1080px){
     :root{
-        --to-anim: 17%;
         --height-pic:45vh;
         --height-PrincPic:70vh;
     }
@@ -2112,7 +2055,6 @@ button:hover{
 
 @media (max-width:980px){
     :root{
-        --to-anim: 20%;
         --height-pic:43vh;
         --height-PrincPic:65vh;
     }
@@ -2259,7 +2201,6 @@ button:hover{
 
 @media (max-width:880px){
     :root{
-        --to-anim: 24%;
         --height-pic:35vh;
         --height-PrincPic:63vh;
     }
@@ -2418,7 +2359,6 @@ button:hover{
 
 @media (max-width:750px){
     :root{
-        --to-anim: 27%;
         --height-pic:30vh;
         --height-PrincPic:57vh;
     }
@@ -2578,7 +2518,6 @@ button:hover{
 
 @media (max-width:640px){
     :root{
-        --to-anim: 30%;
         --height-pic:27vh;
         --height-PrincPic:50vh;
     }
@@ -2869,7 +2808,6 @@ button:hover{
 @media (max-width:520px){
     
     :root{
-        --to-anim: 35%;
         --height-pic:20vh;
     }
     h1{
@@ -3555,29 +3493,40 @@ button:hover{
         margin-bottom: -2%;
         margin-top: 2%;
     }
-    @keyframes ED2 {
-        0%{}
-        29%{top: -150%;}/*sec 15*/
-        33%{top: var(--to-anim);} /*sec 17*/
-        90%{visibility: hidden;}
-        100%{top: var(--to-anim);visibility: hidden;}
+    .pic-div{
+        position: fixed;
+        left: 20%;
+        top: 10%;
+        width: 100%;
+    }
+    .network-div{
+        background-color: rgb(205, 205, 205);
+        z-index: 5;
+    }
+    .Nav_menu_Mob{
+        background-color: rgb(205, 205, 205);
+        z-index: 5;
+        padding-bottom: 1%;
+        position: sticky;
+    }
+    #ed1{
+        width: 60%;
+        margin-bottom:95%;
+        margin-top: 28%;
+        animation-duration: 60s;
+        animation-name: ED1;
+        z-index: 3;
+        animation-iteration-count: infinite;
     }
     @keyframes ED1 {
-        0%{}
-        63%{top: -150%;} /*sec 32*/
-        67%{top: var(--to-anim);} /*sec 34*/
-        100%{top: var(--to-anim);}
-    }
-    @keyframes ED3 {
-        0%{top: var(--to-anim);z-index: 1;}
-        32.5%{z-index: 1;}
-        33%{top: var(--to-anim); visibility: hidden;}
-        34%{top: -150%; visibility: hidden;}
-        96%{top: -150%;z-index: 4;}/*sec 49*/
-        100%{top: var(--to-anim);z-index: 4;}/*sec 51*/
-    }
-    :root{
-        --to-anim: 27%;
+        0%{margin-top: 28%;}
+        25%{margin-top: 28%;}/*sec 15*/
+        28.3%{margin-top: -71%;}/*sec 17*/
+        50%{margin-top: -71%;} /*sec 30*/
+        53.3%{margin-top: -124%;} /*sec 32*/
+        75%{margin-top: -124%;} /*sec 45*/
+        76.3%{margin-top: -192%;} /*sec 58*/
+        100%{margin-top: -192%;} /*sec 60*/
     }
     .form_letterMob{
         position: absolute;
@@ -3630,7 +3579,21 @@ button:hover{
     }
 }
 
-
+@media (height:812px) {
+    #ed1{
+        margin-bottom:110%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 45%;}
+        25%{margin-top: 45%;}/*sec 15*/
+        28.3%{margin-top: -71%;}/*sec 17*/
+        50%{margin-top: -71%;} /*sec 30*/
+        53.3%{margin-top: -124%;} /*sec 32*/
+        75%{margin-top: -124%;} /*sec 45*/
+        76.3%{margin-top: -192%;} /*sec 58*/
+        100%{margin-top: -192%;} /*sec 60*/
+    }
+}
 
 @media (max-width:320px){
     .TittleLabelMobSpecial{
