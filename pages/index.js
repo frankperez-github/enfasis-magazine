@@ -118,7 +118,7 @@ export const getServerSideProps = async() => {
 
  return {
      props: {
-         revistas
+         revistas: revistas.slice(0,3)
      }
  }
 }
