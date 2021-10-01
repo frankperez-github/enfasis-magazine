@@ -4,7 +4,7 @@ import Menu from '../components/MobileVersion/PresentationMenu';
 import Head from 'next/head'
 
 
-export default function Home() {
+export default function Home({revistas}) {
 
   function ShowMenu(){
     document.getElementById('PresentationMenu').style.display="block";
@@ -65,17 +65,9 @@ export default function Home() {
 
             <div className="Promo_Pic_Mob">
                 <div className="pic-div">
-                  <div id="ed3">
-                      <Image src="/ed03_portada.jpg" width="400%" height="500%" />
-                  </div>
-                  
-                  <div id="ed2">
-                      <Image src="/ed02_portada.jpg" width="400%" height="500%" />
-                  </div>
-                  
-                  <div id="ed1">
-                      <Image src="/ed01_portada.jpg" width="400%" height="500%" />
-                  </div>
+                 {revistas.map(revista=>{return <div id="ed3">
+                      <Image src={revista.cover} width="400%" height="500%" />
+                  </div>})}
                 </div>
             </div>
 
@@ -118,4 +110,15 @@ export default function Home() {
         </main>
       </div>
   )
+}
+
+export const getServerSideProps = async() => {
+ const res = await fetch("https://enfasisapi.com/api/revistas")
+ const revistas = await res.json()
+
+ return {
+     props: {
+         revistas
+     }
+ }
 }
