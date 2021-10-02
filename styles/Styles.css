@@ -193,7 +193,8 @@ a{
 }
 #ed1{
     width: 36.5%;
-    margin-bottom: 55%;
+    margin-bottom: 95%;
+    animation-name: ED1;
     animation-duration: 60s;
     z-index: 3;
     animation-iteration-count: infinite;
@@ -201,12 +202,11 @@ a{
 @keyframes ED1 {
     0%{margin-top: 0;}
     25%{margin-top: 0%;}/*sec 15*/
-    28.3%{margin-top: -50%;}/*sec 17*/
-    50%{margin-top: -50%;} /*sec 30*/
-    53.3%{margin-top: -100%;} /*sec 32*/
-    75%{margin-top: -100%;} /*sec 45*/
-    76.3%{margin-top: -150%;} /*sec 58*/
-    100%{margin-top: -150%;} /*sec 60*/
+    28.3%{margin-top: -66%;}/*sec 17*/
+    50%{margin-top: -66%;} /*sec 30*/
+    53.3%{margin-top: -88%;} /*sec 32*/
+    75%{margin-top: -88%;} /*sec 45*/
+    100%{margin-top: -88%;} /*sec 60*/
 }
 /*end of presentation***********/
 
@@ -3500,7 +3500,6 @@ button:hover{
         width: 100%;
     }
     .network-div{
-        background-color: rgb(205, 205, 205);
         z-index: 5;
     }
     .Nav_menu_Mob{
@@ -3511,7 +3510,7 @@ button:hover{
     }
     #ed1{
         width: 60%;
-        margin-bottom:95%;
+        margin-bottom:110vh;
         margin-top: 28%;
         animation-duration: 60s;
         animation-name: ED1;
@@ -3519,14 +3518,13 @@ button:hover{
         animation-iteration-count: infinite;
     }
     @keyframes ED1 {
-        0%{margin-top: 28%;}
+        0%{margin-top: 28;}
         25%{margin-top: 28%;}/*sec 15*/
-        28.3%{margin-top: -71%;}/*sec 17*/
-        50%{margin-top: -71%;} /*sec 30*/
-        53.3%{margin-top: -124%;} /*sec 32*/
-        75%{margin-top: -124%;} /*sec 45*/
-        76.3%{margin-top: -192%;} /*sec 58*/
-        100%{margin-top: -192%;} /*sec 60*/
+        28.3%{margin-top: -118%;}/*sec 17*/
+        50%{margin-top: -118%;} /*sec 30*/
+        53.3%{margin-top: -170%;} /*sec 32*/
+        75%{margin-top: -170%;} /*sec 45*/
+        100%{margin-top: -170%;} /*sec 60*/
     }
     .form_letterMob{
         position: absolute;
@@ -3581,17 +3579,16 @@ button:hover{
 
 @media (height:812px) {
     #ed1{
-        margin-bottom:110%;
+        margin-bottom:100vh;
     }
     @keyframes ED1 {
         0%{margin-top: 45%;}
         25%{margin-top: 45%;}/*sec 15*/
-        28.3%{margin-top: -71%;}/*sec 17*/
-        50%{margin-top: -71%;} /*sec 30*/
-        53.3%{margin-top: -124%;} /*sec 32*/
-        75%{margin-top: -124%;} /*sec 45*/
-        76.3%{margin-top: -192%;} /*sec 58*/
-        100%{margin-top: -192%;} /*sec 60*/
+        28.3%{margin-top: -123%;}/*sec 17*/
+        50%{margin-top: -123%;} /*sec 30*/
+        53.3%{margin-top: -182%;} /*sec 32*/
+        75%{margin-top: -182%;} /*sec 45*/
+        100%{margin-top: -182%;} /*sec 60*/
     }
 }
 
@@ -3612,6 +3609,15 @@ button:hover{
     }
     .PicBy{
         font-size: 4px;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 28;}
+        25%{margin-top: 28%;}/*sec 15*/
+        28.3%{margin-top: -110%;}/*sec 17*/
+        50%{margin-top: -110%;} /*sec 30*/
+        53.3%{margin-top: -153%;} /*sec 32*/
+        75%{margin-top: -153%;} /*sec 45*/
+        100%{margin-top: -153%;} /*sec 60*/
     }
 }
 
