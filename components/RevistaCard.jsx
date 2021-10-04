@@ -13,7 +13,7 @@ const RevistaCard = ({magazine})=> {
                     <h1>Número {magazine.number}</h1>
 
                     <div className="tittle_image">
-                        <Image src={magazine.images[0].image} width="500%" height="20%" />
+                        <Image src="/lineamenor.svg" width="500%" height="20%" />
                     </div>
 
                     <h4>{magazine.author}</h4>
