@@ -4,11 +4,12 @@ import { useEffect } from 'react';
 import ArticleCard from '../components/ArticleCard';
 
 import FormDesk from '../components/FormDesk'
+import RevistaCard from '../components/RevistaCard';
 
 
-export default function Graphic_Design({articles}){
+export default function Graphic_Design({articles, arquitectura, industrial, creadores, revistas}){
 
-    useEffect(()=>{console.log(articles);console.log(articles.filter((article, index)=>index%2!=0))},[])
+    useEffect(()=>{console.log(articles);console.log(arquitectura)},[])
     return(
         <div className="Comp">
             
@@ -38,14 +39,27 @@ export default function Graphic_Design({articles}){
             </div>
             <div className="contenedor">
 
-              {articles.filter((article, index)=>index%2!=0).map((article, index)=><div className="Inviteds_line">
+             <div className="Inviteds_line">
                   
-                  <ArticleCard article={article}/>{(article.ind<articles.length-1) && <ArticleCard article={articles[article.ind+1]}/>}
+                  <ArticleCard article={articles[1]}/> 
+                  <ArticleCard article={articles[2]}/>
                 
-                </div>)}
+                </div>
+
+             <div className="Inviteds_line">
+                  
+                  <ArticleCard article={articles[3]}/> 
+                  <ArticleCard article={articles[4]}/>
+                
+                </div>
+                
                
     
             
+            </div>
+            <div className="Download">
+                <RevistaCard magazine={revistas[0]} />
+                <RevistaCard magazine={revistas[1]}/>
             </div>
         </div>
        
@@ -56,10 +70,16 @@ export default function Graphic_Design({articles}){
 export const getServerSideProps = async()=>{
     const res = await fetch("https://enfasisapi.com/api")
     const articles = await res.json()
+    const res2 = await fetch("https://enfasisapi.com/api/revistas")
+    const revistas = await res2.json()
     
     return {
         props: {
-            articles:articles.map((article, index)=>{ return {...article, ind:index}})
+            articles:articles.filter(article=>article.category.name=="Diseño Gráfico"),
+            arquitectura: articles.filter(article=>article.category.name=="Arquitectura").slice(0,2),
+            creadores:articles.filter(article=>article.category.name=="Creadores").slice(0,2),
+            industrial:articles.filter(article=>article.category.name=="Diseño industrial").slice(0,2),
+            revistas:revistas.slice(0,2)
         }
     }
 }
