@@ -57,9 +57,19 @@ export default function Graphic_Design({articles, arquitectura, industrial, crea
     
             
             </div>
+            <div className="DownloadSection">
+            <div className="Tittle">
+                        <h1>Descarga Énfasis</h1>
+                        
+                        <div className="LineDownload">
+                            <Image src="/linea.svg" width="3000%" height="50%" />
+                        </div>
+                        
+                    </div>
             <div className="Download">
                 <RevistaCard magazine={revistas[0]} />
                 <RevistaCard magazine={revistas[1]}/>
+            </div>
             </div>
         </div>
        
