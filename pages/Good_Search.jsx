@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import ArticleCard from '../components/ArticleCard';
 
 
 function Good_Search({articles}){
@@ -7,14 +8,7 @@ function Good_Search({articles}){
     const router = useRouter()
     const [articlesFiltered, setArticlesFiltered] = useState([])
 
-    useEffect(()=>{
-       setArticlesFiltered(articles.filter(article=>article.title.toLowerCase().includes(router.query.keyword.toLowerCase())))
-       console.log(articles)
-       console.log(articlesFiltered)
-      setArticlesFiltered(articlesFiltered.map((article, index)=>{ return {...article, ind:index}})) 
 
-       console.log(articlesFiltered)
-    },[])
     return(
         <div className="Comp">
        
@@ -28,8 +22,8 @@ function Good_Search({articles}){
                     <h1>Resultados para: "{router.query.keyword}"<span/></h1>
             
                         
-                    {articlesFiltered.filter((article, index)=>index%2==0).map((article, index)=><div className="Inviteds_line">
-                    <ArticleCard article={article}/>{(article.ind<articles.length-1) && <ArticleCard article={articles[article.ind+1]}/>}
+                    {articles.filter(article=>article.title.toLowerCase().includes(router.query.keyword.toLowerCase())).filter((article, index)=>index%2==0).map((article, index)=><div className="Inviteds_line">
+                    <ArticleCard article={article}/>
                     </div>)}
                     
                 </div>
