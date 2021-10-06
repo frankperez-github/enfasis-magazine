@@ -1,20 +1,30 @@
 import Image from "next/image";
-
+import { useRouter } from 'next/router'
+import { useState } from "react";
 
 function SearchBarComp(){
+
+    const [keyword, setKeyword] = useState("")
+    const router = useRouter()
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        router.push(`/Good_Search/?keyword=${keyword}`)
+    }
+
     return(
         <div className="SearchBarComp">
 
-            <div className="findicon">
+            <form onSubmit={handleSubmit} className="findicon">
 
-                <input type="search" placeholder="buscar" className="input-search"/>
+                <input value={keyword} onChange={(e)=>{setKeyword(e.target.value)}} required={true} type="search" placeholder="buscar" className="input-search"/>
                     
                 <div className="to-search">
-                    <Image src="/Buscar.svg" width="50%" height="25%" />
+                  <button  type="submit" className="searcher"><Image src="/Buscar.svg" width="50%" height="25%" /></button>  
                 </div>
 
 
-            </div>
+            </form>
 
         </div>
     );
