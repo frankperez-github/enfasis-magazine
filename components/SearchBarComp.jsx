@@ -9,6 +9,7 @@ function SearchBarComp(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        document.getElementById('GeneralMenu').style.display="none";
         router.push(`/Search/?keyword=${keyword}`)
     }
 
