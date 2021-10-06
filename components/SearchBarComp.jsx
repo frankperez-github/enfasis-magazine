@@ -9,7 +9,7 @@ function SearchBarComp(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        router.push(`/Good_Search/?keyword=${keyword}`)
+        router.push(`/Search/?keyword=${keyword}`)
     }
 
     return(
