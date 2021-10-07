@@ -23,10 +23,12 @@ function Good_Search({articles}){
         
                     <h1>Resultados para: "<span>{router.query.keyword}"</span></h1>
             
+                    <div className="Inviteds_line">
+                    {articles.filter(article=>article.title.toLowerCase().includes(router.query.keyword.toLowerCase())).filter((article, index)=>index%2==0).map((article, index)=>
                         
-                    {articles.filter(article=>article.title.toLowerCase().includes(router.query.keyword.toLowerCase())).filter((article, index)=>index%2==0).map((article, index)=><div className="Inviteds_line">
-                    <ArticleCard article={article}/>
-                    </div>)}
+                        <ArticleCard article={article}/>
+                    )}
+                    </div>
                     
                 </div>:
                  <div className="Failed_Search">
@@ -35,11 +37,11 @@ function Good_Search({articles}){
                      <div className="failed_svg">
                          <Image src="/failed.svg" width="200%" height="200%" />
                      </div>
-                     <p>Lo sentimos, no hemos encontrado resultados para: "{router.query.keyword}<span/>".</p>
+                     <p>Lo sentimos, no hemos encontrado resultados para: "{router.query.keyword}".</p>
  
                      <div class="button-div">
                          <Link href="/">
-                             <button class="failedbutton">Volver a la pagina principal</button>
+                             <button class="failedbutton">Volver a la página principal</button>
                          </Link>
                      </div>
              
