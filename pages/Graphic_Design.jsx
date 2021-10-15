@@ -17,8 +17,6 @@ export default function Graphic_Design({articles, arquitectura, industrial, crea
 
                 <div className="SuperiorPart">
                     <FormDesk />
-                    
-                    
                 </div>
                 
                 <div style={{backgroundImage:`url(${articles[0].cover?articles[0].cover:'/Invited.jpg'})`}} className="PrincArt">
