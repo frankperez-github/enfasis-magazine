@@ -1,580 +1,205 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useEffect } from 'react';
+import ArticleCard from '../components/ArticleCard';
 
 import FormDesk from '../components/FormDesk'
+import RevistaCard from '../components/RevistaCard';
 
-export default function Architecture(){
+
+export default function Arquitecture ({articles, industrial, graphics, creadores, revistas}){
+
+   
     return(
         <div className="Comp">
-            
 
-        <div className="Graphic_Design">
+            <div className="Graphic_Design">
 
-        <div className="SuperiorPart">
-            <FormDesk />
-            
-        </div>
-        
-        <div className="PrincArt">
-            <Link href="/Article">
-                <div className="PrincLink">
-                    <div className="PrincipalArt">
-                        <h2 className="PicByPrinc">Por Frank Perez</h2>
-                    </div>
-                    <div className="CategoryLabelPrinc">
-                        Fotografía
-                    </div>
-                    <div className="TittleLabelPrinc">
-                        Mario Elias Jaroud: fotografia, <br/>historia, arte. 
-                    </div>
+                <div className="SuperiorPart">
+                    <FormDesk />
                 </div>
-            </Link>   
-        </div>
-        <div className="contenedor">
+                
+                <div style={{backgroundImage:`url(${articles[0].cover?articles[0].cover:'/Invited.jpg'})`}} className="PrincArt">
+                    <Link href={"/Articles/"+articles[0].id}>
+                        <div className="PrincLink">
+                            <div className="PrincipalArt">
+                                <h2 className="PicByPrinc">por {articles[0].author}</h2>
+                            </div>
+                            <div className="CategoryLabelPrinc">
+                                {articles[0].subcategory}
+                            </div>
+                            <div className="TittleLabelPrinc">
+                            {articles[0].title}
+                            </div>
+                        </div>
+                    </Link>   
+                </div>
 
-           
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
+                <div className="contenedor">
+
+                    <div className="Inviteds_line">
+                            
+                        { articles.length>1 && <ArticleCard article={articles[1]}/> }
+                        { articles.length>2 &&   <ArticleCard article={articles[2]}/> }
                         
-                        <div className="invited">
+                    </div>
+
+                    <div className="Inviteds_line">
+                            
+                        { articles.length>3 && <ArticleCard article={articles[3]}/> }
+                        { articles.length>4 && <ArticleCard article={articles[4]}/> }
+                            
+                    </div>
+                            
+
+                    <div className="DownloadSection">
+                        <div className="Tittle">
+                            <h1>Descarga Énfasis</h1>
+                            
+                            <div className="LineDownload">
+                                <Image src="/linea.svg" width="3000%" height="50%" />
+                            </div>
                             
                         </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
+                        <div className="Download">
+                            <RevistaCard magazine={revistas[0]} />
+                            <RevistaCard magazine={revistas[1]}/>
                         </div>
-                        <p className="Invited-description">
-                            Francesc Freixes: "Defiendo la idea de que el diseño está en las calles de una ciudad".
-                        </p>
+                        <div className="LineDown">
+                            <Image src="/linea.svg" width="7000%" height="50%" />
+                        </div> 
                     </div>
-                </Link>
 
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                           
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Más allá del muro, la identidad visual del proyecto dedelmu.
-                        </p>
-                    </div>
-                </Link>
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Valerio: ilustraciones para el libro Cuentos y Colores
-                        </p>
-                    </div>
-                </Link>
                 
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            La tarde de las artes. Un cartel hecho por Claudio Sotolongo.
-                        </p>
-                    </div>
-                </Link>
 
-
-            </div>
-
-            <div className="DownloadSection">
-
-                <div className="Tittle">
-                    <h1>Descarga Énfasis</h1>
+                    <div className="Inviteds_line">
+                        
+                        { articles.length>5 &&  <ArticleCard article={articles[5]}/>  }
+                        { articles.length>6 &&   <ArticleCard article={articles[6]}/> }
                     
-                    <div className="LineDownload">
-                        <Image src="/linea.svg" width="3000%" height="50%" />
-                    </div>
-                    
-                </div>
-
-                <div className="Download">
-                    <div className="Download_Card">
-                        <div className="DownloadCardImg">
-                            <Image src="/smallrect.svg" width="2700%" height="2700%" />
-                        </div>
-                        <div className="Info-to-Download">
-                            <div className="tittle">
-                                <h1>Número 01</h1>
-
-                                <div className="tittle_image">
-                                    <Image src="/lineamenor.svg" width="500%" height="20%" />
-                                </div>
-
-                                <h4>Miguel Monkc</h4>
-                            </div>
-                            <div className="ButtonsDownload">
-                                <button className="BlackButton DownButt">ver más</button><br/>
-                                <button className="BlackButton DownButt">descargar</button>
-                            </div>
-                        </div>
                     </div>
 
-                    <div className="Download_Card">
-                        <div className="DownloadCardImg">
-                            <Image src="/smallrect.svg" width="700%" height="700%" />
-                        </div>
-                        <div className="Info-to-Download">
-                            <div className="tittle">
-                                <h1>Número 00</h1>
-
-                                <div className="tittle_image">
-                                    <Image src="/lineamenor.svg" width="500%" height="20%" />
-                                </div>
-
-                                <h4>Sandra Borges</h4>
-                            </div>
-                            <div className="ButtonsDownload">
-                                <button className="BlackButton DownButt">ver más</button><br/>
-                                <button className="BlackButton DownButt">descargar</button>
-                            </div>
-                        </div>
+                    <div className="Inviteds_line">
+                        
+                        { articles.length>7 &&  <ArticleCard article={articles[7]}/> }
+                        { articles.length>8 &&   <ArticleCard article={articles[8]}/> }
+                        
                     </div>
-                </div>    
-
-                <div className="LineDown">
-                    <Image src="/linea.svg" width="7000%" height="50%" />
-                </div>
-
-            </div>
             
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
+                    <div className="Tittle CreatorTittle">
+                        <h1>Diseño Gráfico</h1>
+                        
+                        <div className="LineDownload">
+                            <Image src="/linea.svg" width="3000%" height="50%" />
                         </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Valerio: ilustraciones para el libro Cuentos y Colores
-                        </p>
+                        
                     </div>
-                </Link>
+
+                    <div className="Inviteds_line">
                 
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
-                        </p>
+                        {   <ArticleCard article={graphics[0]}/>  }
+                        {    <ArticleCard article={graphics[1]}/> }
+                        
                     </div>
-                </Link>
 
 
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Crematorium
-                        </p>
+                    <div className="Inviteds_line">
+                        
+                        { articles.length>9 &&  <ArticleCard article={articles[9]}/>  }
+                        { articles.length>10 &&   <ArticleCard article={articles[10]}/> }
+                    
                     </div>
-                </Link>
+
+                    <div className="Inviteds_line">
+                        
+                        { articles.length>11 &&  <ArticleCard article={articles[11]}/> }
+                        { articles.length>12 &&   <ArticleCard article={articles[12]}/> }
+                            
+                    </div>
+            
+
+                    <div className="Tittle CreatorTittle">
+                        <h1>Diseño Industrial</h1>
+                        
+                        <div className="LineDownload">
+                            <Image src="/linea.svg" width="3000%" height="50%" />
+                        </div>
+                        
+                    </div>
+
+                    <div className="Inviteds_line">
                 
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
-                        </p>
+                        {   <ArticleCard article={industrial[0]}/>  }
+                        {    <ArticleCard article={industrial[1]}/> }
+                        
                     </div>
-                </Link>
 
-
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Patrizia Stalder, ilustrando Cuba desde la distancia.
-                        </p>
+                    <div className="Inviteds_line">
+                        
+                    { articles.length>13 &&  <ArticleCard article={articles[13]}/>  }
+                    { articles.length>14 &&   <ArticleCard article={articles[14]}/> }
+                    
                     </div>
-                </Link>
+
+                    <div className="Inviteds_line">
+                        
+                    { articles.length>15 &&  <ArticleCard article={articles[15]}/> }
+                    { articles.length>16 &&   <ArticleCard article={articles[16]}/> }
+                        
+                    </div>
+
+                    <div className="Tittle CreatorTittle">
+                        <h1>Creadores</h1>
+                        
+                        <div className="LineDownload">
+                            <Image src="/linea.svg" width="3000%" height="50%" />
+                        </div>
+                        
+                    </div>
+
+                    <div className="Inviteds_line">
                 
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Reconocemos la labor de Raupa, por su trabajo en ilustración.
-                        </p>
+                        {   <ArticleCard article={creadores[0]}/>  }
+                        {    <ArticleCard article={creadores[1]}/> }
+                    
                     </div>
-                </Link>
 
-
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Valerio: ilustraciones para el libro Cuentos y Colores
-                        </p>
+                    <div className="Inviteds_line">
+                        
+                        { articles.length>17 &&  <ArticleCard article={articles[17]}/>  }
+                        { articles.length>18 &&   <ArticleCard article={articles[18]}/> }
+                        
                     </div>
-                </Link>
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
+
+                    <div className="Inviteds_line">
                             
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
-                        </p>
+                        { articles.length>19 &&  <ArticleCard article={articles[19]}/> }
+                        { articles.length>20 &&   <ArticleCard article={articles[20]}/> }
+                            
                     </div>
-                </Link>
 
-
-            </div>
-
-            <div className="Tittle CreatorTittle">
-                <h1>Diseño Industrial</h1>
-                
-                <div className="LineDownload">
-                    <Image src="/linea.svg" width="3000%" height="50%" />
                 </div>
-                
-            </div>
-
-            <div className="InvitationLine">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="CategoryLabel">
-                            Fotografía
-                        </div>
-                        <div className="TittleLabel">
-                            Mario Elias Jaroud: fotografia, <br/>historia, arte. 
-                        </div>
-                    </div>
-                </Link>
-                
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="CategoryLabel">
-                            Fotografía
-                        </div>
-                        <div className="TittleLabel">
-                            Mario Elias Jaroud: fotografia, <br/>historia, arte. 
-                        </div>
-                    </div>
-                </Link>
-                
-            </div>
-        
-            <div className="LineDown">
-                <Image src="/linea.svg" width="7000%" height="15%" />
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Valerio: ilustraciones para el libro Cuentos y Colores
-                        </p>
-                    </div>
-                </Link>
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
-                        </p>
-                    </div>
-                </Link>
-
-
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Crematorium
-                        </p>
-                    </div>
-                </Link>
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Ilustrando poesía, una serie de ilustraciones de Irian Carballosa.
-                        </p>
-                    </div>
-                </Link>
-
-
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Patrizia Stalder, ilustrando Cuba desde la distancia.
-                        </p>
-                    </div>
-                </Link>
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Reconocemos la labor de Raupa, por su trabajo en ilustración.
-                        </p>
-                    </div>
-                </Link>
-
-
-            </div>
-
-            <div className="Inviteds_line">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Valerio: ilustraciones para el libro Cuentos y Colores
-                        </p>
-                    </div>
-                </Link>
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="NameLabel">
-                            <p>Invitado</p>
-                        </div>
-                        <p className="Invited-description">
-                            Carteles clásicos cubanos adaptados a los tiempos de coronavirus.
-                        </p>
-                    </div>
-                </Link>
-
-
-            </div>
-
-            <div className="Tittle CreatorTittle">
-                <h1>Creadores</h1>
-                
-                <div className="LineDownload">
-                    <Image src="/linea.svg" width="3000%" height="50%" />
-                </div>
-                
-            </div>
-
-            <div className="InvitationLine">
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="CategoryLabel">
-                            Fotografía
-                        </div>
-                        <div className="TittleLabel">
-                            Mario Elias Jaroud: fotografia, <br/>historia, arte. 
-                        </div>
-                    </div>
-                </Link>
-                
-                
-                <Link href="/Article">
-                    <div className="Invitation_card">
-                        <h2 className="PicBy">
-                            por Frank Perez
-                        </h2>
-                        <div className="invited">
-                            
-                        </div>
-                        <div className="CategoryLabel">
-                            Fotografía
-                        </div>
-                        <div className="TittleLabel">
-                            Mario Elias Jaroud: fotografia, <br/>historia, arte. 
-                        </div>
-                    </div>
-                </Link>
-                
-            </div>
-        
-        </div>
-    </div>
    
-    </div>
 
-          );
+            </div>
+       
+        </div>
+    );
+}
+
+export const getServerSideProps = async()=>{
+    const res = await fetch("https://enfasisapi.com/api")
+    const articles = await res.json()
+    const res2 = await fetch("https://enfasisapi.com/api/revistas")
+    const revistas = await res2.json()
+    
+    return {
+        props: {
+            articles:articles.filter(article=>article.category.name=="Arquitectura"),
+            industrial: articles.filter(article=>article.category.name=="Diseño industrial").slice(0,2),
+            creadores:articles.filter(article=>article.category.name=="Creadores").slice(0,2),
+            graphics:articles.filter(article=>article.category.name=="Diseño Gráfico").slice(0,2),
+            revistas:revistas.slice(0,2)
+        }
+    }
 }

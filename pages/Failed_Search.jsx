@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 
 function Failed_Search(){
 
+    const router = useRouter()
 
     return(
         <div className="Comp">
@@ -15,7 +17,7 @@ function Failed_Search(){
                     <div className="failed_svg">
                         <Image src="/failed.svg" width="200%" height="200%" />
                     </div>
-                    <p>Lo sentimos, no hemos encontrado resultados para " <span/> ".</p>
+                    <p>Lo sentimos, no hemos encontrado resultados para: "{router.query.keyword}<span/>".</p>
 
                     <div class="button-div">
                         <Link href="/">
