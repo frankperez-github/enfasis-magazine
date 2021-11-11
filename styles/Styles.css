@@ -192,21 +192,22 @@ a{
     margin-left: 64.2%;
 }
 #ed1{
-    width: 36.5%;
-    margin-bottom: 95%;
+    width: 50%;
+    padding-left: 23%;
+    margin-bottom: 220%;
     animation-name: ED1;
     animation-duration: 60s;
     z-index: 3;
     animation-iteration-count: infinite;
 }
 @keyframes ED1 {
-    0%{margin-top: 0;}
-    25%{margin-top: 0%;}/*sec 15*/
-    28.3%{margin-top: -66%;}/*sec 17*/
-    50%{margin-top: -66%;} /*sec 30*/
-    53.3%{margin-top: -88%;} /*sec 32*/
-    75%{margin-top: -88%;} /*sec 45*/
-    100%{margin-top: -88%;} /*sec 60*/
+    0%{margin-top: 5%;}
+    25%{margin-top: 5%;}/*sec 15*/
+    28.3%{margin-top: -139%;}/*sec 17*/
+    50%{margin-top: -139%;} /*sec 30*/
+    53.3%{margin-top: -187%;} /*sec 32*/
+    75%{margin-top: -187%;} /*sec 45*/
+    100%{margin-top: -187%;} /*sec 60*/
 }
 /*end of presentation***********/
 
@@ -820,7 +821,15 @@ ol{
     margin-top: 4%;
     font-size: 25px;
 }
-
+.searcher {
+    background-color: #fff;
+    border: none;
+}
+.searcher:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
 /*---------------------------------end search result------*/
 
 
@@ -1070,28 +1079,32 @@ h2{
     position: relative;
     margin-top: -10%;
     margin-left: 7%;
-    margin-bottom: 5%;
-    width: 30%;
+    margin-bottom: 7%;
+    width: 35%;
     padding: 0.2%;
-    height: 4vh;
     padding-top: 0;
     background-color: white;
     color: black;
 }
 .NameLabel p{
+    padding: 2% 10%;
+    text-align: center;
     font-family: mohol_regular;
-    text-align: left;
-    padding-left: 5%;
+}
+.invitation-card{
+    width: 100%;
 }
 .Inviteds_line{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 3% 0;
     text-align: center;
 }
 .Invitation_card{
-    max-width: 49.5%;
-    margin:1.5% 0;
+    max-width: 49.3%;
+    margin: 3% 0;
     cursor: pointer;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1110,11 +1123,10 @@ button:hover{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    
 }
 .Invited-description{
-    margin: 0 -1.3%;
-    margin-bottom: -7%;
+    margin: 0% -1.7%;
+    margin-bottom: -5%;
     width: 80%;
     text-align: left;
     padding-left: 2%;
@@ -1172,14 +1184,13 @@ button:hover{
 }
 .TittleLabelPrinc{
     position: relative;
-    margin-top: -18.5%;
+    margin-top: -15%;
     margin-bottom: 8%;
     margin-left: 7%;
     width: 40%;
     padding: 2% 2%;
     background-color: white;
     color: black;
-    font-size: 30px;
     font-family: mohol_bold;
     text-align: left;
 }
@@ -1204,10 +1215,13 @@ button:hover{
 .tittle h4{
     font-family: mohol_ultra;
 }
-.ButtonsDownload a{
-    width: 80%;
-    padding: 4.75% 0;
-    margin-top: 7%;
+.ButtonsDownload{
+    width: 90%;
+}
+.ButtonsDownload p{
+    width: 70%;
+    padding: 1.5% 0;
+    margin-top: 2%;
 }
 .BlackButton{
     text-align: center;
@@ -1220,7 +1234,8 @@ button:hover{
     width: 78%;
 }
 .BlackButton:hover{
-    padding: 4.2% 0;
+    padding: 1% 0;
+    border: solid;
     border-width: 0.05rem;
     cursor: pointer;
     background-color: white;
@@ -1705,7 +1720,7 @@ button:hover{
         font-size: 20px;
     }
     .TittleLabelPrinc{
-        font-size: 19px;
+        font-size: 22px;
     }
 }
 @media (width: 1200px){
@@ -3494,7 +3509,7 @@ button:hover{
     }
     .pic-div{
         position: fixed;
-        left: 20%;
+        left: -2%;
         top: 10%;
         width: 100%;
     }
@@ -3575,7 +3590,17 @@ button:hover{
         margin: 0;
     }
 }
-
+@media (height:823px) {
+    @keyframes ED1 {
+        0%{margin-top: 40%;}
+        25%{margin-top: 40%;}/*sec 15*/
+        28.3%{margin-top: -130%;}/*sec 17*/
+        50%{margin-top: -130%;} /*sec 30*/
+        53.3%{margin-top: -185%;} /*sec 32*/
+        75%{margin-top: -185%;} /*sec 45*/
+        100%{margin-top: -185%;} /*sec 60*/
+    }
+}
 @media (height:812px) {
     #ed1{
         margin-bottom:100vh;
@@ -3610,7 +3635,7 @@ button:hover{
         font-size: 4px;
     }
     @keyframes ED1 {
-        0%{margin-top: 28;}
+        0%{margin-top: 28%;}
         25%{margin-top: 28%;}/*sec 15*/
         28.3%{margin-top: -110%;}/*sec 17*/
         50%{margin-top: -110%;} /*sec 30*/
@@ -3629,14 +3654,124 @@ button:hover{
         padding-bottom: 1%;
     }
 }
+@media (min-width:1900px) {
+    .PicByPrinc{
+        top: -3%;
+    }
+    .PicBy{
+        margin-right: 0%;
+        margin-top: 0%;
+        padding-top: 8%;
+    }
+}
 
+@media (width:1366px) {
+    @keyframes ED1 {
+        0%{margin-top: 25%;}
+        25%{margin-top: 25%;}/*sec 15*/
+        28.3%{margin-top: -130%;}/*sec 17*/
+        50%{margin-top: -130%;} /*sec 30*/
+        53.3%{margin-top: -181%;} /*sec 32*/
+        75%{margin-top: -181%;} /*sec 45*/
+        100%{margin-top: -181%;} /*sec 60*/
+    }
+}
+@media (height:1366px) {
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 65%;}
+        25%{margin-top: 65%;}/*sec 15*/
+        28.3%{margin-top: -175%;}/*sec 17*/
+        50%{margin-top: -175%;} /*sec 30*/
+        53.3%{margin-top: -255%;} /*sec 32*/
+        75%{margin-top: -255%;} /*sec 45*/
+        100%{margin-top: -255%;} /*sec 60*/
+    }
+}
+@media (width:1366px) {
+    @keyframes ED1 {
+        0%{margin-top: 6%;}
+        25%{margin-top: 6%;}/*sec 15*/
+        28.3%{margin-top: -139.5%;}/*sec 17*/
+        50%{margin-top: -139.5%;} /*sec 30*/
+        53.3%{margin-top: -187%;} /*sec 32*/
+        75%{margin-top: -187%;} /*sec 45*/
+        100%{margin-top: -187%;} /*sec 60*/
+    }
+}
+@media (width:768px) {
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 70%;}
+        25%{margin-top: 70%;}/*sec 15*/
+        28.3%{margin-top: -172%;}/*sec 17*/
+        50%{margin-top: -172%;} /*sec 30*/
+        53.3%{margin-top: -255%;} /*sec 32*/
+        75%{margin-top: -255%;} /*sec 45*/
+        100%{margin-top: -255%;} /*sec 60*/
+    }
+}
 
+@media (width:768px) and (height:768px) {
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 45%;}
+        25%{margin-top: 45%;}/*sec 15*/
+        28.3%{margin-top: -182%;}/*sec 17*/
+        50%{margin-top: -182%;} /*sec 30*/
+        53.3%{margin-top: -262%;} /*sec 32*/
+        75%{margin-top: -262%;} /*sec 45*/
+        100%{margin-top: -262%;} /*sec 60*/
+    }
+}
 
+@media (width:1920px){
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 9%;}
+        25%{margin-top: 9%;}/*sec 15*/
+        28.3%{margin-top: -197%;}/*sec 17*/
+        50%{margin-top: -197%;} /*sec 30*/
+        53.3%{margin-top: -265%;} /*sec 32*/
+        75%{margin-top: -265%;} /*sec 45*/
+        100%{margin-top: -265%;} /*sec 60*/
+    }
+}
 
+@media (width:1440px) and (height:768px) {
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 13%;}
+        25%{margin-top: 13%;}/*sec 15*/
+        28.3%{margin-top: -200%;}/*sec 17*/
+        50%{margin-top: -200%;} /*sec 30*/
+        53.3%{margin-top: -272%;} /*sec 32*/
+        75%{margin-top: -272%;} /*sec 45*/
+        100%{margin-top: -272%;} /*sec 60*/
+    }
+}
 
-
-
-.searcher {
-    background-color: #fff;
-    border: none;
+@media (width:2560px){
+    #ed1{
+        margin-bottom: 350%;
+    }
+    @keyframes ED1 {
+        0%{margin-top: 5%;}
+        25%{margin-top: 5%;}/*sec 15*/
+        28.3%{margin-top: -192%;}/*sec 17*/
+        50%{margin-top: -192%;} /*sec 30*/
+        53.3%{margin-top: -257.5%;} /*sec 32*/
+        75%{margin-top: -257.5%;} /*sec 45*/
+        100%{margin-top: -257.5%;} /*sec 60*/
+    }
 }
