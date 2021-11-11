@@ -52,7 +52,8 @@ const Article = ({article, promotions, articles}) => {
     <div className="Comp">
          <Head>
           <title>{article.title}</title>
-          <meta name="description" content={article.keywords} />
+          <meta name="keywords" content={article.keywords} />
+          <meta name="description" content={article.description} />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         
@@ -74,7 +75,7 @@ const Article = ({article, promotions, articles}) => {
                     </div>
                 </div>
                 
-            
+              
                 <div className="contenedor_art">  
                         
                     <p className="keywords">{article.subcategory}</p>
