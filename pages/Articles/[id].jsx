@@ -55,8 +55,7 @@ const Article = ({article, promotions, articles}) => {
           <meta name="keywords" content={article.keywords} />
           <meta name="description" content={article.description} />
           <link rel="icon" href="/favicon.ico" />
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8282269104002025"
-     crossorigin="anonymous"></script>
+          
         </Head>
         
 
