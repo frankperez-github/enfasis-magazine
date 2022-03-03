@@ -49,13 +49,13 @@ function Article(){
                                         </div>    
                                     </a>
 
-                                    <a /*  href={`http://www.facebook.com/sharer.php?u=${window.location}`} */  className="share" target="_blank">
+                                    <a className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/Facebook_share.svg" width="50%" height="50%" />
                                         </div>    
                                     </a>
 
-                                    <a /*  href={`whatsapp://send?text=${window.location}`} */ className="share" target="_blank">
+                                    <a className="share" target="_blank">
                                         <div className="shareArt">
                                             <Image src="/icono_whatsapp.svg" width="50%" height="50%" />
                                         </div>    
